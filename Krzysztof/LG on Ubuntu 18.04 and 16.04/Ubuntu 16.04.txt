@@ -1,0 +1,1161 @@
+﻿lg@lg2:~$ bash <(curl -s https://raw.githubusercontent.com/LiquidGalaxyLAB/liquid-galaxy/master/install.sh)
+ _ _             _     _               _                  
+| (_) __ _ _   _(_) __| |   __ _  __ _| | __ ___  ___   _ 
+| | |/ _` | | | | |/ _` |  / _` |/ _` | |/ _` \ \/ / | | |
+| | | (_| | |_| | | (_| | | (_| | (_| | | (_| |>  <| |_| |
+|_|_|\__, |\__,_|_|\__,_|  \__, |\__,_|_|\__,_/_/\_\\__, |
+        |_|                |___/                    |___/ 
+https://github.com/LiquidGalaxy/liquid-galaxy
+https://github.com/LiquidGalaxyLAB/liquid-galaxy
+-------------------------------------------------------------
+
+Machine id (i.e. 1 for lg1) (1 == master): 1
+Total machines count (i.e. 3): 2
+Unique number that identifies your Galaxy (octet) (i.e. 42): 42
+Do you want to install extra drivers? (y/n): y
+
+Liquid Galaxy will be installed with the following configuration:
+MASTER: true
+LOCAL_USER: lg
+MACHINE_ID: 1
+MACHINE_NAME: lg1 
+TOTAL_MACHINES: 2
+OCTET (UNIQUE NUMBER): 42
+INSTALL_DRIVERS: true
+GIT_URL: https://github.com/LiquidGalaxyLAB/liquid-galaxy 
+GIT_FOLDER: liquid-galaxy
+EARTH_DEB: http://dl.google.com/dl/earth/client/current/google-earth-stable_current_amd64.deb
+EARTH_FOLDER: /opt/google/earth/pro/
+NETWORK_INTERFACE: wlp1s0
+NETWORK_MAC_ADDRESS: 2c:33:7a:19:2b:fb
+
+Is it correct? Press any key to continue or CTRL-C to exit
+
+[sudo] hasło użytkownika lg: 
+Checking for system updates...
+Ign.:1 http://pl.archive.ubuntu.com/ubuntu xenial InRelease                    
+Ign.:2 http://dl.google.com/linux/earth/deb stable InRelease                   
+Ign.:3 http://pl.archive.ubuntu.com/ubuntu xenial-updates InRelease            
+Ign.:4 http://pl.archive.ubuntu.com/ubuntu xenial-backports InRelease
+Ign.:5 http://security.ubuntu.com/ubuntu xenial-security InRelease
+Ign.:6 http://pl.archive.ubuntu.com/ubuntu xenial Release
+Ign.:7 http://security.ubuntu.com/ubuntu xenial-security Release
+Ign.:8 http://pl.archive.ubuntu.com/ubuntu xenial-updates Release
+Ign.:9 http://dl.google.com/linux/earth/deb stable Release
+Ign.:10 http://pl.archive.ubuntu.com/ubuntu xenial-backports Release
+Ign.:11 http://pl.archive.ubuntu.com/ubuntu xenial/main amd64 Packages.diff/Index
+Ign.:12 http://pl.archive.ubuntu.com/ubuntu xenial/main i386 Packages.diff/Index
+Ign.:13 http://pl.archive.ubuntu.com/ubuntu xenial/main all Packages
+Ign.:14 http://pl.archive.ubuntu.com/ubuntu xenial/main Translation-pl_PL
+Ign.:15 http://pl.archive.ubuntu.com/ubuntu xenial/main Translation-pl.diff/Index
+Ign.:16 http://pl.archive.ubuntu.com/ubuntu xenial/main Translation-en.diff/Index
+Ign.:17 http://pl.archive.ubuntu.com/ubuntu xenial/main amd64 DEP-11 Metadata.diff/Index
+Ign.:18 http://pl.archive.ubuntu.com/ubuntu xenial/main DEP-11 64x64 Icons.diff/Index
+Ign.:19 http://pl.archive.ubuntu.com/ubuntu xenial/restricted amd64 Packages.diff/Index
+Ign.:20 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages.diff/Index
+Ign.:21 http://dl.google.com/linux/earth/deb stable/main amd64 Packages.diff/Index
+Ign.:22 http://pl.archive.ubuntu.com/ubuntu xenial/restricted i386 Packages.diff/Index
+Ign.:23 http://pl.archive.ubuntu.com/ubuntu xenial/restricted all Packages
+Ign.:24 http://pl.archive.ubuntu.com/ubuntu xenial/restricted Translation-pl_PL
+Ign.:25 http://pl.archive.ubuntu.com/ubuntu xenial/restricted Translation-pl.diff/Index
+Ign.:26 http://pl.archive.ubuntu.com/ubuntu xenial/restricted Translation-en.diff/Index
+Ign.:27 http://pl.archive.ubuntu.com/ubuntu xenial/restricted amd64 DEP-11 Metadata.diff/Index
+Ign.:28 http://pl.archive.ubuntu.com/ubuntu xenial/restricted DEP-11 64x64 Icons
+Ign.:29 http://pl.archive.ubuntu.com/ubuntu xenial/universe amd64 Packages.diff/Index
+Ign.:30 http://pl.archive.ubuntu.com/ubuntu xenial/universe i386 Packages.diff/Index
+Ign.:31 http://pl.archive.ubuntu.com/ubuntu xenial/universe all Packages
+Ign.:32 http://security.ubuntu.com/ubuntu xenial-security/main i386 Packages.diff/Index
+Ign.:33 http://security.ubuntu.com/ubuntu xenial-security/main all Packages
+Ign.:34 http://security.ubuntu.com/ubuntu xenial-security/main Translation-pl_PL
+Ign.:35 http://security.ubuntu.com/ubuntu xenial-security/main Translation-pl
+Ign.:36 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en.diff/Index
+Ign.:37 http://security.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata.diff/Index
+Ign.:38 http://security.ubuntu.com/ubuntu xenial-security/main DEP-11 64x64 Icons.diff/Index
+Ign.:39 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 Packages.diff/Index
+Ign.:40 http://security.ubuntu.com/ubuntu xenial-security/restricted i386 Packages.diff/Index
+Ign.:41 http://security.ubuntu.com/ubuntu xenial-security/restricted all Packages
+Ign.:42 http://dl.google.com/linux/earth/deb stable/main i386 Packages
+Ign.:43 http://pl.archive.ubuntu.com/ubuntu xenial/universe Translation-pl_PL
+Ign.:44 http://pl.archive.ubuntu.com/ubuntu xenial/universe Translation-pl.diff/Index
+Ign.:45 http://pl.archive.ubuntu.com/ubuntu xenial/universe Translation-en.diff/Index
+Ign.:46 http://pl.archive.ubuntu.com/ubuntu xenial/universe amd64 DEP-11 Metadata.diff/Index
+Ign.:47 http://pl.archive.ubuntu.com/ubuntu xenial/universe DEP-11 64x64 Icons.diff/Index
+Ign.:48 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-pl_PL
+Ign.:49 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-pl
+Ign.:50 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-en.diff/Index
+Ign.:51 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 DEP-11 Metadata.diff/Index
+Ign.:52 http://security.ubuntu.com/ubuntu xenial-security/restricted DEP-11 64x64 Icons
+Ign.:53 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages.diff/Index
+Ign.:54 http://security.ubuntu.com/ubuntu xenial-security/universe i386 Packages.diff/Index
+Ign.:55 http://security.ubuntu.com/ubuntu xenial-security/universe all Packages
+Ign.:56 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-pl_PL
+Ign.:57 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-pl
+Ign.:58 http://dl.google.com/linux/earth/deb stable/main all Packages
+Ign.:59 http://dl.google.com/linux/earth/deb stable/main Translation-pl_PL
+Ign.:60 http://dl.google.com/linux/earth/deb stable/main Translation-pl
+Ign.:61 http://dl.google.com/linux/earth/deb stable/main Translation-en
+Ign.:62 http://dl.google.com/linux/earth/deb stable/main amd64 DEP-11 Metadata
+Ign.:63 http://dl.google.com/linux/earth/deb stable/main DEP-11 64x64 Icons
+Ign.:64 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse amd64 Packages.diff/Index
+Ign.:65 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse i386 Packages.diff/Index
+Ign.:66 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse all Packages
+Ign.:67 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse Translation-pl_PL
+Ign.:68 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse Translation-pl.diff/Index
+Ign.:69 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en.diff/Index
+Ign.:70 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 DEP-11 Metadata.diff/Index
+Ign.:71 http://security.ubuntu.com/ubuntu xenial-security/universe DEP-11 64x64 Icons.diff/Index
+Ign.:72 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages.diff/Index
+Ign.:73 http://security.ubuntu.com/ubuntu xenial-security/multiverse i386 Packages.diff/Index
+Ign.:74 http://security.ubuntu.com/ubuntu xenial-security/multiverse all Packages
+Ign.:75 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-pl_PL
+Ign.:76 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-pl
+Ign.:77 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en.diff/Index
+Ign.:78 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 DEP-11 Metadata.diff/Index
+Ign.:79 http://dl.google.com/linux/earth/deb stable/main amd64 Packages
+Ign.:42 http://dl.google.com/linux/earth/deb stable/main i386 Packages
+Ign.:58 http://dl.google.com/linux/earth/deb stable/main all Packages
+Ign.:59 http://dl.google.com/linux/earth/deb stable/main Translation-pl_PL
+Ign.:60 http://dl.google.com/linux/earth/deb stable/main Translation-pl
+Ign.:61 http://dl.google.com/linux/earth/deb stable/main Translation-en
+Ign.:62 http://dl.google.com/linux/earth/deb stable/main amd64 DEP-11 Metadata
+Ign.:80 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse Translation-en.diff/Index
+Ign.:81 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse amd64 DEP-11 Metadata.diff/Index
+Ign.:82 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse DEP-11 64x64 Icons.diff/Index
+Ign.:83 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages.diff/Index
+Ign.:84 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages.diff/Index
+Ign.:85 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main all Packages
+Ign.:86 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main Translation-pl_PL
+Ign.:87 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main Translation-pl
+Ign.:88 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en.diff/Index
+Ign.:89 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata.diff/Index
+Ign.:63 http://dl.google.com/linux/earth/deb stable/main DEP-11 64x64 Icons
+Ign.:90 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main DEP-11 64x64 Icons.diff/Index
+Ign.:91 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 Packages.diff/Index
+Ign.:92 http://security.ubuntu.com/ubuntu xenial-security/multiverse DEP-11 64x64 Icons.diff/Index
+Ign.:93 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages
+Ign.:94 http://security.ubuntu.com/ubuntu xenial-security/main i386 Packages
+Ign.:33 http://security.ubuntu.com/ubuntu xenial-security/main all Packages
+Ign.:34 http://security.ubuntu.com/ubuntu xenial-security/main Translation-pl_PL
+Ign.:35 http://security.ubuntu.com/ubuntu xenial-security/main Translation-pl
+Ign.:95 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en
+Ign.:96 http://security.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata
+Ign.:97 http://security.ubuntu.com/ubuntu xenial-security/main DEP-11 64x64 Icons
+Ign.:98 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 Packages
+Ign.:79 http://dl.google.com/linux/earth/deb stable/main amd64 Packages
+Ign.:42 http://dl.google.com/linux/earth/deb stable/main i386 Packages
+Ign.:58 http://dl.google.com/linux/earth/deb stable/main all Packages
+Ign.:59 http://dl.google.com/linux/earth/deb stable/main Translation-pl_PL
+Ign.:60 http://dl.google.com/linux/earth/deb stable/main Translation-pl
+Ign.:61 http://dl.google.com/linux/earth/deb stable/main Translation-en
+Ign.:99 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted i386 Packages.diff/Index
+Ign.:100 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted all Packages
+Ign.:101 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-pl_PL
+Ign.:102 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-pl
+Ign.:103 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-en.diff/Index
+Ign.:104 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 DEP-11 Metadata.diff/Index
+Ign.:105 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted DEP-11 64x64 Icons
+Ign.:106 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages.diff/Index
+Ign.:62 http://dl.google.com/linux/earth/deb stable/main amd64 DEP-11 Metadata
+Ign.:63 http://dl.google.com/linux/earth/deb stable/main DEP-11 64x64 Icons
+Ign.:79 http://dl.google.com/linux/earth/deb stable/main amd64 Packages
+Ign.:42 http://dl.google.com/linux/earth/deb stable/main i386 Packages
+Ign.:58 http://dl.google.com/linux/earth/deb stable/main all Packages
+Ign.:59 http://dl.google.com/linux/earth/deb stable/main Translation-pl_PL
+Ign.:60 http://dl.google.com/linux/earth/deb stable/main Translation-pl
+Ign.:107 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages.diff/Index
+Ign.:108 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe all Packages
+Ign.:109 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-pl_PL
+Ign.:110 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-pl
+Ign.:111 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en.diff/Index
+Ign.:112 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata.diff/Index
+Ign.:113 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe DEP-11 64x64 Icons.diff/Index
+Ign.:114 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages.diff/Index
+Ign.:115 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse i386 Packages.diff/Index
+Ign.:116 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse all Packages
+Ign.:117 http://security.ubuntu.com/ubuntu xenial-security/restricted i386 Packages
+Ign.:41 http://security.ubuntu.com/ubuntu xenial-security/restricted all Packages
+Ign.:48 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-pl_PL
+Ign.:49 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-pl
+Ign.:118 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-en
+Ign.:119 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 DEP-11 Metadata
+Ign.:52 http://security.ubuntu.com/ubuntu xenial-security/restricted DEP-11 64x64 Icons
+Ign.:120 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages
+Ign.:121 http://security.ubuntu.com/ubuntu xenial-security/universe i386 Packages
+Ign.:55 http://security.ubuntu.com/ubuntu xenial-security/universe all Packages
+Ign.:61 http://dl.google.com/linux/earth/deb stable/main Translation-en
+Ign.:122 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-pl_PL
+Ign.:123 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-pl
+Ign.:56 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-pl_PL
+Ign.:57 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-pl
+Ign.:124 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en
+Ign.:125 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 DEP-11 Metadata
+Ign.:126 http://security.ubuntu.com/ubuntu xenial-security/universe DEP-11 64x64 Icons
+Ign.:127 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages
+Ign.:62 http://dl.google.com/linux/earth/deb stable/main amd64 DEP-11 Metadata
+Ign.:63 http://dl.google.com/linux/earth/deb stable/main DEP-11 64x64 Icons
+Ign.:79 http://dl.google.com/linux/earth/deb stable/main amd64 Packages
+Ign.:42 http://dl.google.com/linux/earth/deb stable/main i386 Packages
+Ign.:58 http://dl.google.com/linux/earth/deb stable/main all Packages
+Ign.:59 http://dl.google.com/linux/earth/deb stable/main Translation-pl_PL
+Ign.:128 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en.diff/Index
+Ign.:129 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata.diff/Index
+Ign.:130 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse DEP-11 64x64 Icons.diff/Index
+Ign.:131 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages.diff/Index
+Ign.:132 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main i386 Packages.diff/Index
+Ign.:133 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main all Packages
+Ign.:134 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main Translation-pl_PL
+Ign.:135 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main Translation-pl
+Ign.:136 http://security.ubuntu.com/ubuntu xenial-security/multiverse i386 Packages
+Ign.:74 http://security.ubuntu.com/ubuntu xenial-security/multiverse all Packages
+Ign.:75 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-pl_PL
+Ign.:76 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-pl
+Ign.:137 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main Translation-en.diff/Index
+Ign.:138 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata.diff/Index
+Ign.:139 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main DEP-11 64x64 Icons.diff/Index
+Ign.:140 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted amd64 Packages
+Ign.:141 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted i386 Packages
+Ign.:142 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted all Packages
+Ign.:143 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-pl_PL
+Ign.:144 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-pl
+Ign.:145 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-en
+Ign.:60 http://dl.google.com/linux/earth/deb stable/main Translation-pl
+Ign.:61 http://dl.google.com/linux/earth/deb stable/main Translation-en
+Ign.:62 http://dl.google.com/linux/earth/deb stable/main amd64 DEP-11 Metadata
+Ign.:63 http://dl.google.com/linux/earth/deb stable/main DEP-11 64x64 Icons
+Ign.:79 http://dl.google.com/linux/earth/deb stable/main amd64 Packages
+Błąd:42 http://dl.google.com/linux/earth/deb stable/main i386 Packages
+  Nie udało się połączyć z 10.1.3.1:8080:
+Ign.:58 http://dl.google.com/linux/earth/deb stable/main all Packages
+Ign.:146 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted amd64 DEP-11 Metadata.diff/Index
+Ign.:147 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en
+Ign.:148 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 DEP-11 Metadata
+Ign.:149 http://security.ubuntu.com/ubuntu xenial-security/multiverse DEP-11 64x64 Icons
+Ign.:93 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages
+Ign.:94 http://security.ubuntu.com/ubuntu xenial-security/main i386 Packages
+Ign.:33 http://security.ubuntu.com/ubuntu xenial-security/main all Packages
+Ign.:34 http://security.ubuntu.com/ubuntu xenial-security/main Translation-pl_PL
+Ign.:35 http://security.ubuntu.com/ubuntu xenial-security/main Translation-pl
+Ign.:95 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en
+Ign.:96 http://security.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata
+Ign.:150 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted DEP-11 64x64 Icons
+Ign.:151 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages.diff/Index
+Ign.:152 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe i386 Packages.diff/Index
+Ign.:153 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe all Packages
+Ign.:154 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-pl_PL
+Ign.:155 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-pl
+Ign.:156 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en.diff/Index
+Ign.:157 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 DEP-11 Metadata.diff/Index
+Ign.:158 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe DEP-11 64x64 Icons.diff/Index
+Ign.:159 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse amd64 Packages
+Ign.:59 http://dl.google.com/linux/earth/deb stable/main Translation-pl_PL
+Ign.:60 http://dl.google.com/linux/earth/deb stable/main Translation-pl
+Ign.:61 http://dl.google.com/linux/earth/deb stable/main Translation-en
+Ign.:62 http://dl.google.com/linux/earth/deb stable/main amd64 DEP-11 Metadata
+Ign.:63 http://dl.google.com/linux/earth/deb stable/main DEP-11 64x64 Icons
+Ign.:79 http://dl.google.com/linux/earth/deb stable/main amd64 Packages
+Ign.:160 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse i386 Packages
+Ign.:161 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse all Packages
+Ign.:162 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse Translation-pl_PL
+Ign.:97 http://security.ubuntu.com/ubuntu xenial-security/main DEP-11 64x64 Icons
+Ign.:98 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 Packages
+Ign.:117 http://security.ubuntu.com/ubuntu xenial-security/restricted i386 Packages
+Ign.:41 http://security.ubuntu.com/ubuntu xenial-security/restricted all Packages
+Ign.:48 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-pl_PL
+Ign.:49 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-pl
+Ign.:118 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-en
+Ign.:119 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 DEP-11 Metadata
+Ign.:52 http://security.ubuntu.com/ubuntu xenial-security/restricted DEP-11 64x64 Icons
+Ign.:120 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages
+Ign.:163 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse Translation-pl
+Ign.:164 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse Translation-en
+Ign.:165 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse amd64 DEP-11 Metadata.diff/Index
+Ign.:166 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse DEP-11 64x64 Icons.diff/Index
+Ign.:167 http://pl.archive.ubuntu.com/ubuntu xenial/main amd64 Packages
+Ign.:168 http://pl.archive.ubuntu.com/ubuntu xenial/main i386 Packages
+Ign.:13 http://pl.archive.ubuntu.com/ubuntu xenial/main all Packages
+Ign.:14 http://pl.archive.ubuntu.com/ubuntu xenial/main Translation-pl_PL
+Ign.:169 http://pl.archive.ubuntu.com/ubuntu xenial/main Translation-pl
+Ign.:170 http://pl.archive.ubuntu.com/ubuntu xenial/main Translation-en
+Ign.:171 http://pl.archive.ubuntu.com/ubuntu xenial/main amd64 DEP-11 Metadata
+Ign.:172 http://pl.archive.ubuntu.com/ubuntu xenial/main DEP-11 64x64 Icons
+Ign.:173 http://pl.archive.ubuntu.com/ubuntu xenial/restricted amd64 Packages
+Ign.:174 http://pl.archive.ubuntu.com/ubuntu xenial/restricted i386 Packages
+Ign.:23 http://pl.archive.ubuntu.com/ubuntu xenial/restricted all Packages
+Ign.:24 http://pl.archive.ubuntu.com/ubuntu xenial/restricted Translation-pl_PL
+Ign.:175 http://pl.archive.ubuntu.com/ubuntu xenial/restricted Translation-pl
+Ign.:121 http://security.ubuntu.com/ubuntu xenial-security/universe i386 Packages
+Ign.:55 http://security.ubuntu.com/ubuntu xenial-security/universe all Packages
+Ign.:56 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-pl_PL
+Ign.:57 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-pl
+Ign.:124 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en
+Ign.:125 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 DEP-11 Metadata
+Ign.:126 http://security.ubuntu.com/ubuntu xenial-security/universe DEP-11 64x64 Icons
+Ign.:127 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages
+Ign.:136 http://security.ubuntu.com/ubuntu xenial-security/multiverse i386 Packages
+Ign.:74 http://security.ubuntu.com/ubuntu xenial-security/multiverse all Packages
+Ign.:176 http://pl.archive.ubuntu.com/ubuntu xenial/restricted Translation-en
+Ign.:177 http://pl.archive.ubuntu.com/ubuntu xenial/restricted amd64 DEP-11 Metadata
+Ign.:28 http://pl.archive.ubuntu.com/ubuntu xenial/restricted DEP-11 64x64 Icons
+Ign.:178 http://pl.archive.ubuntu.com/ubuntu xenial/universe amd64 Packages
+Ign.:179 http://pl.archive.ubuntu.com/ubuntu xenial/universe i386 Packages
+Ign.:31 http://pl.archive.ubuntu.com/ubuntu xenial/universe all Packages
+Ign.:43 http://pl.archive.ubuntu.com/ubuntu xenial/universe Translation-pl_PL
+Ign.:180 http://pl.archive.ubuntu.com/ubuntu xenial/universe Translation-pl
+Ign.:181 http://pl.archive.ubuntu.com/ubuntu xenial/universe Translation-en
+Ign.:182 http://pl.archive.ubuntu.com/ubuntu xenial/universe amd64 DEP-11 Metadata
+Ign.:75 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-pl_PL
+Ign.:183 http://pl.archive.ubuntu.com/ubuntu xenial/universe DEP-11 64x64 Icons
+Ign.:184 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse amd64 Packages
+Ign.:185 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse i386 Packages
+Ign.:66 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse all Packages
+Ign.:67 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse Translation-pl_PL
+Ign.:186 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse Translation-pl
+Ign.:187 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse Translation-en
+Ign.:188 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse amd64 DEP-11 Metadata
+Ign.:76 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-pl
+Ign.:147 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en
+Ign.:148 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 DEP-11 Metadata
+Ign.:149 http://security.ubuntu.com/ubuntu xenial-security/multiverse DEP-11 64x64 Icons
+Ign.:93 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages
+Ign.:94 http://security.ubuntu.com/ubuntu xenial-security/main i386 Packages
+Ign.:33 http://security.ubuntu.com/ubuntu xenial-security/main all Packages
+Ign.:34 http://security.ubuntu.com/ubuntu xenial-security/main Translation-pl_PL
+Ign.:35 http://security.ubuntu.com/ubuntu xenial-security/main Translation-pl
+Ign.:189 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse DEP-11 64x64 Icons
+Ign.:190 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages
+Ign.:95 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en
+Ign.:96 http://security.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata
+Ign.:97 http://security.ubuntu.com/ubuntu xenial-security/main DEP-11 64x64 Icons
+Ign.:98 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 Packages
+Ign.:117 http://security.ubuntu.com/ubuntu xenial-security/restricted i386 Packages
+Ign.:41 http://security.ubuntu.com/ubuntu xenial-security/restricted all Packages
+Ign.:191 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages
+Ign.:85 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main all Packages
+Ign.:86 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main Translation-pl_PL
+Ign.:87 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main Translation-pl
+Ign.:192 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en
+Ign.:193 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata
+Ign.:194 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main DEP-11 64x64 Icons
+Ign.:195 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 Packages
+Ign.:196 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted i386 Packages
+Ign.:100 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted all Packages
+Ign.:48 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-pl_PL
+Ign.:49 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-pl
+Ign.:118 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-en
+Ign.:119 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 DEP-11 Metadata
+Ign.:52 http://security.ubuntu.com/ubuntu xenial-security/restricted DEP-11 64x64 Icons
+Ign.:101 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-pl_PL
+Ign.:102 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-pl
+Ign.:197 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-en
+Ign.:198 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 DEP-11 Metadata
+Ign.:105 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted DEP-11 64x64 Icons
+Ign.:120 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages
+Ign.:121 http://security.ubuntu.com/ubuntu xenial-security/universe i386 Packages
+Ign.:55 http://security.ubuntu.com/ubuntu xenial-security/universe all Packages
+Ign.:56 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-pl_PL
+Ign.:57 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-pl
+Ign.:124 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en
+Ign.:125 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 DEP-11 Metadata
+Ign.:126 http://security.ubuntu.com/ubuntu xenial-security/universe DEP-11 64x64 Icons
+Ign.:127 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages
+Ign.:199 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages
+Ign.:200 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages
+Ign.:108 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe all Packages
+Ign.:109 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-pl_PL
+Ign.:110 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-pl
+Ign.:136 http://security.ubuntu.com/ubuntu xenial-security/multiverse i386 Packages
+Ign.:74 http://security.ubuntu.com/ubuntu xenial-security/multiverse all Packages
+Ign.:75 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-pl_PL
+Ign.:76 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-pl
+Ign.:147 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en
+Ign.:148 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 DEP-11 Metadata
+Ign.:149 http://security.ubuntu.com/ubuntu xenial-security/multiverse DEP-11 64x64 Icons
+Ign.:93 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages
+Ign.:94 http://security.ubuntu.com/ubuntu xenial-security/main i386 Packages
+Ign.:33 http://security.ubuntu.com/ubuntu xenial-security/main all Packages
+Ign.:201 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en
+Ign.:202 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata
+Ign.:203 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe DEP-11 64x64 Icons
+Ign.:204 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages
+Ign.:205 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse i386 Packages
+Ign.:116 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse all Packages
+Ign.:122 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-pl_PL
+Ign.:123 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-pl
+Ign.:206 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en
+Ign.:207 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata
+Ign.:34 http://security.ubuntu.com/ubuntu xenial-security/main Translation-pl_PL
+Ign.:208 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse DEP-11 64x64 Icons
+Ign.:209 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages
+Ign.:210 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main i386 Packages
+Ign.:133 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main all Packages
+Ign.:134 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main Translation-pl_PL
+Ign.:135 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main Translation-pl
+Ign.:35 http://security.ubuntu.com/ubuntu xenial-security/main Translation-pl
+Ign.:95 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en
+Ign.:96 http://security.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata
+Ign.:97 http://security.ubuntu.com/ubuntu xenial-security/main DEP-11 64x64 Icons
+Ign.:98 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 Packages
+Ign.:117 http://security.ubuntu.com/ubuntu xenial-security/restricted i386 Packages
+Ign.:41 http://security.ubuntu.com/ubuntu xenial-security/restricted all Packages
+Ign.:48 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-pl_PL
+Ign.:49 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-pl
+Ign.:211 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main Translation-en
+Ign.:212 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata
+Ign.:213 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main DEP-11 64x64 Icons
+Ign.:140 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted amd64 Packages
+Ign.:118 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-en
+Ign.:119 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 DEP-11 Metadata
+Ign.:52 http://security.ubuntu.com/ubuntu xenial-security/restricted DEP-11 64x64 Icons
+Ign.:120 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages
+Ign.:121 http://security.ubuntu.com/ubuntu xenial-security/universe i386 Packages
+Ign.:55 http://security.ubuntu.com/ubuntu xenial-security/universe all Packages
+Ign.:56 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-pl_PL
+Ign.:57 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-pl
+Ign.:124 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en
+Ign.:125 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 DEP-11 Metadata
+Ign.:141 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted i386 Packages
+Ign.:142 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted all Packages
+Ign.:143 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-pl_PL
+Ign.:144 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-pl
+Ign.:145 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-en
+Ign.:214 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted amd64 DEP-11 Metadata
+Ign.:150 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted DEP-11 64x64 Icons
+Ign.:215 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages
+Ign.:216 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe i386 Packages
+Ign.:153 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe all Packages
+Ign.:154 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-pl_PL
+Ign.:155 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-pl
+Ign.:217 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en
+Ign.:218 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 DEP-11 Metadata
+Ign.:219 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe DEP-11 64x64 Icons
+Ign.:159 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse amd64 Packages
+Ign.:126 http://security.ubuntu.com/ubuntu xenial-security/universe DEP-11 64x64 Icons
+Ign.:127 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages
+Ign.:136 http://security.ubuntu.com/ubuntu xenial-security/multiverse i386 Packages
+Ign.:74 http://security.ubuntu.com/ubuntu xenial-security/multiverse all Packages
+Ign.:75 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-pl_PL
+Ign.:76 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-pl
+Ign.:147 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en
+Ign.:148 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 DEP-11 Metadata
+Ign.:149 http://security.ubuntu.com/ubuntu xenial-security/multiverse DEP-11 64x64 Icons
+Ign.:93 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages
+Ign.:160 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse i386 Packages
+Ign.:161 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse all Packages
+Ign.:162 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse Translation-pl_PL
+Ign.:163 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse Translation-pl
+Ign.:164 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse Translation-en
+Ign.:220 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse amd64 DEP-11 Metadata
+Ign.:221 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse DEP-11 64x64 Icons
+Ign.:167 http://pl.archive.ubuntu.com/ubuntu xenial/main amd64 Packages
+Ign.:168 http://pl.archive.ubuntu.com/ubuntu xenial/main i386 Packages
+Ign.:13 http://pl.archive.ubuntu.com/ubuntu xenial/main all Packages
+Ign.:94 http://security.ubuntu.com/ubuntu xenial-security/main i386 Packages
+Ign.:14 http://pl.archive.ubuntu.com/ubuntu xenial/main Translation-pl_PL
+Ign.:169 http://pl.archive.ubuntu.com/ubuntu xenial/main Translation-pl
+Ign.:170 http://pl.archive.ubuntu.com/ubuntu xenial/main Translation-en
+Ign.:171 http://pl.archive.ubuntu.com/ubuntu xenial/main amd64 DEP-11 Metadata
+Ign.:172 http://pl.archive.ubuntu.com/ubuntu xenial/main DEP-11 64x64 Icons
+Ign.:33 http://security.ubuntu.com/ubuntu xenial-security/main all Packages
+Ign.:34 http://security.ubuntu.com/ubuntu xenial-security/main Translation-pl_PL
+Ign.:35 http://security.ubuntu.com/ubuntu xenial-security/main Translation-pl
+Ign.:95 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en
+Ign.:96 http://security.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata
+Ign.:97 http://security.ubuntu.com/ubuntu xenial-security/main DEP-11 64x64 Icons
+Ign.:98 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 Packages
+Ign.:117 http://security.ubuntu.com/ubuntu xenial-security/restricted i386 Packages
+Ign.:41 http://security.ubuntu.com/ubuntu xenial-security/restricted all Packages
+Ign.:173 http://pl.archive.ubuntu.com/ubuntu xenial/restricted amd64 Packages
+Ign.:174 http://pl.archive.ubuntu.com/ubuntu xenial/restricted i386 Packages
+Ign.:23 http://pl.archive.ubuntu.com/ubuntu xenial/restricted all Packages
+Ign.:24 http://pl.archive.ubuntu.com/ubuntu xenial/restricted Translation-pl_PL
+Ign.:175 http://pl.archive.ubuntu.com/ubuntu xenial/restricted Translation-pl
+Ign.:48 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-pl_PL
+Ign.:49 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-pl
+Ign.:118 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-en
+Ign.:119 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 DEP-11 Metadata
+Ign.:52 http://security.ubuntu.com/ubuntu xenial-security/restricted DEP-11 64x64 Icons
+Ign.:120 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages
+Ign.:121 http://security.ubuntu.com/ubuntu xenial-security/universe i386 Packages
+Ign.:55 http://security.ubuntu.com/ubuntu xenial-security/universe all Packages
+Ign.:56 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-pl_PL
+Ign.:176 http://pl.archive.ubuntu.com/ubuntu xenial/restricted Translation-en
+Ign.:177 http://pl.archive.ubuntu.com/ubuntu xenial/restricted amd64 DEP-11 Metadata
+Ign.:28 http://pl.archive.ubuntu.com/ubuntu xenial/restricted DEP-11 64x64 Icons
+Ign.:178 http://pl.archive.ubuntu.com/ubuntu xenial/universe amd64 Packages
+Ign.:179 http://pl.archive.ubuntu.com/ubuntu xenial/universe i386 Packages
+Ign.:31 http://pl.archive.ubuntu.com/ubuntu xenial/universe all Packages
+Ign.:43 http://pl.archive.ubuntu.com/ubuntu xenial/universe Translation-pl_PL
+Ign.:180 http://pl.archive.ubuntu.com/ubuntu xenial/universe Translation-pl
+Ign.:181 http://pl.archive.ubuntu.com/ubuntu xenial/universe Translation-en
+Ign.:182 http://pl.archive.ubuntu.com/ubuntu xenial/universe amd64 DEP-11 Metadata
+Ign.:57 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-pl
+Ign.:183 http://pl.archive.ubuntu.com/ubuntu xenial/universe DEP-11 64x64 Icons
+Ign.:184 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse amd64 Packages
+Ign.:185 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse i386 Packages
+Ign.:66 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse all Packages
+Ign.:67 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse Translation-pl_PL
+Ign.:186 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse Translation-pl
+Ign.:124 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en
+Ign.:125 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 DEP-11 Metadata
+Ign.:126 http://security.ubuntu.com/ubuntu xenial-security/universe DEP-11 64x64 Icons
+Ign.:127 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages
+Ign.:136 http://security.ubuntu.com/ubuntu xenial-security/multiverse i386 Packages
+Ign.:74 http://security.ubuntu.com/ubuntu xenial-security/multiverse all Packages
+Ign.:75 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-pl_PL
+Ign.:76 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-pl
+Ign.:147 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en
+Ign.:148 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 DEP-11 Metadata
+Ign.:187 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse Translation-en
+Ign.:188 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse amd64 DEP-11 Metadata
+Ign.:189 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse DEP-11 64x64 Icons
+Ign.:190 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages
+Ign.:191 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages
+Ign.:85 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main all Packages
+Ign.:86 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main Translation-pl_PL
+Ign.:87 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main Translation-pl
+Ign.:192 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en
+Ign.:193 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata
+Ign.:194 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main DEP-11 64x64 Icons
+Ign.:195 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 Packages
+Ign.:196 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted i386 Packages
+Ign.:100 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted all Packages
+Ign.:101 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-pl_PL
+Ign.:102 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-pl
+Ign.:149 http://security.ubuntu.com/ubuntu xenial-security/multiverse DEP-11 64x64 Icons
+Błąd:93 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages
+  Nie udało się połączyć z 10.1.3.1:8080:
+Ign.:94 http://security.ubuntu.com/ubuntu xenial-security/main i386 Packages
+Ign.:95 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en
+Ign.:96 http://security.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata
+Ign.:97 http://security.ubuntu.com/ubuntu xenial-security/main DEP-11 64x64 Icons
+Ign.:98 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 Packages
+Ign.:117 http://security.ubuntu.com/ubuntu xenial-security/restricted i386 Packages
+Ign.:118 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-en
+Ign.:119 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 DEP-11 Metadata
+Ign.:197 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-en
+Ign.:198 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 DEP-11 Metadata
+Ign.:105 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted DEP-11 64x64 Icons
+Ign.:199 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages
+Ign.:200 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages
+Ign.:108 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe all Packages
+Ign.:109 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-pl_PL
+Ign.:110 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-pl
+Ign.:201 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en
+Ign.:202 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata
+Ign.:120 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages
+Ign.:121 http://security.ubuntu.com/ubuntu xenial-security/universe i386 Packages
+Ign.:203 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe DEP-11 64x64 Icons
+Ign.:204 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages
+Ign.:205 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse i386 Packages
+Ign.:116 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse all Packages
+Ign.:122 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-pl_PL
+Ign.:123 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-pl
+Ign.:206 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en
+Ign.:207 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata
+Ign.:208 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse DEP-11 64x64 Icons
+Ign.:209 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages
+Ign.:210 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main i386 Packages
+Ign.:133 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main all Packages
+Ign.:134 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main Translation-pl_PL
+Ign.:135 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main Translation-pl
+Ign.:211 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main Translation-en
+Ign.:212 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata
+Ign.:213 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main DEP-11 64x64 Icons
+Ign.:140 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted amd64 Packages
+Ign.:141 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted i386 Packages
+Ign.:142 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted all Packages
+Ign.:143 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-pl_PL
+Ign.:144 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-pl
+Ign.:145 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-en
+Ign.:214 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted amd64 DEP-11 Metadata
+Ign.:150 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted DEP-11 64x64 Icons
+Ign.:215 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages
+Ign.:216 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe i386 Packages
+Ign.:153 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe all Packages
+Ign.:154 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-pl_PL
+Ign.:155 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-pl
+Ign.:217 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en
+Ign.:218 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 DEP-11 Metadata
+Ign.:219 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe DEP-11 64x64 Icons
+Ign.:159 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse amd64 Packages
+Ign.:160 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse i386 Packages
+Ign.:161 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse all Packages
+Ign.:162 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse Translation-pl_PL
+Ign.:163 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse Translation-pl
+Ign.:164 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse Translation-en
+Ign.:220 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse amd64 DEP-11 Metadata
+Ign.:221 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse DEP-11 64x64 Icons
+Ign.:167 http://pl.archive.ubuntu.com/ubuntu xenial/main amd64 Packages
+Ign.:168 http://pl.archive.ubuntu.com/ubuntu xenial/main i386 Packages
+Ign.:13 http://pl.archive.ubuntu.com/ubuntu xenial/main all Packages
+Ign.:14 http://pl.archive.ubuntu.com/ubuntu xenial/main Translation-pl_PL
+Ign.:169 http://pl.archive.ubuntu.com/ubuntu xenial/main Translation-pl
+Ign.:170 http://pl.archive.ubuntu.com/ubuntu xenial/main Translation-en
+Ign.:171 http://pl.archive.ubuntu.com/ubuntu xenial/main amd64 DEP-11 Metadata
+Ign.:172 http://pl.archive.ubuntu.com/ubuntu xenial/main DEP-11 64x64 Icons
+Ign.:173 http://pl.archive.ubuntu.com/ubuntu xenial/restricted amd64 Packages
+Ign.:174 http://pl.archive.ubuntu.com/ubuntu xenial/restricted i386 Packages
+Ign.:23 http://pl.archive.ubuntu.com/ubuntu xenial/restricted all Packages
+Ign.:24 http://pl.archive.ubuntu.com/ubuntu xenial/restricted Translation-pl_PL
+Ign.:175 http://pl.archive.ubuntu.com/ubuntu xenial/restricted Translation-pl
+Ign.:176 http://pl.archive.ubuntu.com/ubuntu xenial/restricted Translation-en
+Ign.:177 http://pl.archive.ubuntu.com/ubuntu xenial/restricted amd64 DEP-11 Metadata
+Ign.:28 http://pl.archive.ubuntu.com/ubuntu xenial/restricted DEP-11 64x64 Icons
+Ign.:178 http://pl.archive.ubuntu.com/ubuntu xenial/universe amd64 Packages
+Ign.:179 http://pl.archive.ubuntu.com/ubuntu xenial/universe i386 Packages
+Ign.:31 http://pl.archive.ubuntu.com/ubuntu xenial/universe all Packages
+Ign.:43 http://pl.archive.ubuntu.com/ubuntu xenial/universe Translation-pl_PL
+Ign.:180 http://pl.archive.ubuntu.com/ubuntu xenial/universe Translation-pl
+Ign.:181 http://pl.archive.ubuntu.com/ubuntu xenial/universe Translation-en
+Ign.:182 http://pl.archive.ubuntu.com/ubuntu xenial/universe amd64 DEP-11 Metadata
+Ign.:183 http://pl.archive.ubuntu.com/ubuntu xenial/universe DEP-11 64x64 Icons
+Ign.:184 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse amd64 Packages
+Ign.:185 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse i386 Packages
+Ign.:66 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse all Packages
+Ign.:67 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse Translation-pl_PL
+Ign.:186 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse Translation-pl
+Ign.:187 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse Translation-en
+Ign.:188 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse amd64 DEP-11 Metadata
+Ign.:189 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse DEP-11 64x64 Icons
+Ign.:190 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages
+Ign.:191 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages
+Ign.:85 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main all Packages
+Ign.:86 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main Translation-pl_PL
+Ign.:87 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main Translation-pl
+Ign.:192 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en
+Ign.:193 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata
+Ign.:194 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main DEP-11 64x64 Icons
+Ign.:195 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 Packages
+Ign.:196 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted i386 Packages
+Ign.:100 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted all Packages
+Ign.:101 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-pl_PL
+Ign.:102 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-pl
+Ign.:197 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-en
+Ign.:198 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 DEP-11 Metadata
+Ign.:105 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted DEP-11 64x64 Icons
+Ign.:199 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages
+Ign.:200 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages
+Ign.:108 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe all Packages
+Ign.:109 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-pl_PL
+Ign.:110 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-pl
+Ign.:201 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en
+Ign.:202 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata
+Ign.:203 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe DEP-11 64x64 Icons
+Ign.:204 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages
+Ign.:205 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse i386 Packages
+Ign.:116 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse all Packages
+Ign.:122 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-pl_PL
+Ign.:123 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-pl
+Ign.:206 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en
+Ign.:207 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata
+Ign.:208 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse DEP-11 64x64 Icons
+Ign.:209 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages
+Ign.:210 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main i386 Packages
+Ign.:133 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main all Packages
+Ign.:134 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main Translation-pl_PL
+Ign.:135 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main Translation-pl
+Ign.:211 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main Translation-en
+Ign.:212 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata
+Ign.:213 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main DEP-11 64x64 Icons
+Ign.:140 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted amd64 Packages
+Ign.:141 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted i386 Packages
+Ign.:142 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted all Packages
+Ign.:143 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-pl_PL
+Ign.:144 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-pl
+Ign.:145 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-en
+Ign.:214 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted amd64 DEP-11 Metadata
+Ign.:150 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted DEP-11 64x64 Icons
+Ign.:215 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages
+Ign.:216 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe i386 Packages
+Ign.:153 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe all Packages
+Ign.:154 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-pl_PL
+Ign.:155 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-pl
+Ign.:217 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en
+Ign.:218 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 DEP-11 Metadata
+Ign.:219 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe DEP-11 64x64 Icons
+Ign.:159 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse amd64 Packages
+Ign.:160 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse i386 Packages
+Ign.:161 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse all Packages
+Ign.:162 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse Translation-pl_PL
+Ign.:163 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse Translation-pl
+Ign.:164 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse Translation-en
+Ign.:220 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse amd64 DEP-11 Metadata
+Ign.:221 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse DEP-11 64x64 Icons
+Ign.:167 http://pl.archive.ubuntu.com/ubuntu xenial/main amd64 Packages
+Ign.:168 http://pl.archive.ubuntu.com/ubuntu xenial/main i386 Packages
+Ign.:13 http://pl.archive.ubuntu.com/ubuntu xenial/main all Packages
+Ign.:14 http://pl.archive.ubuntu.com/ubuntu xenial/main Translation-pl_PL
+Ign.:169 http://pl.archive.ubuntu.com/ubuntu xenial/main Translation-pl
+Ign.:170 http://pl.archive.ubuntu.com/ubuntu xenial/main Translation-en
+Ign.:171 http://pl.archive.ubuntu.com/ubuntu xenial/main amd64 DEP-11 Metadata
+Ign.:172 http://pl.archive.ubuntu.com/ubuntu xenial/main DEP-11 64x64 Icons
+Ign.:173 http://pl.archive.ubuntu.com/ubuntu xenial/restricted amd64 Packages
+Ign.:174 http://pl.archive.ubuntu.com/ubuntu xenial/restricted i386 Packages
+Ign.:23 http://pl.archive.ubuntu.com/ubuntu xenial/restricted all Packages
+Ign.:24 http://pl.archive.ubuntu.com/ubuntu xenial/restricted Translation-pl_PL
+Ign.:175 http://pl.archive.ubuntu.com/ubuntu xenial/restricted Translation-pl
+Ign.:176 http://pl.archive.ubuntu.com/ubuntu xenial/restricted Translation-en
+Ign.:177 http://pl.archive.ubuntu.com/ubuntu xenial/restricted amd64 DEP-11 Metadata
+Ign.:28 http://pl.archive.ubuntu.com/ubuntu xenial/restricted DEP-11 64x64 Icons
+Ign.:178 http://pl.archive.ubuntu.com/ubuntu xenial/universe amd64 Packages
+Ign.:179 http://pl.archive.ubuntu.com/ubuntu xenial/universe i386 Packages
+Ign.:31 http://pl.archive.ubuntu.com/ubuntu xenial/universe all Packages
+Ign.:43 http://pl.archive.ubuntu.com/ubuntu xenial/universe Translation-pl_PL
+Ign.:180 http://pl.archive.ubuntu.com/ubuntu xenial/universe Translation-pl
+Ign.:181 http://pl.archive.ubuntu.com/ubuntu xenial/universe Translation-en
+Ign.:182 http://pl.archive.ubuntu.com/ubuntu xenial/universe amd64 DEP-11 Metadata
+Ign.:183 http://pl.archive.ubuntu.com/ubuntu xenial/universe DEP-11 64x64 Icons
+Ign.:184 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse amd64 Packages
+Ign.:185 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse i386 Packages
+Ign.:66 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse all Packages
+Ign.:67 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse Translation-pl_PL
+Ign.:186 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse Translation-pl
+Ign.:187 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse Translation-en
+Ign.:188 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse amd64 DEP-11 Metadata
+Ign.:189 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse DEP-11 64x64 Icons
+Ign.:190 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages
+Ign.:191 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages
+Ign.:85 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main all Packages
+Ign.:86 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main Translation-pl_PL
+Ign.:87 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main Translation-pl
+Ign.:192 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en
+Ign.:193 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata
+Ign.:194 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main DEP-11 64x64 Icons
+Ign.:195 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 Packages
+Ign.:196 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted i386 Packages
+Ign.:100 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted all Packages
+Ign.:101 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-pl_PL
+Ign.:102 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-pl
+Ign.:197 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-en
+Ign.:198 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 DEP-11 Metadata
+Ign.:105 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted DEP-11 64x64 Icons
+Ign.:199 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages
+Ign.:200 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages
+Ign.:108 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe all Packages
+Ign.:109 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-pl_PL
+Ign.:110 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-pl
+Ign.:201 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en
+Ign.:202 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata
+Ign.:203 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe DEP-11 64x64 Icons
+Ign.:204 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages
+Ign.:205 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse i386 Packages
+Ign.:116 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse all Packages
+Ign.:122 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-pl_PL
+Ign.:123 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-pl
+Ign.:206 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en
+Ign.:207 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata
+Ign.:208 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse DEP-11 64x64 Icons
+Ign.:209 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages
+Ign.:210 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main i386 Packages
+Ign.:133 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main all Packages
+Ign.:134 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main Translation-pl_PL
+Ign.:135 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main Translation-pl
+Ign.:211 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main Translation-en
+Ign.:212 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata
+Ign.:213 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main DEP-11 64x64 Icons
+Ign.:140 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted amd64 Packages
+Ign.:141 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted i386 Packages
+Ign.:142 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted all Packages
+Ign.:143 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-pl_PL
+Ign.:144 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-pl
+Ign.:145 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-en
+Ign.:214 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted amd64 DEP-11 Metadata
+Ign.:150 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted DEP-11 64x64 Icons
+Ign.:215 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages
+Ign.:216 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe i386 Packages
+Ign.:153 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe all Packages
+Ign.:154 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-pl_PL
+Ign.:155 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-pl
+Ign.:217 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en
+Ign.:218 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 DEP-11 Metadata
+Ign.:219 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe DEP-11 64x64 Icons
+Ign.:159 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse amd64 Packages
+Ign.:160 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse i386 Packages
+Ign.:161 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse all Packages
+Ign.:162 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse Translation-pl_PL
+Ign.:163 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse Translation-pl
+Ign.:164 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse Translation-en
+Ign.:220 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse amd64 DEP-11 Metadata
+Ign.:221 http://pl.archive.ubuntu.com/ubuntu xenial-backports/multiverse DEP-11 64x64 Icons
+Ign.:167 http://pl.archive.ubuntu.com/ubuntu xenial/main amd64 Packages
+Ign.:168 http://pl.archive.ubuntu.com/ubuntu xenial/main i386 Packages
+Ign.:13 http://pl.archive.ubuntu.com/ubuntu xenial/main all Packages
+Ign.:14 http://pl.archive.ubuntu.com/ubuntu xenial/main Translation-pl_PL
+Ign.:169 http://pl.archive.ubuntu.com/ubuntu xenial/main Translation-pl
+Ign.:170 http://pl.archive.ubuntu.com/ubuntu xenial/main Translation-en
+Ign.:171 http://pl.archive.ubuntu.com/ubuntu xenial/main amd64 DEP-11 Metadata
+Ign.:172 http://pl.archive.ubuntu.com/ubuntu xenial/main DEP-11 64x64 Icons
+Ign.:173 http://pl.archive.ubuntu.com/ubuntu xenial/restricted amd64 Packages
+Ign.:174 http://pl.archive.ubuntu.com/ubuntu xenial/restricted i386 Packages
+Ign.:23 http://pl.archive.ubuntu.com/ubuntu xenial/restricted all Packages
+Ign.:24 http://pl.archive.ubuntu.com/ubuntu xenial/restricted Translation-pl_PL
+Ign.:175 http://pl.archive.ubuntu.com/ubuntu xenial/restricted Translation-pl
+Ign.:176 http://pl.archive.ubuntu.com/ubuntu xenial/restricted Translation-en
+Ign.:177 http://pl.archive.ubuntu.com/ubuntu xenial/restricted amd64 DEP-11 Metadata
+Ign.:28 http://pl.archive.ubuntu.com/ubuntu xenial/restricted DEP-11 64x64 Icons
+Ign.:178 http://pl.archive.ubuntu.com/ubuntu xenial/universe amd64 Packages
+Ign.:179 http://pl.archive.ubuntu.com/ubuntu xenial/universe i386 Packages
+Ign.:31 http://pl.archive.ubuntu.com/ubuntu xenial/universe all Packages
+Ign.:43 http://pl.archive.ubuntu.com/ubuntu xenial/universe Translation-pl_PL
+Ign.:180 http://pl.archive.ubuntu.com/ubuntu xenial/universe Translation-pl
+Ign.:181 http://pl.archive.ubuntu.com/ubuntu xenial/universe Translation-en
+Ign.:182 http://pl.archive.ubuntu.com/ubuntu xenial/universe amd64 DEP-11 Metadata
+Ign.:183 http://pl.archive.ubuntu.com/ubuntu xenial/universe DEP-11 64x64 Icons
+Ign.:184 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse amd64 Packages
+Ign.:185 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse i386 Packages
+Ign.:66 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse all Packages
+Ign.:67 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse Translation-pl_PL
+Ign.:186 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse Translation-pl
+Ign.:187 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse Translation-en
+Ign.:188 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse amd64 DEP-11 Metadata
+Ign.:189 http://pl.archive.ubuntu.com/ubuntu xenial/multiverse DEP-11 64x64 Icons
+Ign.:190 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages
+Ign.:191 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages
+Ign.:85 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main all Packages
+Ign.:86 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main Translation-pl_PL
+Ign.:87 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main Translation-pl
+Ign.:192 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en
+Ign.:193 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata
+Ign.:194 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main DEP-11 64x64 Icons
+Ign.:195 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 Packages
+Ign.:196 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted i386 Packages
+Ign.:100 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted all Packages
+Ign.:101 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-pl_PL
+Ign.:102 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-pl
+Ign.:197 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-en
+Ign.:198 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 DEP-11 Metadata
+Ign.:105 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted DEP-11 64x64 Icons
+Ign.:199 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages
+Ign.:200 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages
+Ign.:108 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe all Packages
+Ign.:109 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-pl_PL
+Ign.:110 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-pl
+Ign.:201 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en
+Ign.:202 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata
+Ign.:203 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe DEP-11 64x64 Icons
+Ign.:204 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages
+Ign.:205 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse i386 Packages
+Ign.:116 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse all Packages
+Ign.:122 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-pl_PL
+Ign.:123 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-pl
+Ign.:206 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en
+Ign.:207 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata
+Ign.:208 http://pl.archive.ubuntu.com/ubuntu xenial-updates/multiverse DEP-11 64x64 Icons
+Ign.:209 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages
+Ign.:210 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main i386 Packages
+Ign.:133 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main all Packages
+Ign.:134 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main Translation-pl_PL
+Ign.:135 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main Translation-pl
+Ign.:211 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main Translation-en
+Ign.:212 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata
+Ign.:213 http://pl.archive.ubuntu.com/ubuntu xenial-backports/main DEP-11 64x64 Icons
+Błąd:140 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted amd64 Packages
+  Nie udało się połączyć z 10.1.3.1:8080:
+Ign.:141 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted i386 Packages
+Ign.:142 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted all Packages
+Ign.:143 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-pl_PL
+Ign.:144 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-pl
+Ign.:145 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-en
+Ign.:214 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted amd64 DEP-11 Metadata
+Ign.:150 http://pl.archive.ubuntu.com/ubuntu xenial-backports/restricted DEP-11 64x64 Icons
+Ign.:215 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages
+Ign.:216 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe i386 Packages
+Ign.:153 http://pl.archive.ubuntu.com/ubuntu xenial-backports/universe all Packages
+Błąd:167 http://pl.archive.ubuntu.com/ubuntu xenial/main amd64 Packages
+  Nie udało się połączyć z 10.1.3.1:8080:
+Ign.:168 http://pl.archive.ubuntu.com/ubuntu xenial/main i386 Packages
+Ign.:169 http://pl.archive.ubuntu.com/ubuntu xenial/main Translation-pl
+Ign.:170 http://pl.archive.ubuntu.com/ubuntu xenial/main Translation-en
+Ign.:171 http://pl.archive.ubuntu.com/ubuntu xenial/main amd64 DEP-11 Metadata
+Ign.:172 http://pl.archive.ubuntu.com/ubuntu xenial/main DEP-11 64x64 Icons
+Ign.:173 http://pl.archive.ubuntu.com/ubuntu xenial/restricted amd64 Packages
+Ign.:174 http://pl.archive.ubuntu.com/ubuntu xenial/restricted i386 Packages
+Ign.:175 http://pl.archive.ubuntu.com/ubuntu xenial/restricted Translation-pl
+Ign.:176 http://pl.archive.ubuntu.com/ubuntu xenial/restricted Translation-en
+Ign.:177 http://pl.archive.ubuntu.com/ubuntu xenial/restricted amd64 DEP-11 Metadata
+Błąd:190 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages
+  Nie udało się połączyć z 10.1.3.1:8080:
+Ign.:191 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages
+Ign.:192 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en
+Ign.:193 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata
+Ign.:194 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main DEP-11 64x64 Icons
+Ign.:195 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 Packages
+Ign.:196 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted i386 Packages
+Ign.:197 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-en
+Ign.:198 http://pl.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 DEP-11 Metadata
+Ign.:199 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages
+Ign.:200 http://pl.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages
+Czytanie list pakietów... Gotowe
+W: The repository 'http://pl.archive.ubuntu.com/ubuntu xenial Release' does not have a Release file.
+N: Data from such a repository can't be authenticated and is therefore potentially dangerous to use.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+W: The repository 'http://security.ubuntu.com/ubuntu xenial-security Release' does not have a Release file.
+N: Data from such a repository can't be authenticated and is therefore potentially dangerous to use.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+W: The repository 'http://pl.archive.ubuntu.com/ubuntu xenial-updates Release' does not have a Release file.
+N: Data from such a repository can't be authenticated and is therefore potentially dangerous to use.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+W: The repository 'http://dl.google.com/linux/earth/deb stable Release' does not have a Release file.
+N: Data from such a repository can't be authenticated and is therefore potentially dangerous to use.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+W: The repository 'http://pl.archive.ubuntu.com/ubuntu xenial-backports Release' does not have a Release file.
+N: Data from such a repository can't be authenticated and is therefore potentially dangerous to use.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+E: Nie udało się pobrać http://dl.google.com/linux/earth/deb/dists/stable/main/binary-i386/Packages  Nie udało się połączyć z 10.1.3.1:8080:
+E: Nie udało się pobrać http://pl.archive.ubuntu.com/ubuntu/dists/xenial-backports/restricted/binary-amd64/Packages  Nie udało się połączyć z 10.1.3.1:8080:
+E: Nie udało się pobrać http://pl.archive.ubuntu.com/ubuntu/dists/xenial/main/binary-amd64/Packages  Nie udało się połączyć z 10.1.3.1:8080:
+E: Nie udało się pobrać http://security.ubuntu.com/ubuntu/dists/xenial-security/main/binary-amd64/Packages  Nie udało się połączyć z 10.1.3.1:8080:
+E: Nie udało się pobrać http://pl.archive.ubuntu.com/ubuntu/dists/xenial-updates/main/binary-amd64/Packages  Nie udało się połączyć z 10.1.3.1:8080:
+E: Nie udało się pobrać niektórych plików indeksu, zostały one zignorowane lub użyto ich starszej wersji.
+Upgrading system packages ...
+Czytanie list pakietów...
+Budowanie drzewa zależności...
+Odczyt informacji o stanie...
+Obliczanie aktualizacji...
+Następujące pakiety zostały zatrzymane:
+  ubuntu-minimal
+0 aktualizowanych, 0 nowo instalowanych, 0 usuwanych i 1 nieaktualizowanych.
+Installing new packages...
+Czytanie list pakietów...
+Budowanie drzewa zależności...
+Odczyt informacji o stanie...
+sshpass is already the newest version (1.05-1).
+unclutter is already the newest version (8-20).
+xdotool is already the newest version (1:3.20150503.1-2).
+apache2 is already the newest version (2.4.18-2ubuntu3.9).
+git is already the newest version (1:2.7.4-0ubuntu1.5).
+nautilus is already the newest version (1:3.18.4.is.3.14.3-0ubuntu6).
+openssh-server is already the newest version (1:7.2p2-4ubuntu2.6).
+squid3 is already the newest version (3.5.12-1ubuntu7.5).
+chromium-browser is already the newest version (70.0.3538.77-0ubuntu0.16.04.1).
+squid-cgi is already the newest version (3.5.12-1ubuntu7.5).
+0 aktualizowanych, 0 nowo instalowanych, 0 usuwanych i 1 nieaktualizowanych.
+Installing extra drivers...
+Czytanie list pakietów...
+Budowanie drzewa zależności...
+Odczyt informacji o stanie...
+libglu1-mesa:i386 is already the newest version (9.0.0-2.1).
+libsm6:i386 is already the newest version (2:1.2.2-1).
+libxext6:i386 is already the newest version (2:1.3.3-1).
+libxrender1:i386 is already the newest version (1:0.9.9-0ubuntu1).
+libfontconfig1:i386 is already the newest version (2.11.94-0ubuntu1.1).
+libglib2.0-0:i386 is already the newest version (2.48.2-0ubuntu4.1).
+libx11-6:i386 is already the newest version (2:1.6.3-1ubuntu2.1).
+0 aktualizowanych, 0 nowo instalowanych, 0 usuwanych i 1 nieaktualizowanych.
+Czytanie list pakietów... Gotowe
+Budowanie drzewa zależności       
+Odczyt informacji o stanie... Gotowe
+nvidia-361 is already the newest version (367.57-0ubuntu0.16.04.1).
+0 aktualizowanych, 0 nowo instalowanych, 0 usuwanych i 1 nieaktualizowanych.
+Installing Google Earth...
+(Odczytywanie bazy danych ... 222041 plików i katalogów obecnie zainstalowanych.)
+Przygotowywanie do rozpakowania pakietu google-earth-stable_current_amd64.deb ...
+Rozpakowywanie pakietu google-earth-pro-stable (7.3.2.5495-r0) nad (7.3.2.5495-r0) ...
+Konfigurowanie pakietu google-earth-pro-stable (7.3.2.5495-r0) ...
+Przetwarzanie wyzwalaczy pakietu man-db (2.7.5-1)...
+Przetwarzanie wyzwalaczy pakietu gnome-menus (3.13.3-6ubuntu3.1)...
+Przetwarzanie wyzwalaczy pakietu desktop-file-utils (0.22-1ubuntu5.2)...
+Przetwarzanie wyzwalaczy pakietu bamfdaemon (0.5.3~bzr0+16.04.20180209-0ubuntu1)...
+Rebuilding /usr/share/applications/bamf-2.index...
+Przetwarzanie wyzwalaczy pakietu mime-support (3.59ubuntu1)...
+Czytanie list pakietów...
+Budowanie drzewa zależności...
+Odczyt informacji o stanie...
+0 aktualizowanych, 0 nowo instalowanych, 0 usuwanych i 1 nieaktualizowanych.
+(Odczytywanie bazy danych ... 222041 plików i katalogów obecnie zainstalowanych.)
+Przygotowywanie do rozpakowania pakietu google-earth-stable_current_amd64.deb ...
+Rozpakowywanie pakietu google-earth-pro-stable (7.3.2.5495-r0) nad (7.3.2.5495-r0) ...
+Konfigurowanie pakietu google-earth-pro-stable (7.3.2.5495-r0) ...
+Przetwarzanie wyzwalaczy pakietu man-db (2.7.5-1)...
+Przetwarzanie wyzwalaczy pakietu gnome-menus (3.13.3-6ubuntu3.1)...
+Przetwarzanie wyzwalaczy pakietu desktop-file-utils (0.22-1ubuntu5.2)...
+Przetwarzanie wyzwalaczy pakietu bamfdaemon (0.5.3~bzr0+16.04.20180209-0ubuntu1)...
+Rebuilding /usr/share/applications/bamf-2.index...
+Przetwarzanie wyzwalaczy pakietu mime-support (3.59ubuntu1)...
+Setting system configuration...
+Czytanie list pakietów...
+Budowanie drzewa zależności...
+Odczyt informacji o stanie...
+Pakiet "update-notifier-kde" nie jest zainstalowany, więc nie zostanie usunięty
+Pakiet "update-notifier" nie jest zainstalowany, więc nie zostanie usunięty
+Pakiet "update-notifier-common" nie jest zainstalowany, więc nie zostanie usunięty
+0 aktualizowanych, 0 nowo instalowanych, 0 usuwanych i 1 nieaktualizowanych.
+Setting up Liquid Galaxy...
+Cloning into 'liquid-galaxy'...
+remote: Enumerating objects: 1756, done.
+remote: Total 1756 (delta 0), reused 0 (delta 0), pack-reused 1756
+Receiving objects: 100% (1756/1756), 45.13 MiB | 3.31 MiB/s, done.
+Resolving deltas: 100% (960/960), done.
+Checking connectivity... done.
+ln: nie udało się utworzyć dowiązania symbolicznego '/home/lg/earth/builds/latest/pro': Plik istnieje
+mv: nie można przenieść 'config' do '.config/config': Katalog nie jest pusty
+mv: nie można przenieść 'ssh' do '.ssh/ssh': Katalog nie jest pusty
+ln: nie udało się utworzyć dowiązania symbolicznego '/etc/apparmor.d/disable/sbin.dhclient': Plik istnieje
+apparmor_parser: usuni?cie "/sbin/dhclient" nie powiod?o si?.  Profil nie istnieje
+Setting up SSH...
+sudo ok...
+Do you want to re-generate and destroy "/home/lg/.ssh/lg-id_rsa.pub", host keys, and known_hosts files? [y/N]: y
+generating new keypairs
+Generating public/private rsa key pair.
+/home/lg/.ssh/lg-id_rsa already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/lg/.ssh/lg-id_rsa.
+Your public key has been saved in /home/lg/.ssh/lg-id_rsa.pub.
+The key fingerprint is:
+SHA256:b/R9vB3HdXylCjnAAbPMrmtDy0OrZFIjNGAbbM2KwdQ Liquid Galaxy
+The key's randomart image is:
++---[RSA 4096]----+
+|=++   o..        |
+|++oE o + .       |
+|o=.   + o       .|
+|o..  .   . .   o.|
+|. o   . S =   . =|
+| o .o.   o + o o+|
+|. o+.o    o o ..=|
+| +  B.   .     .=|
+|  .o.o         ..|
++----[SHA256]-----+
+usunięty '/etc/ssh/ssh_host_dsa_key'
+usunięty '/etc/ssh/ssh_host_dsa_key.pub'
+usunięty '/etc/ssh/ssh_host_rsa_key'
+usunięty '/etc/ssh/ssh_host_rsa_key.pub'
+Creating SSH2 RSA key; this may take some time ...
+2048 SHA256:Bu3xeeGBf8yetz1YzXHIVC4vhuDaV0CHKzl+z5yQUWk root@lg2 (RSA)
+Creating SSH2 DSA key; this may take some time ...
+1024 SHA256:d5QZUwgvYe82Ot4jHjhvyA2A2KN9CkdwC+DC4vRQupM root@lg2 (DSA)
+all done: make sure to also setup "/home/lg/.ssh/config".
+You may also want to add some of your own keys.
+  adding: ssh-files/ (stored 0%)
+  adding: ssh-files/etc/ (stored 0%)
+  adding: ssh-files/etc/ssh/ (stored 0%)
+  adding: ssh-files/etc/ssh/ssh_host_ed25519_key.pub (deflated 2%)
+  adding: ssh-files/etc/ssh/sshd_config (deflated 54%)
+  adding: ssh-files/etc/ssh/ssh_host_rsa_key.pub (deflated 16%)
+  adding: ssh-files/etc/ssh/ssh_known_hosts (deflated 55%)
+  adding: ssh-files/etc/ssh/moduli (deflated 97%)
+  adding: ssh-files/etc/ssh/ssh_config (deflated 54%)
+  adding: ssh-files/etc/ssh/ssh_host_ecdsa_key.pub (deflated 9%)
+  adding: ssh-files/etc/ssh/ssh_host_ed25519_key (deflated 33%)
+  adding: ssh-files/etc/ssh/ssh_host_dsa_key (deflated 21%)
+  adding: ssh-files/etc/ssh/ssh_host_dsa_key.pub (deflated 18%)
+  adding: ssh-files/etc/ssh/ssh_host_rsa_key (deflated 23%)
+  adding: ssh-files/etc/ssh/ssh_host_ecdsa_key (deflated 17%)
+  adding: ssh-files/etc/ssh/ssh_import_id (deflated 31%)
+  adding: ssh-files/user/ (stored 0%)
+  adding: ssh-files/user/.ssh/ (stored 0%)
+  adding: ssh-files/user/.ssh/config (deflated 28%)
+  adding: ssh-files/user/.ssh/ssh/ (stored 0%)
+  adding: ssh-files/user/.ssh/ssh/config (deflated 28%)
+  adding: ssh-files/user/.ssh/ssh/ctl/ (stored 0%)
+  adding: ssh-files/user/.ssh/ssh/ctl/README (deflated 28%)
+  adding: ssh-files/user/.ssh/lg-id_rsa.pub (deflated 20%)
+  adding: ssh-files/user/.ssh/ctl/ (stored 0%)
+  adding: ssh-files/user/.ssh/ctl/README (deflated 28%)
+  adding: ssh-files/user/.ssh/lg-id_rsa (deflated 24%)
+  adding: ssh-files/user/.ssh/authorized_keys (deflated 20%)
+  adding: ssh-files/user/.ssh/known_hosts (deflated 11%)
+  adding: ssh-files/root/ (stored 0%)
+  adding: ssh-files/root/.ssh/ (stored 0%)
+  adding: ssh-files/root/.ssh/authorized_keys (deflated 20%)
+Installing web interface (master only)...
+Czytanie list pakietów...
+Budowanie drzewa zależności...
+Odczyt informacji o stanie...
+The following additional packages will be installed:
+  libapache2-mod-php7.0 php-common php7.0 php7.0-cgi php7.0-cli php7.0-common
+  php7.0-json php7.0-opcache php7.0-readline
+Sugerowane pakiety:
+  php-pear
+Zostaną zainstalowane następujące NOWE pakiety:
+  libapache2-mod-php libapache2-mod-php7.0 php php-cgi php-common php7.0
+  php7.0-cgi php7.0-cli php7.0-common php7.0-json php7.0-opcache
+  php7.0-readline
+0 aktualizowanych, 12 nowo instalowanych, 0 usuwanych i 1 nieaktualizowanych.
+Konieczne pobranie 4720 kB archiwów.
+Po tej operacji zostanie dodatkowo użyte 22,5 MB miejsca na dysku.
+Ign.:1 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main i386 php-common all 1:35ubuntu6.1
+Błąd:2 http://security.ubuntu.com/ubuntu xenial-security/main amd64 php7.0-common amd64 7.0.32-0ubuntu0.16.04.1
+  Nie udało się połączyć z 10.1.3.1:8080:
+Ign.:3 http://security.ubuntu.com/ubuntu xenial-security/main amd64 php7.0-json amd64 7.0.32-0ubuntu0.16.04.1
+Ign.:4 http://security.ubuntu.com/ubuntu xenial-security/main amd64 php7.0-opcache amd64 7.0.32-0ubuntu0.16.04.1
+Ign.:5 http://security.ubuntu.com/ubuntu xenial-security/main amd64 php7.0-readline amd64 7.0.32-0ubuntu0.16.04.1
+Ign.:6 http://security.ubuntu.com/ubuntu xenial-security/main amd64 php7.0-cli amd64 7.0.32-0ubuntu0.16.04.1
+Ign.:7 http://security.ubuntu.com/ubuntu xenial-security/main amd64 libapache2-mod-php7.0 amd64 7.0.32-0ubuntu0.16.04.1
+Ign.:8 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main i386 libapache2-mod-php all 1:7.0+35ubuntu6.1
+Ign.:9 http://security.ubuntu.com/ubuntu xenial-security/main amd64 php7.0-cgi amd64 7.0.32-0ubuntu0.16.04.1
+Ign.:10 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main i386 php7.0 all 7.0.32-0ubuntu0.16.04.1
+Ign.:11 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main i386 php all 1:7.0+35ubuntu6.1
+Ign.:12 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main i386 php-cgi all 1:7.0+35ubuntu6.1
+Błąd:1 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main i386 php-common all 1:35ubuntu6.1
+  Nie udało się połączyć z 10.1.3.1:8080 (10.1.3.1). - connect (113: Brak trasy do hosta)
+Błąd:8 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main i386 libapache2-mod-php all 1:7.0+35ubuntu6.1
+  Nie udało się połączyć z 10.1.3.1:8080:
+Ign.:10 http://security.ubuntu.com/ubuntu xenial-security/main amd64 php7.0 all 7.0.32-0ubuntu0.16.04.1
+Błąd:11 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main i386 php all 1:7.0+35ubuntu6.1
+  Nie udało się połączyć z 10.1.3.1:8080:
+Błąd:12 http://pl.archive.ubuntu.com/ubuntu xenial-updates/main i386 php-cgi all 1:7.0+35ubuntu6.1
+  Nie udało się połączyć z 10.1.3.1:8080:
+Błąd:2 http://security.ubuntu.com/ubuntu xenial-security/main amd64 php7.0-common amd64 7.0.32-0ubuntu0.16.04.1
+  Nie udało się połączyć z 10.1.3.1:8080:
+Błąd:3 http://security.ubuntu.com/ubuntu xenial-security/main amd64 php7.0-json amd64 7.0.32-0ubuntu0.16.04.1
+  Nie udało się połączyć z 10.1.3.1:8080:
+Błąd:4 http://security.ubuntu.com/ubuntu xenial-security/main amd64 php7.0-opcache amd64 7.0.32-0ubuntu0.16.04.1
+  Nie udało się połączyć z 10.1.3.1:8080:
+Błąd:5 http://security.ubuntu.com/ubuntu xenial-security/main amd64 php7.0-readline amd64 7.0.32-0ubuntu0.16.04.1
+  Nie udało się połączyć z 10.1.3.1:8080:
+Błąd:6 http://security.ubuntu.com/ubuntu xenial-security/main amd64 php7.0-cli amd64 7.0.32-0ubuntu0.16.04.1
+  Nie udało się połączyć z 10.1.3.1:8080:
+Błąd:7 http://security.ubuntu.com/ubuntu xenial-security/main amd64 libapache2-mod-php7.0 amd64 7.0.32-0ubuntu0.16.04.1
+  Nie udało się połączyć z 10.1.3.1:8080:
+Błąd:9 http://security.ubuntu.com/ubuntu xenial-security/main amd64 php7.0-cgi amd64 7.0.32-0ubuntu0.16.04.1
+  Nie udało się połączyć z 10.1.3.1:8080:
+Błąd:10 http://security.ubuntu.com/ubuntu xenial-security/main i386 php7.0 all 7.0.32-0ubuntu0.16.04.1
+  Nie udało się połączyć z 10.1.3.1:8080:
+Błąd:10 http://security.ubuntu.com/ubuntu xenial-security/main i386 php7.0 all 7.0.32-0ubuntu0.16.04.1
+  Nie udało się połączyć z 10.1.3.1:8080:
+E: Nie udało się pobrać http://pl.archive.ubuntu.com/ubuntu/pool/main/p/php-defaults/php-common_35ubuntu6.1_all.deb  Nie udało się połączyć z 10.1.3.1:8080 (10.1.3.1). - connect (113: Brak trasy do hosta)
+
+E: Nie udało się pobrać http://security.ubuntu.com/ubuntu/pool/main/p/php7.0/php7.0-common_7.0.32-0ubuntu0.16.04.1_amd64.deb  Nie udało się połączyć z 10.1.3.1:8080:
+
+E: Nie udało się pobrać http://security.ubuntu.com/ubuntu/pool/main/p/php7.0/php7.0-json_7.0.32-0ubuntu0.16.04.1_amd64.deb  Nie udało się połączyć z 10.1.3.1:8080:
+
+E: Nie udało się pobrać http://security.ubuntu.com/ubuntu/pool/main/p/php7.0/php7.0-opcache_7.0.32-0ubuntu0.16.04.1_amd64.deb  Nie udało się połączyć z 10.1.3.1:8080:
+
+E: Nie udało się pobrać http://security.ubuntu.com/ubuntu/pool/main/p/php7.0/php7.0-readline_7.0.32-0ubuntu0.16.04.1_amd64.deb  Nie udało się połączyć z 10.1.3.1:8080:
+
+E: Nie udało się pobrać http://security.ubuntu.com/ubuntu/pool/main/p/php7.0/php7.0-cli_7.0.32-0ubuntu0.16.04.1_amd64.deb  Nie udało się połączyć z 10.1.3.1:8080:
+
+E: Nie udało się pobrać http://security.ubuntu.com/ubuntu/pool/main/p/php7.0/libapache2-mod-php7.0_7.0.32-0ubuntu0.16.04.1_amd64.deb  Nie udało się połączyć z 10.1.3.1:8080:
+
+E: Nie udało się pobrać http://pl.archive.ubuntu.com/ubuntu/pool/main/p/php-defaults/libapache2-mod-php_7.0+35ubuntu6.1_all.deb  Nie udało się połączyć z 10.1.3.1:8080:
+
+E: Nie udało się pobrać http://security.ubuntu.com/ubuntu/pool/main/p/php7.0/php7.0-cgi_7.0.32-0ubuntu0.16.04.1_amd64.deb  Nie udało się połączyć z 10.1.3.1:8080:
+
+E: Nie udało się pobrać http://security.ubuntu.com/ubuntu/pool/main/p/php7.0/php7.0_7.0.32-0ubuntu0.16.04.1_all.deb  Nie udało się połączyć z 10.1.3.1:8080:
+
+E: Nie udało się pobrać http://pl.archive.ubuntu.com/ubuntu/pool/main/p/php-defaults/php_7.0+35ubuntu6.1_all.deb  Nie udało się połączyć z 10.1.3.1:8080:
+
+E: Nie udało się pobrać http://pl.archive.ubuntu.com/ubuntu/pool/main/p/php-defaults/php-cgi_7.0+35ubuntu6.1_all.deb  Nie udało się połączyć z 10.1.3.1:8080:
+
+E: Nie udało się pobrać niektórych archiwów, proszę spróbować uruchomić apt-get update lub użyć opcji --fix-missing.
+Cleaning up...
+Czytanie list pakietów...
+Budowanie drzewa zależności...
+Odczyt informacji o stanie...
+0 aktualizowanych, 0 nowo instalowanych, 0 usuwanych i 1 nieaktualizowanych.
+“Installing additional libraries for 64 bit OS”
+Czytanie list pakietów... Gotowe
+Budowanie drzewa zależności       
+Odczyt informacji o stanie... Gotowe
+libglu1-mesa:i386 is already the newest version (9.0.0-2.1).
+libsm6:i386 is already the newest version (2:1.2.2-1).
+libxext6:i386 is already the newest version (2:1.3.3-1).
+libxrender1:i386 is already the newest version (1:0.9.9-0ubuntu1).
+libfontconfig1:i386 is already the newest version (2.11.94-0ubuntu1.1).
+libglib2.0-0:i386 is already the newest version (2.48.2-0ubuntu4.1).
+libx11-6:i386 is already the newest version (2:1.6.3-1ubuntu2.1).
+0 aktualizowanych, 0 nowo instalowanych, 0 usuwanych i 1 nieaktualizowanych.
+Liquid Galaxy installation completed! :-)
+Press ENTER key to reboot now

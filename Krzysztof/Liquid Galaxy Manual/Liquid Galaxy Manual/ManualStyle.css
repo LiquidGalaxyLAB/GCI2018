@@ -1,0 +1,37 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+#subtitles{
+    float: left;
+    margin-left: 5%;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+a:visited{
+color: blue;
+}
+
+#text{
+    margin: 0 auto;
+    width: 50%;
+    text-align: justify;
+}
+
+h1{
+    font-size: 36px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+content{
+    margin-left: 20px;
+}
+
+code{
+    background-color: #F3F4F4;
+}

@@ -1,0 +1,20 @@
+﻿Earth@Auschwutz-Birkenau @flytoview=<LookAt><longitude>19.1809169964868</longitude><latitude>50.03463895385754</latitude><altitude>4.863414459623967</altitude><heading>-66.45048707346685</heading>
+<tilt>63.00492704026253</tilt><roll>172.8574612552064</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Białowieska Forest@flytoview=<LookAt><longitude>23.7236698802549</longitude><latitude>52.67768200054038</latitude><altitude>0</altitude><heading>38.24122294977745</heading>
+<tilt>56.24322697098454</tilt><roll>22747.35993807601</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Castle of the Teutonic Order in Malbork@flytoview=<LookAt><longitude>19.02744484438814</longitude><latitude>54.0395985318844</latitude><altitude>36.92745556267717</altitude><heading>93.41181073251826</heading>
+<tilt>43.54796755532369</tilt><roll>247.4917303569361</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Centennial Hall@flytoview=<LookAt><longitude>17.07610762916796</longitude><latitude>51.10714090922848</latitude><altitude>3.811754477977592</altitude><heading>121.8274920174114</heading>
+<tilt>56.33248087974578</tilt><roll>315.7622071678923</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Historic Centre of Warsaw@flytoview=<LookAt><longitude>21.01400271562502</longitude><latitude>52.24762910126511</latitude><altitude>0</altitude><heading>26.64521271056291</heading>
+<tilt>55.7755361415602</tilt><roll>231.7096940032122</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Kalwaria Zebrzydowska@flytoview=<LookAt><longitude>19.67730451336637</longitude><latitude>49.86617905322338</latitude><altitude>0</altitude><heading>-20.97184707076621</heading>
+<tilt>45.74805929536537</tilt><roll>809.7351103001935</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Kraków Old Town@flytoview=<LookAt><longitude>19.93679478673693</longitude><latitude>50.06119701336912</latitude><altitude>0</altitude><heading>73.5382886774177</heading>
+<tilt>45.01131543688317</tilt><roll>692.8142581242187</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Medival Town of Toruń@flytoview=<LookAt><longitude>18.6107197518185</longitude><latitude>53.01180020595609</latitude><altitude>0</altitude><heading>-17.0138477275161</heading>
+<tilt>35.86609226848884</tilt><roll>517.1103089960677</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Old City of Zamość@flytoview=<LookAt><longitude>23.25172862036045</longitude><latitude>50.71671670780813</latitude><altitude>0</altitude><heading>68.37696251183886</heading>
+<tilt>57.90762838287159</tilt><roll>371.2470168515368</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Park Mużakowski@flytoview=<LookAt><longitude>14.72388489264989</longitude><latitude>51.54885060390011</latitude><altitude>0</altitude><heading>42.84012444292924</heading>
+<tilt>49.71525057793166</tilt><roll>968.7331333646434</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>

@@ -1,0 +1,602 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="ManualStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <div id="subtitles">           
+            <a href="#introduction">1. Introduction</a> <br>
+            <a href="#settingup">2. Setting up Liquid Galaxy</a><br>
+            <a href="#network">2.1 Network</a><br>
+            <a href="#graphicaldisplay">2.2 Graphical Display</a><br>
+            <a href="#inputdevice">2.3 Input Device</a><br>
+            <a href="#useraccount">2.4 User Account</a><br>
+            <a href="#googleearth">2.5 Google Earth</a><br>
+            <a href="#sshkeysetup">2.6 SSH Key setup</a><br>
+            <a href="#machinecloning">2.7 Machine Cloning</a><br>
+            <a href="#personality">2.8 Personality.sh</a><br>
+            <a href="#spacenavigator">3. Setting up Space Navigator</a><br>
+            <a href="#disabledevice">3.1 (Optionally) Disable mouse device</a><br>
+            <a href="#multiaxisge">3.2 Enable multi-axis support in Google Earth</a><br>
+            <a href="#finetunesettings">3.3 Fine-tune settings</a><br>
+            <a href="#touchscreen">4. TouchScreen</a><br>
+            <a href="#mechanicaldesign">5. MechanicalDesign</a><br>
+            <a href="#findmanufacturer">5.1 Find a manufacturer</a><br>
+            <a href="#getquote">5.2 Get a quote and fabricate</a><br>
+            <a href="#source">5.3 Source and purchase other components</a><br>
+            <a href="#assemble">5.4 Assemble</a><br>
+            <a href="#introductiontocontroller">6. Introduction to Liquid Galaxy Controller</a><br>
+            <a href="#user">6.1 User features</a><br>
+            <a href="#administrative">6.2 Administrative features</a><br>
+            <a href="#categoriespois">6.3 Categories and POIs</a><br>
+            <a href="#tours">6.4 Tours</a><br>
+            <a href="#tools">6.5 Tools</a><br>
+            <a href="#scanbeacon">6.6 Scan Beacon</a><br>
+            <a href="#querytxt">7. QueryTxt</a><br>
+            <a href="#search">7.1 Search</a><br>
+            <a href="#switchingplanets">7.2 Switching planets</a><br>
+            <a href="#flyto">7.3 FlyTo</a><br>
+            <a href="#controllingtours">7.4 Controlling Tours</a><br>
+            <a href="#distributedSquid">8. DistributedSquid</a><br>
+            <a href="#cache">8.1 Why Cache?</a><br>
+            <a href="#tryit">8.2 Try it out!</a><br>
+            <a href="#disablereq">8.3 Disable request batching</a><br>
+            <a href="#keepeye">8.4 Keep an eye on performance</a><br>
+            <a href="#securityconsedirations">9. SecurityConsedirations</a><br>
+        </div>
+        <div id="text">
+            <h1>Liquid Galaxy Manual</h1>
+            <br>
+            <h2 id="introduction">Introduction</h2>
+            <content>
+                This manual will cover administration of Liquid Galaxy stand with Ubuntu machines.
+                The stand consist of:
+                <ul>
+                    <li>Minimum 2 Linux Machines with Liquid Galaxy configured</li>
+                    <li>Space Navigator Joystick</li>
+                    <li>Liquid Galaxy Controller</li>
+                </ul>
+                <br>
+                <img src="Lg-wikipedia.jpg">
+                <h2 id="settingup">Setting up Liquid Galaxy</h2>
+                Requirements
+                Installation system with <a href="https://help.ubuntu.com/community/Installation/LowMemorySystems"></a>command-line
+                install of Ubuntu</a> <br>
+                Or <br>
+                Distributed squid proxy (link to page) <br>
+                • User account name: lg <br>
+                • Machine name: lgX (X is machine number, 1 is master) <br>
+                • Configure LABELs for each of your filesystems so that the disk partitions will mount after cloning
+                <br>
+                the disk to the other machines. Configure your /etc/fstab to mount by <code>LABEL=*</code> instead of
+                by <code>UUID=*.</code> <br>
+                <br>
+                If system is successfully installed and running, add these packages to allow installation of their <br>
+                dependencies: <br>
+                <blockquote>
+                    <pre><code>  apt-get install xinput lxdm xorg rxvt-unicode fvwm fvwm-icons nitrogen
+  graphicsmagick-imagemagick-compat librsvg2-bin subversion build-essential apache2 php5 php5-cgi xdotool squid3 squid3-cgi </code></pre>
+                </blockquote> <br>
+                <br>
+                <h3 id="network">Network</h3>
+                We recommend using gigabit ethernet to connect the machines, but it isn’t really necessary, messages
+                <br>
+                are small, and Google Earth’s bandwidth is limited to your upstream internet. <br>
+                <br>
+                <h3 id="graphicaldisplay">Graphical Display</h3>
+                • Configure Xorg with the touchscreen as its "CorePointer". <br>
+                • If you're using a podium with a touch screen, and your video card supports multi-headed displays, <br>
+                configure the second video card output for use with the touch screen. <br>
+                The <code>/etc/X11/xorg.conf</code> configuration in the source control repository of this project is
+                just one <br>
+                example and may need to be adjusted dramatically to fit your systems. <br>
+                <br>
+
+                <h3 id="inputdevice">Input device</h3>
+                (link to Setting SpaceNavigator) <br>
+                In the source repository: the conf file, <code>gnu_linux/home/lg/etc/shell.conf</code> and a helper
+                script, <br>
+                <code>earth/scripts/write-drivers-ini.sh</code>work together at launch of Google Earth to configure it
+                to use the
+                <br>
+                specified device. <br>
+                <br>
+                <h3 id="useraccount">User Account</h3>
+                • Create a user called "lg" and rsync home/lg from your git checkout to /home/lg. <br>
+                • Rename the files and directories within the <code>home/lg/dotfiles</code> subdirectory to contain a
+                "." (dot) as
+                <br>
+                the first character and place them directly into the user's home directory. (e.g.
+                <code>"home/lg/dotfiles/fvwm2rc"</code> becomes <code>"/home/lg/.fvwm2rc"</code>) <br>
+                • Play close attention to <code>home/lg/dotfiles/xsession</code>, as this is how the window manager is
+                executed upon <br>
+                auto-login by the Display Manager. <br>
+                <br>
+                <h3 id="#googleearth">Google Earth</h3>
+                <br>
+                ViewSync functionality has been in Google Earth since version 5.2. Be sure to download the most recent
+                <br>
+                version and look over the license agreement when you download Google Earth if you have any questions
+                <br>
+                about how you can use it. <br>
+                • Install Google Earth into a directory called <code>/home/lg/earth/builds/5.2.X.XXXX.</code> <br>
+                • Create a symlink in <code>/home/lg/earth/builds directory:</code></code> <br>
+                <blockquote>
+                    <pre><code>$ cd /home/lg/earth/builds</code></pre>
+                </blockquote>
+                <code><pre><blockquote>$ ln -s ./5.2.X.XXXX latest</code></pre>
+                </blockquote>
+                This will let our scripts find your Google Earth install. <br>
+                The <code>earth/config/master</code> and <code>earth/config/slave</code> directories are used by <code>run-earth-bin.sh</code>
+                to overwrite
+                <br>
+                the files in <code>.config/Google/ before starting Google Earth.</code> <br>
+                See the Google Earth ViewSync Document for more information on the specific workings of the ViewSync
+                <br>
+                Feature in Google Earth. <br>
+                <br>
+                <h3 id="sshkeysetup">SSH Key setup</h3>
+                We use SSH extensively to communicate between galaxy nodes. The source repository contains a fairly <br>
+                dangerous clean-ssh.sh file which can be executed with root privileges to initialize various SSH key
+                <br>
+                items including: <br>
+                • generating a keypair for the lg user. <br>
+                • adding the generated keypair to authorized_keys files for root and lg users. <br>
+                • generating all-new host keys for sshd. <br>
+                • adding the host key to known_hosts to squelch warnings. <br>
+                DO NOT use this script on a server or your own desktop system. <br>
+                DO use this script BEFORE cloning to make things easy on yourself. <br>
+                <br>
+
+                <h3 id="machinecloning">Machine cloning</h3>
+
+                Clone the disk of the machine you've completed setting up BEFORE you perform personality assignment in
+                <br>
+                the next section. <br>
+                Try using dd over netcat, or a g4u boot disk. <br>
+                Note that udev likes to remember your network hardware's MAC address, so you may need to edit <br>
+                <code>/etc/udev/rules.d/70-persistent-net.rules</code> just before cloning, so that the new machines
+                don't end up <br>
+                with, eg., eth1 instead of eth0. <br>
+                <br>
+                <h3 id="personality">personality.sh</h3>
+                For Galaxy systems fitting the current MechanicalDesign, we've settled upon a clockwise numbering <br>
+                scheme beginning with the "master" system as 1. Connect any input devices, such as a mouse or <br>
+                multi-axis controller, to "master" system. <br>
+                Setting a personality sets the system hostname and prepares an alias interface ( eth0:0 ) via a new <br>
+                script dropped into <code>/etc/network/if-up.d</code>. Scripts in that directory are executed whenever
+                an interface <br>
+                is brought up. <br>
+                Run this on each machine, where "X" is the screen number (clockwise from the master): <br>
+                <code>$sudo /home/lg/bin/personality.sh X</code> <br>
+
+            </content>
+
+            <content>
+                <h2 id="spacenavigator">Setting up Space Navigator</h2>
+                Make sure your multi-axis device is readable<br>
+                First of all, make sure you <b>don't</b> have 3Dconnexion's drivers installed. The Linux kernel drivers
+                work<br>
+                out of the box, and are what you need for Google Earth.<br>
+                Recent linux kernels will automatically detect your multi-axis device and create a<br>
+                /dev/input/eventNdevice file, for some value of N. To avoid having to figure out which file corresponds<br>
+                to your device, create a udev rule that instructs the system to automatically create a<br>
+                /dev/input/spacenavigator file whenever your multi-axis device is plugged in.<br>
+                As root, create a new file called "/etc/udev/rules.d/90-spacenavigator.rules" (for example, by typing<br>
+                "sudo gedit /etc/udev/rules.d/90-spacenavigator.rules"), containing this single line of text:<br>
+                <br>
+                <code>KERNEL=="event[0-9]*", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="c62[68]", MODE="0664",<br>
+                GROUP="plugdev", SYMLINK+="input/spacenavigator"</code><br>
+                <br>
+                Unplug your multi-axis device and plug it back in, and see if a file called "/dev/input/spacenavigator"<br>
+                appears (for example, by typing "ls -l /dev/input/spacenavigator").<br>
+                If not, you might want to reboot to make sure your udev rule gets read. If it still doesn't work, run<br>
+                "lsusb" and see if your multi-axis device is listed with "ID 046d:c626" (or 046d:c628 for some variants<br>
+                of the SpaceNavigator), matching the idVendor and idProduct fields in the 90-spacenavigator.rules file.<br>
+                If they don't match, you might have to change the idVendor or idProductfield in<br>
+                "/etc/udev/rules.d/90-spacenavigator.rules" to match. You might also try changing 'ATTRS' to 'SYSFS' in<br>
+                both places in the rule.<br>
+                <br>
+                <h3 id="disabledevice">(Optionally) Disable the device as a mouse</h3> <br>
+                Recent versions of xorg automatically detect multi-axis devices and try to use them as mice. The xinput<br>
+                command lets us turn that behavior on and off.<br>
+                First, install xinput if it's not already installed, using your package manager. (For example, "sudo<br>
+                apt-get install xinput").<br>
+                If you're using a SpaceNavigator, this should make it stop behaving like a mouse until you logout or<br>
+                until you unplug it:<br>
+                xinput set-int-prop "3Dconnexion SpaceNavigator" "Device Enabled" 8 0<br>
+                And this should turn the mouse behavior back on:<br>
+                xinput set-int-prop "3Dconnexion SpaceNavigator" "Device Enabled" 8 1<br>
+                If you're using some other multi-axis device, try running "xinput list" to find the name of your<br>
+                device.<br>
+                <br>
+
+                <h3 id="multiaxisge">Enable multi-axis support in Google Earth</h3>
+                First we'll enable support for the SpaceNavigator by adding some settings to Google Earth's drivers.ini<br>
+                file. Make sure you exit Google Earth before editing your drivers.ini.<br>
+                In Linux, the default location is /opt/google-earth if you installed as root, or $HOME/google-earth if<br>
+                you installed as yourself.<br>
+                Open up the drivers.ini using your favorite text editor (for example, "gedit<br>
+                $HOME/google-earth/drivers.ini" or "sudo gedit /opt/google-earth/drivers.ini"), and add the following<br>
+                lines to the first stanza marked "SETTINGS" (between the { and }).<br>
+                <code><br>
+                ; Settings for multi-axis controllers<br>
+                SpaceNavigator/sensitivityX = 0.125<br>
+                SpaceNavigator/sensitivityY = 0.125<br>
+                SpaceNavigator/sensitivityZ = 0.030<br>
+                <br>
+                SpaceNavigator/sensitivityPitch = 0.01<br>
+                SpaceNavigator/sensitivityYaw = 0.004<br>
+                SpaceNavigator/sensitivityRoll = 0.007<br>
+                SpaceNavigator/device = /dev/input/spacenavigator<br>
+                <br>
+                SpaceNavigator/zeroX = 0.0<br>
+                SpaceNavigator/zeroY = 0.0<br>
+                SpaceNavigator/zeroZ = 0.0<br>
+                <br>
+                SpaceNavigator/zeroPitch = 0.0<br>
+                SpaceNavigator/zeroYaw = 0.0<br>
+                SpaceNavigator/zeroRoll = 0.0<br>
+                <br>
+                SpaceNavigator/gutterValue = 0.1</code><br>
+                Close Google Earth and start it up again, and see if it works!<br>
+                <br>
+                <h3 id="finetunesettings">Fine-tune the settings</h3>
+                Six-axis devices like the SpaceNavigator let you move forward, sideways or up and down (by shifting the<br>
+                puck without tilting), or rotate about each axis to create pitch, yaw and roll (by tilting or twisting<br>
+                the puck without shifting it).<br>
+                The "sensitivity" parameters let you control how sharply Google Earth will react to your movements in<br>
+                each of those dimensions.<br>
+                The "zero" parameters let you adjust for a device that doesn't quite rest in the center of its scale.<br>
+                You shouldn't normally need to change them.<br>
+                The "gutter" parameter, however, makes a big difference in how responsive the device feels, by creating<br>
+                a "dead zone" near the center of travel. A larger dead zone means you'll have to move the device<br>
+                farther before Google Earth starts to respond. If you make the gutter value too low, you may find that<br>
+                Google Earth moves even when you aren't touching the device, due to slight variations in the device's<br>
+                position sensors.<br>
+            </content>
+
+            <content>
+                <h2 id="touchscreen">TouchScreen</h2>
+                Some of our Liquid Galaxy installations use an Acer T230H touch screen to display a menu of places to<br>
+                go and an on-screen keyboard for searching: <br><br>
+                <img src="console.jpg">
+                <br><br>
+                In <a href="https://github.com/LiquidGalaxy/liquid-galaxy">our git repository</a>, you'll find a
+                php-interface directory, with a few simple PHP scripts and HTML<br>
+                pages. These live on the "master" computer, and create query.txt files that tell Google Earth where to<br>
+                go. Make sure you read up on the SecurityConsiderations, since anybody who can access the HTML and PHP<br>
+                will be able to use the interface.<br>
+                The computer driving the touch screen (on the second display connector of the graphics card - see our<br>
+                xorg.conf) then displays a web browser (we use chrome) in full-screen mode.<br>
+                The astute reader might think, "Hey! Google Earth and all of the helper scripts are running as the<br>
+                lguser, how do you handle permissions issues for the QueryTxt file?". Well, both the www-data and<br>
+                lgusers can read and execute items within the /lg directory. So we've placed a small setuid-root binary<br>
+                (chown_tmp_query.c source) within /lg which sets ownership and permissions of the query file written by<br>
+                the PHP interface before renaming the query file to be consumed by Google Earth.<br>
+                We mount the touch screen on a podium. Here's a sketchup model of a podium we built from cabinet<br>
+                plywood and painted black:<br><br>
+                <img src="model.jpg">
+            </content>
+            <content>
+                <h2 id="mechanicaldesign">MechanicalDesign</h2>
+                Note that our frames are designed specifically to fit the 55" Samsung UN55B6000 LCD screens we use. You
+                <br>
+                may need to modify the frame design if you plan to use something else.<br>
+                In the Downloads, you'll find:<br>
+                <ul>
+                    </li>
+                    <li>Google Liquid Galaxy 3-1 Mechanicals-External Panels.rar : CAD files and drawings of the
+                        external<br>
+                        panels that surround the Liquid Galaxy</li><br>
+                    <li>Liquid Galaxy 3-1 External Panel Image 1 to 4.rar and Liquid Galaxy 3-1 External Panel Images 4
+                        to<br>
+                        8.rar : the images we used for the external panels that surround the Liquid Galaxy</li><br>
+                    <li>Google Liquid Galaxy Mechanical Specification.pdf : a summary of the critical mechanical
+                        components<br>
+                        you need to build a Liquid Galaxy</li>
+                    <li>Google Liquid Galaxy 3-1 Mechanicals-Frames.rar : all the 3D CAD files (in STP file format) for
+                        the<br>
+                        Liquid Galaxy frames</li>
+                    <li>Google Liquid Galaxy 3-1 Mechanical Installation Guide.pdf : step-by-step instructions for how
+                        to<br>
+                        assemble a set of Liquid Galaxy frames<br>
+                        Building your own Google custom frame<br></li>
+                </ul>
+                <h3 id="findmanufacturer">1. Find a manufacturer<br></h3>
+                You will need to find two different vendors:<br>
+                <ol>
+                    <li>A metal manufacturer who can fabricate the metal frames<br></li>
+                    <li>A signage vendor who can print the external panels.<br></li>
+                </ol>
+                Make sure the signage vendor has the capability of cutting a material called Dibond using a CNC<br>
+                process.<br>
+                <h3 id="getquote">2. Get a quote and fabricate</h3>
+                Once you've selected a manufacturer, you have to get a quote from them that indicates an estimated<br>
+                turnaround time, and an estimated unit cost.<br>
+                You can start the quoting process by sending the manufacturer a quote request form with CAD files and<br>
+                drawings. You can find these files in the archive Google Liquid Galaxy 3-1 Mechanicals-Frames.rar in<br>
+                the <a href="http://code.google.com/p/liquid-galaxy/downloads/list">Downloads</a> section.<br>
+                <br>
+                This folder also includes a Bill of Materials of all the hardware (such as bolts, nuts, etc.) needed to<br>
+                complete the assembly. The BOM can also be passed onto the manufacturer to have them purchase the parts<br>
+                for you and use them to fully assemble each frame segment.<br>
+                <br>
+                Once you get a quote from the manufacturer, you should review it and make any revisions or negotiate<br>
+                the unit cost if necessary. After finalizing the quote and issuing a purchase order, all you will need<br>
+                to do is to wait for the finished frames. You may want to check in between to see if the quality of the<br>
+                frames are up to your standards. You may want to request a midpoint review to examine the frames in<br>
+                person if the manufacturer is local.<br>
+                <br>
+                The same process applies for the external signage. To get a quote, send the vendor the panel images and<br>
+                the CAD files with a quote request form found in the archive <i>Google Liquid Galaxy 3-1<br>
+                    Mechanicals-External Panels.rar, Liquid Galaxy 3-1 External Panel Image 1 to 4.rar and Liquid
+                    Galaxy<br>
+                    3-1 External Panel Images 4 to 8.rar.</i><br>
+                <br>
+                <h3 id="source">3. Source and purchase other components</h3>
+                The list of hardware required is listed in the document Google Liquid Galaxy Mechanical<br>
+                Specifications.pdf .<br>
+                <h3 id="assemble">4. Assemble</h3>
+                In the document Google Liquid Galaxy 3-1 Mechanical Installation Guide , you will find detailed<br>
+                step-by-step instructions of how to put the frames, panels and TVs together.<br>
+            </content>
+
+            <content>
+                <h2 id="introductiontocontroller">Introduction to Liquid Galaxy Controller</h2>
+                <h3 id="user">User features </h3>
+                <br>
+                User has ability to switch planet (Earth, Moon and Mars), choose between different places and pick<br>
+                tours.<br>
+                <h3 id="administrative">Administrative features </h3>
+                <br>
+                Admin can add categories, POIs, Tours, Stand managing tools, LG tasks and Scan beacon.<br>
+                <br>
+                <h3 id="categoriespois">Categories and POIs:</h3>
+                <br>
+                Admin has ability to add POI (Point of Intrest) to Liquid Galaxy stand, when user chooses POI on<br>
+                Controller, Liquid Galaxy “flies” to given position and angle.<br>
+                <a href="examplePOIset.txt">Example POI file</a><br>
+                <br>
+                <h3 id="tours">Tours:</h3>
+                Tours are basically presentation of POIs with interval for each.<br>
+                You can add a tour and edit existing.<br>
+                <br>
+                <h3 id="tools">Tools:</h3>
+                <br>
+                There are 5 tool options
+                <ul>
+                    <li>Import POIS – Import POIs from file or Physical web beacon</li>
+                    <li>Reboot LG – Reboots system</li>
+                    <li>Shut down LG – Shuts down system</li>
+                    <li>Relaunch LG – Relaunches/refreshes system</li>
+                    <li>Clean KMLS – Cleans KML files from your Liquid Galaxy, KML file is file readable by Google<br>
+                        Earth that
+                        contains information of placemark</li>
+                </ul>
+                <br>
+                <h3 id="scanbeacon">Scan beacon</h3>
+                Scans for physical beacons.<br>
+            </content>
+            <br>
+            <content>
+                <h2 id="querytxt">QueryTxt</h2>
+                QueryTxt file is used for controlling Liquid Galaxy, it is sent by controller to master in order to do<br>
+                following things:
+                <ul>
+                    <li>Search</li>
+                    <li>Switching Planets</li>
+                    <li>Fly to view</li>
+                    <li>Controlling Tours</li>
+                </ul>
+                <h3 id="search">Search</h3>
+                If contents of the file are of the form "</code>search=some search string</code>", it performs a search
+                on "some<br>
+                search string" just as if you had typed it into the Search box in Google Earth, then flies to nearest<br>
+                point/result<br>
+                <br>
+                <h3 id="switchingplanets">Switching Planets</h3>
+
+                Switching planets are simple, content of file should be of form <code>planet=planetname</code> (Earth,
+                Moon or<br>
+                Mars).<br>
+                The contents “search=lat,long still work as expected for that planet.<br>
+
+                <br>
+
+
+                <h3 id="flyto">FlyTo</h3>
+
+                To send view to lat, long (place) the KML for a LookAt can be used with “flyview=”<br>
+                Example with San Francisco<br>
+                flytoview=&lt;LookAt&gt;<br>
+                &lt;longitude>-122.4017881321627&lt;/longitude&gt;<br>
+                &lt;latitude>37.79152911640639&lt;/latitude&gt;<br>
+                &lt;altitude>0&lt;/altitude&gt;<br>
+                &lt;heading>167.0211046386626&lt;/heading&gt;<br>
+                &lt;tilt>68.68179673613697&lt;/tilt&gt;<br>
+                &lt;range>774.4323347622752&lt;/range&gt;<br>
+                &lt;altitudeMode>relativeToGround&lt;/altitudeMode&gt;<br>
+                &lt;gx:altitudeMode>relativeToSeaFloor&lt;/gx:altitudeMode&gt;<br>
+                &lt;/LookAt&lt;<br>
+                <br>
+                Just as one of POIs from Introduction to Liquid Galaxy Controller.<br>
+                <br>
+                <h3 id="controllingtours">Controlling Tours</h3>
+                <br>
+                Tours can be started and stopeed with “playtour=” and “exittour=”<br>
+                playtour= expects the name of a tour, i.e. the contents of the "name" element of a "gx:Tour" in a<br>
+                currently loaded kml:<br>
+                <code>playtour=My World Tour</code><br>
+                Where the tour kml looks like:<br>
+                <code>...<br>
+                <gx:Tour><br>
+                    &lt;name>My World Tour&lt;/name&gt;<br>
+                    ...</code><br>
+                exittour= accepts "true", and will always stop a currently running tour:<br>
+                <code>exittour=true</code><br>
+
+            </content>
+
+            <content>
+                <h2 id="distributedsquid">DistributedSquid</h2>
+                <h3 id="cache">Why Cache?</h3>
+                Since Liquid Galaxy involves sending multiple computers to the same place at the same time, it's handy<br>
+                to have a web cache to reduce network load.<br>
+                We use a distributed cache, in which each of the Galaxy machines also runs squid. They're set up to<br>
+                peer with each other, so our 8-machine Galaxy also ends up with an 8-machine squid cluster.<br>
+                <br>
+                There are several ways to do it. Here's how we did it on Ubuntu GNU/Linux machines.<br>
+                We provide links to the individual configuration files you'll need, but you may find it easier to just<br>
+                check out everything using git.<br>
+                <br>
+                <h4>Make sure you're not running a web server on port 80</h4>
+                In the next section, you'll see how we run squid on port 80 as a simple hack to avoid setting firewall<br>
+                rules.<br>
+                <br>
+                If you have a web server running on your machine, squid won't be able to bind to port 80. We moved<br>
+                apache over to port 81. You can see how we did that in the gnu_linux/etc/apache2 directory in our<br>
+                source repository.<br>
+                <br>
+                Make sure you restart apache after changing the config files. <blockquote>
+                    <pre><code> sudo netstat -nlp |head</code></pre>
+                </blockquote> can be a handy<br>
+                way to double check whether anything is listening on port 80.<br>
+                <h4>Set up squid to listen on port 80</h4>
+                <br>
+                Google Earth gets almost all its data from kh.google.com. So rather than doing transparent redirects<br>
+                using a firewall, we just pretend that localhost is kh.google.com, and tell squid to act as a web<br>
+                accelerator on port 80.<br>
+                <br>
+                In git you can find our <code>/etc/squid3/squid.conf </code>and <code>/etc/squid3/cachemgr.conf</code>.<br>
+                They set up squid to listen on port 80 and forward all requests to kh.google.com.<br>
+                <h4>Put kh.google.com in <code>/etc/hosts</code></h4>
+                Next we set up /etc/hosts so that kh.google.com resolves to localhost.<br>
+                <br>
+                But since squid needs to connect to the real kh.google.com, we also create /etc/hosts.squid, and set up<br>
+                the squid.conf to use that file instead of <code>/etc/hosts</code>.<br>
+                Note that our <code>/etc/hosts</code> and hosts.squid also include entries for lg1 through lg8, the
+                other machines<br>
+                in the galaxy. As you can read in the LiquidGalaxyHOWTO, we set up a second IP address for each machine<br>
+                with a static, private IP address so that the machines can always reach each other. Squid uses those<br>
+                aliases in its peer configuration, so make sure you can ping lg1 ... ping lg8.<br>
+                <br>
+
+                <h3 id="tryit">Try it out!</h3>
+                Restart squid with <code>/etc/init.d/squid3</code> restart, then restart Earth on all the machines.<br>
+                If you get an error about not being able to reach kh.google.com, you know you have a problem. Try using<br>
+                a web browser on one of the machines to reach <a href="http://kh.google.com">http://kh.google.com</a>.
+                If you get a Google logo and a "not<br>
+                found" error, you know you can reach kh.google.com successfully.<br>
+                <br>
+                If you have the Squid CGI scripts installed (squid3-cgi), you can visit the cache manager interface on<br>
+                http://localhost:81/cgi-bin/cachemgr3.cgi (did you remember to move Apache to port 81?). Click<br>
+                "Continue...", then check out the "peer cache statistics". You should see each of the peers listed, as<br>
+                well as kh.google.com, and see the cache hit rate for each machines.<br>
+                <br>
+                Don't expect to see huge hit rates for each peer -- if they're set up right as a distributed cache,<br>
+                then each one will only have one slice of the files you need. So for an 8-machine galaxy, you'd only<br>
+                expect about 12% cache hit rate for each host (and 0% for the machine you're currently looking at,<br>
+                since it doesn't need to ask itself for files it already has).<br>
+                <br>
+                <h3 id="disablereq">Disable request batching</h3>
+                Once you have your cache working, you should probably disable request batching. Google Earth sends<br>
+                requests for multiple chunks of data at a time, improving performance by reducing the effects of<br>
+                network latency.<br>
+                <br>
+                But squid has no way of separating those chunks out, so Earth only benefits when it happens to request<br>
+                the same batch of chunks.<br>
+                However, Earth 5.2 includes an option in drivers.ini to disable request batching. This reduces Earth's<br>
+                performance if it's used without a cache, but can improve performance if you are.<br>
+                <br>
+                Edit drivers.ini on each machine (or earth/config/drivers_template.ini if you're using<br>
+                write-drivers-ini.sh as described in the LiquidGalaxyHOWTO), adding the following line to the SETTINGS<br>
+                { } stanza:<br>
+
+                <code>Connection/disableRequestBatching = true</code><br>
+                Restart Earth, and fly around a bit, including somewhere you haven't been before, and verify that the<br>
+                change worked by examining the URLs Earth requests from kh.google.com. One way to do that is to look at<br>
+                <code>/var/log/squid3/access.log</code>.<br>
+                <br>
+                If you see URLs like these:<br>
+                <code>http://kh.google.com/flatfile?q2-031211201120-q.324</code><br>
+                <code> http://kh.google.com/flatfile?f1c-02003332-d.3002.323</code><br>
+                Then it's working. If you see multiple long numbers in URLs, then it's probably not working and you<br>
+                should double-check your drivers.ini.<br>
+                <h3 id="keepeye">Keep an eye on performance</h3>
+                8 machines running Google Earth can generate a lot of network requests. We found that even when using<br>
+                squid on all 8 machines, sometimes Google Earth would really bog down. In our case, it turned out that<br>
+                squid was "spindle-bound" -- the hard drives we were using couldn't seek fast enough to keep up with<br>
+                the requests coming from Earth.<br>
+                <br>
+                The "General runtime information" page in Squid's cachemgr3.cgi is useful for watching squid's<br>
+                performance; in particular, keep an eye on the "Median Service Times" for "Cache Hits"; if cache hits<br>
+                take longer than cache misses, your cache is actually slowing you down!<br>
+                <br>
+                We found that solid state (SSD) hard drives work great due to their random access performance. You may<br>
+                also want to use the "relatime" or even "noatime,nodiratime" mount options to minimize disk activity.<br>
+                <br>
+                <h3 id="commonproblems">Common problems</h3>
+                <h4>Out of memory</h4>
+                If you find squid crashing after a few days or weeks, it may be running out of memory. 32-bit OSes can<br>
+                only give about 3GB of RAM to any individual process, and squid needs several percent of the size of<br>
+                its disk cache in RAM to hold the cache index. This means you may only be able to use, say, 30GB of<br>
+                disk for squid if you're running it on a 32-bit machine.<br>
+                <br>
+                <h4>Out of inodes</h4>
+                Google Earth tends to request small chunks of data, especially if you've disabled request batching. If<br>
+                you're using ubuntu's default ext3/ext4 filesystem and squid is storing its cache as files on your hard<br>
+                drive (<code>/var/spool/squid3 by default</code>), you may run out of inodes if you use a very large
+                cache.<br>
+                <br>
+                The simple thing to do in that case is to clear out the existing cache and reduce the cache size. But<br>
+                you can also find other options in the squid docs, like using a disk partition directly.<br>
+                If you have the option of formatting a new disk partition, you can allocate more inodes to support the<br>
+                large number of small files squid will create. If you do that while installing Ubuntu, for instance,<br>
+                you can set the "Typical usage" to "news".<br>
+            </content>
+
+            <content>
+                <h2 id="securityconsedirations">SecurityConsiderations</h2>
+                Although we've been careful to implement the Liquid Galaxy features as correctly and safely as we can,<br>
+                they are still experimental, and not entirely bug free.<br>
+                If you choose to turn them on, you'll need to control network access<br>
+                to your computers if you want to make sure that other people on the network don't send you unwanted<br>
+                view sync messages.<br>
+                <br>
+                If you're just using Google Earth normally, without using the Liquid Galaxy features described on this<br>
+                site, don't worry. All the features we talk about here are turned off by default.<br>
+                <br>
+                <h3>View Synchronization and the monotonic counter bug</h3><br>
+                Liquid Galaxy works by sending view synchronization messages over the network. The messages are sent as<br>
+                UDP datagrams that describe where you are in Google Earth and where you're looking.<br>
+                In Google Earth 5.2, if you enable ViewSync/receive as we describe in the QuickStart, Google Earth will<br>
+                accept these messages from any source, so it's important to use a firewall or private network to limit<br>
+                who you can receive view sync messages from. (We're trying to improve that behavior in future versions<br>
+                of Google Earth).<br>
+                <br>
+                In particular, there's a message ID field in the view sync messages that's currently used to reject old<br>
+                messages that might arrive out of order. So someone who can reach the UDP port you set in ViewSync/port<br>
+                could send a message with a very high message ID and cause Google Earth to reject future legitimate<br>
+                view sync messages with lower IDs until you re-launch Google Earth. (Sorry about that.)<br>
+                <br>
+                Until then, you can work around this bug by limiting who can reach your UDP port with a firewall. And<br>
+                of course, if you don't need to worry if you're just using Google Earth normally (that is, with<br>
+                ViewSync/receive turned off or omitted from your drivers.ini).<br>
+                <br>
+                <h3>query.txt</h3>
+                Likewise, if you plan to control Google Earth using a <a href="#touchscreen">TouchScreen</a> via the <a href="#querytxt">query.txt</a> interface, you'll<br>
+                want to control who can reach the web pages that make up the user interface for the touch screen.<br>
+                A properly configured firewall can help, as can techniques like setting the web server to only respond<br>
+                to requests from the same computer it's serving from. Or, you could set up a .htpasswd file to require<br>
+                people to login before they can reach the touch screen controls.<br>
+
+            </content>
+        </div>
+    </div>
+</body>
+
+</html>

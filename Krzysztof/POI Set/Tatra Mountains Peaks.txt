@@ -1,0 +1,100 @@
+﻿Earth@BanĂłwka@flytoview=<LookAt><longitude>19.71068223117197</longitude><latitude>49.19816068268026</latitude><altitude>0</altitude><heading>179.1284680542784</heading>
+<tilt>55.97737555891658</tilt><range>90.729259513823</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Baranie Rogi@flytoview=<LookAt><longitude>20.19684917541542</longitude><latitude>49.20198862334966</latitude><altitude>0</altitude><heading>136.6992885222287</heading>
+<tilt>46.30740287417326</tilt><range>211.816026770145</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Baraniec@flytoview=<LookAt><longitude>19.74420006371916</longitude><latitude>49.17309645429924</latitude><altitude>189.2255788789783</altitude><heading>-79.97738444085023</heading>
+<tilt>63.89654829631773</tilt><roll>-0.5101008987901772</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Bradavica@flytoview=<LookAt><longitude>20.15510797895075</longitude><latitude>49.1713365230799</latitude><altitude>0</altitude><heading>17.14731572061218</heading>
+<tilt>52.74669752256796</tilt><range>119.6378917162971</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Durny Szczyt@flytoview=<LookAt><longitude>20.20768187198498</longitude><latitude>49.19778561385773</latitude><altitude>0</altitude><heading>36.69725016344329</heading>
+<tilt>49.14049278935445</tilt><range>364.1241520226441</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Furkaska@flytoview=<LookAt><longitude>19.7898639887622</longitude><latitude>49.26212504928672</latitude><altitude>0</altitude><heading>-114.7863388479444</heading>
+<tilt>53.19000783695581</tilt><range>120.3145533303165</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Ganek@flytoview=<LookAt><longitude>20.10399034202875</longitude><latitude>49.1748898233276</latitude><altitude>0</altitude><heading>-173.8467197918449</heading>
+<tilt>47.2466968003339</tilt><range>222.3326864122435</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Gerlach@flytoview=<LookAt><longitude>20.13316523181963</longitude><latitude>49.16431613092888</latitude><altitude>0</altitude><heading>83.30387888607976</heading>
+<tilt>58.50882749435936</tilt><range>358.9616143819573</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Giewont@flytoview=<LookAt><longitude>19.93405547388476</longitude><latitude>49.25092963256984</latitude><altitude>0</altitude><heading>173.740864023339</heading>
+<tilt>62.19485276220652</tilt><range>69.87824682846983</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Goryczkowa Czuba@flytoview=<LookAt><longitude>19.95688747642055</longitude><latitude>49.23246457628383</latitude><altitude>0</altitude><heading>0.4491925099734053</heading>
+<tilt>56.2809991500186</tilt><range>159.3604856169654</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@HawraĹ@flytoview=<LookAt><longitude>20.19762048716821</longitude><latitude>49.24872713503932</latitude><altitude>0</altitude><heading>10.46002015581455</heading>
+<tilt>54.54596228502624</tilt><range>196.4394651673039</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Hruby Regiel@flytoview=<LookAt><longitude>19.88788177056641</longitude><latitude>49.26806112408882</latitude><altitude>99.73917247492689</altitude><heading>112.9159259247058</heading>
+<tilt>53.97722915622514</tilt><roll>0.7316075662394175</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Hruby Wierch@flytoview=<LookAt><longitude>20.02708632580545</longitude><latitude>49.17071127237635</latitude><altitude>0</altitude><heading>11.76569601332081</heading>
+<tilt>44.47344289405823</tilt><range>221.6210618755531</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Jaworowy Szczyt@flytoview=<LookAt><longitude>20.16841534481649</longitude><latitude>49.18751659881471</latitude><altitude>0</altitude><heading>-0.6419234333165165</heading>
+<tilt>46.35674170129947</tilt><range>168.3335780198215</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Kamienista@flytoview=<LookAt><longitude>19.87027956373312</longitude><latitude>49.19551385903314</latitude><altitude>0</altitude><heading>111.0738287931724</heading>
+<tilt>47.23950766054387</tilt><range>146.2071257458675</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@KieĹźmarski Szczyt@flytoview=<LookAt><longitude>20.2223913440616</longitude><latitude>49.19745717545133</latitude><altitude>488.740901988714</altitude><heading>-31.56583872793431</heading>
+<tilt>36.04154808835278</tilt><roll>-13.7392916485656</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Kominiarski Wierch@flytoview=<LookAt><longitude>19.83567816286789</longitude><latitude>49.24148524466783</latitude><altitude>0</altitude><heading>-140.1693861602805</heading>
+<tilt>59.29989098238982</tilt><range>166.5300420847717</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@KoĹczysta@flytoview=<LookAt><longitude>20.1144993942136</longitude><latitude>49.15749980534292</latitude><altitude>0</altitude><heading>-48.63388603268191</heading>
+<tilt>57.02709947593829</tilt><range>190.8617421069753</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Kozi Wierch@flytoview=<LookAt><longitude>20.02884794327938</longitude><latitude>49.21835866240451</latitude><altitude>0</altitude><heading>136.4329998404917</heading>
+<tilt>50.09590174467432</tilt><range>139.1108111300326</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@KrywaĹ@flytoview=<LookAt><longitude>20.00018845188357</longitude><latitude>49.16239085260641</latitude><altitude>0</altitude><heading>-29.6881741556367</heading>
+<tilt>49.08797838641307</tilt><range>177.3015416111448</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Krzesanica@flytoview=<LookAt><longitude>19.91139151039865</longitude><latitude>49.23055855187241</latitude><altitude>125.3445306222471</altitude><heading>-35.16511510851237</heading>
+<tilt>55.46736204578925</tilt><roll>-14.69599400345647</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Lodowy Szczyt@flytoview=<LookAt><longitude>20.18331470490762</longitude><latitude>49.19833401590908</latitude><altitude>0</altitude><heading>-62.1212576166817</heading>
+<tilt>54.21569503954493</tilt><range>186.9819661213812</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Ĺomnica@flytoview=<LookAt><longitude>20.21359957734408</longitude><latitude>49.19537989463645</latitude><altitude>0</altitude><heading>-34.83014840207349</heading>
+<tilt>71.30406839568413</tilt><range>201.0344719277225</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Ĺysanki@flytoview=<LookAt><longitude>19.91560036484789</longitude><latitude>49.26244622393211</latitude><altitude>0</altitude><heading>145.1713533137348</heading>
+<tilt>45.84141184864112</tilt><range>308.7169780317443</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Miedziane@flytoview=<LookAt><longitude>20.05000368805026</longitude><latitude>49.20162349299148</latitude><altitude>0</altitude><heading>-153.861838691326</heading>
+<tilt>59.88532088001519</tilt><range>104.3721364287101</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Mieguszowiecki Szczyt Wielki@flytoview=<LookAt><longitude>20.0600089218774</longitude><latitude>49.18686408102956</latitude><altitude>0</altitude><heading>-39.45292422444528</heading>
+<tilt>48.48480734391806</tilt><range>113.9033070042036</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Osobita@flytoview=<LookAt><longitude>19.72117478716958</longitude><latitude>49.26128555875438</latitude><altitude>0</altitude><heading>110.9120782345523</heading>
+<tilt>55.16705537592036</tilt><range>101.9283290283365</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Ostra@flytoview=<LookAt><longitude>19.63607133608892</longitude><latitude>49.20091882349558</latitude><altitude>0</altitude><heading>-129.6118119909966</heading>
+<tilt>48.56097321263722</tilt><range>245.6151561617717</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@PachoĹ@flytoview=<LookAt><longitude>19.7032994703743</longitude><latitude>49.20138147519036</latitude><altitude>0</altitude><heading>-44.97967757448024</heading>
+<tilt>47.05772120662861</tilt><range>307.7181107440148</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@PoĹrednia GraĹ@flytoview=<LookAt><longitude>20.19458851434654</longitude><latitude>49.18528368732975</latitude><altitude>0</altitude><heading>-155.979511991231</heading>
+<tilt>42.17227477259561</tilt><range>323.262905849989</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Raczkowa Czuba@flytoview=<LookAt><longitude>19.80076539375625</longitude><latitude>49.193043500359</latitude><altitude>0</altitude><heading>133.4249983548225</heading>
+<tilt>52.19846720265711</tilt><range>147.7736184547049</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Rohacz Ostry@flytoview=<LookAt><longitude>19.7561372772911</longitude><latitude>49.20148658546344</latitude><altitude>388.2409324915135</altitude><heading>129.8086817668981</heading>
+<tilt>43.92363183059313</tilt><roll>-1.161874268593229</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Rysy@flytoview=<LookAt><longitude>20.08764252000072</longitude><latitude>49.17894273979526</latitude><altitude>0</altitude><heading>79.93335673810172</heading>
+<tilt>55.75184445344953</tilt><range>904.59311454877</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Siwy Wierch@flytoview=<LookAt><longitude>19.64231968951646</longitude><latitude>49.21129243300639</latitude><altitude>0</altitude><heading>158.5030871488335</heading>
+<tilt>60.40895894508664</tilt><range>138.8538887672249</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Skalne Pleso@flytoview=<LookAt><longitude>20.2334367572239</longitude><latitude>49.1874577399847</latitude><altitude>21.81893157663111</altitude><heading>-61.28153926892107</heading>
+<tilt>64.01608639346705</tilt><range>324.4858969266098</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@SĹawkowski Szczyt@flytoview=<LookAt><longitude>20.18449223400403</longitude><latitude>49.16621127388059</latitude><altitude>0</altitude><heading>115.0569733602104</heading>
+<tilt>43.64865536772678</tilt><range>241.7452310072964</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@SmreczyĹski Wierch@flytoview=<LookAt><longitude>19.88093597901903</longitude><latitude>49.20345628838279</latitude><altitude>123.2447990659346</altitude><heading>12.2111841310095</heading>
+<tilt>43.14315778646133</tilt><roll>0.5163806202686389</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Smrek@flytoview=<LookAt><longitude>19.74843603509077</longitude><latitude>49.18291856709807</latitude><altitude>0</altitude><heading>-65.4881521804304</heading>
+<tilt>54.28777927255014</tilt><range>441.541918218134</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@StarobociaĹski Wierch@flytoview=<LookAt><longitude>19.81986756633701</longitude><latitude>49.19943930873361</latitude><altitude>0</altitude><heading>86.68682379431851</heading>
+<tilt>60.30132046082873</tilt><range>188.9060082262812</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@SteĹźki@flytoview=<LookAt><longitude>20.27590925658188</longitude><latitude>49.20773504197651</latitude><altitude>0</altitude><heading>135.1547909606657</heading>
+<tilt>50.74620329060197</tilt><range>235.2158051287274</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Ĺwinica@flytoview=<LookAt><longitude>20.00941180171965</longitude><latitude>49.21943586740255</latitude><altitude>0</altitude><heading>1.05455956924981</heading>
+<tilt>63.37944814050869</tilt><range>119.9763156044322</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Szalony Wierch@flytoview=<LookAt><longitude>20.22029739304524</longitude><latitude>49.23662258499029</latitude><altitude>0</altitude><heading>66.51208454697617</heading>
+<tilt>62.31070870088357</tilt><range>120.4551604043734</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Szatan@flytoview=<LookAt><longitude>20.05225014873897</longitude><latitude>49.16422541991261</latitude><altitude>0</altitude><heading>-118.7770237188827</heading>
+<tilt>45.64245315963909</tilt><range>214.0712337699392</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Szeroka JaworzyĹska@flytoview=<LookAt><longitude>20.1324501955692</longitude><latitude>49.21052447363983</latitude><altitude>433.2003724609473</altitude><heading>112.0410899377979</heading>
+<tilt>51.90895392340563</tilt><roll>0.7519361891437306</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Tomanowy Wierch Polski@flytoview=<LookAt><longitude>19.90475841227189</longitude><latitude>49.21287358422963</latitude><altitude>0</altitude><heading>-0.7854108511653942</heading>
+<tilt>48.47782868635164</tilt><range>425.025203034837</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Wielka Kopa Koprowa@flytoview=<LookAt><longitude>19.97378400774034</longitude><latitude>49.20064775607212</latitude><altitude>0</altitude><heading>161.6100602261167</heading>
+<tilt>48.94011005471772</tilt><range>203.6702645286239</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Wielkie Solisko@flytoview=<LookAt><longitude>20.03106558235522</longitude><latitude>49.16164331548964</latitude><altitude>223.1492856615001</altitude><heading>33.40445294592333</heading>
+<tilt>41.85078002386548</tilt><roll>1.521771569397816</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@WoĹowiec@flytoview=<LookAt><longitude>19.76278553935389</longitude><latitude>49.20726736688064</latitude><altitude>0</altitude><heading>95.98399380227468</heading>
+<tilt>33.5891819549195</tilt><range>286.0239879158082</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Zadnia Kopa@flytoview=<LookAt><longitude>19.83095078627353</longitude><latitude>49.17862663488072</latitude><altitude>0</altitude><heading>-57.55836101233425</heading>
+<tilt>43.08744113379259</tilt><range>265.4617191558531</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Zadnia Kopa KoĹcieliska@flytoview=<LookAt><longitude>19.85829003453155</longitude><latitude>49.26072756449369</latitude><altitude>0</altitude><heading>-158.881080542505</heading>
+<tilt>51.53499802792477</tilt><range>232.6339155805428</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>

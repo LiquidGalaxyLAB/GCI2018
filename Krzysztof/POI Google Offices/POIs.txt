@@ -1,0 +1,40 @@
+﻿Earth@Ann Arbor@flytoview=<LookAt><longitude>-83.71453977843366</longitude><latitude>42.30609083636526</latitude><altitude>8.471307188460797</altitude><heading>115.4061600854867</heading>
+                <tilt>52.78679123976062</tilt><roll>186.6054415161525</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Bangalore@flytoview=<LookAt><longitude>77.66014978115989</longitude><latitude>12.99377754434859</latitude><altitude>0</altitude><heading>-29.8548178726161</heading>
+                <tilt>15.01453406307014</tilt><roll>674.2069804894927</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Belo Horizonte@flytoview=<LookAt><longitude>-43.92081908055635</longitude><latitude>-19.9202436733526</latitude><altitude>96.92486623804476</altitude><heading>157.1326527842105</heading>
+                <tilt>49.87549102534073</tilt><roll>453.1248472705556</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Bogota@flytoview=<LookAt><longitude>-74.04704088118332</longitude><latitude>4.678135047335445</latitude><altitude>0</altitude><heading>98.87395567137716</heading>
+                <tilt>14.59652487348049</tilt><roll>147.9901703514526</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Buenos Aires@flytoview=<LookAt><longitude>-58.36685207441313</longitude><latitude>-34.60273118867772</latitude><altitude>18.13746035437492</altitude><heading>81.05719618841127</heading>
+                <tilt>59.38134948679789</tilt><roll>303.3807326736164</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Kuala Lumpur@flytoview=<LookAt><longitude>101.6846004686911</longitude><latitude>3.133809095260395</latitude><altitude>0</altitude><heading>95.66367969063622</heading>
+                <tilt>26.73142817741644</tilt><roll>445.2864728076855</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Lima@flytoview=<LookAt><longitude>-77.02813248669153</longitude><latitude>-12.09371292245748</latitude><altitude>0</altitude><heading>29.5339862697872</heading>
+                <tilt>38.3889754320654</tilt><roll>485.5309935333147</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Montreal@flytoview=<LookAt><longitude>-73.56994324806045</longitude><latitude>45.50155620099011</latitude><altitude>0</altitude><heading>94.38016902459985</heading>
+                <tilt>49.26169198983492</tilt><roll>294.752408805532</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Moscow@flytoview=<LookAt><longitude>37.62611948526873</longitude><latitude>55.74707899713573</latitude><altitude>0</altitude><heading>67.09304769480539</heading>
+                <tilt>45.54449743148345</tilt><roll>168.2838484913428</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Oslo@flytoview=<LookAt><longitude>10.72657122505754</longitude><latitude>59.90992274740877</latitude><altitude>23.87887037793746</altitude><heading>-49.27660231421788</heading>
+                <tilt>62.96587526822452</tilt><roll>163.4059359552381</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Paris@flytoview=<LookAt><longitude>2.330182579502373</longitude><latitude>48.87715503925903</latitude><altitude>5.279418299731818</altitude><heading>32.74392382321528</heading>
+                <tilt>41.23780551653388</tilt><roll>144.8615277818123</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Portland@flytoview=<LookAt><longitude>-122.6777824766016</longitude><latitude>45.52152455876139</latitude><altitude>27.15284984532691</altitude><heading>68.21648613495553</heading>
+                <tilt>44.07721009052531</tilt><roll>171.5706279120264</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Sao Paulo@flytoview=<LookAt><longitude>-46.65004416682471</longitude><latitude>-23.57119145728314</latitude><altitude>33.2170135414447</altitude><heading>-153.4471589595985</heading>
+                <tilt>43.90552932129311</tilt><roll>232.6375690417964</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Sydney@flytoview=<LookAt><longitude>151.195916828145</longitude><latitude>-33.86645650524202</latitude><altitude>22.93112276117763</altitude><heading>-96.78710211706043</heading>
+                <tilt>41.13320768627591</tilt><roll>282.287764968647</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Taipei@flytoview=<LookAt><longitude>121.5650498718178</longitude><latitude>25.03335479391183</latitude><altitude>194.4867453521986</altitude><heading>3.370765338123818</heading>
+                <tilt>22.7877998762333</tilt><roll>776.4445297016057</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Tokyo@flytoview=<LookAt><longitude>139.7296684787358</longitude><latitude>35.66048058163077</latitude><altitude>49.44251696811414</altitude><heading>-46.555624203738</heading>
+                <tilt>31.32502440825029</tilt><roll>629.7468959897745</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Toronto@flytoview=<LookAt><longitude>-79.38428628671277</longitude><latitude>43.65025130626245</latitude><altitude>47.35114594888873</altitude><heading>104.9730395740389</heading>
+                <tilt>50.76766433477436</tilt><roll>247.4729641617326</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Warsaw@flytoview=<LookAt><longitude>21.0020959020767</longitude><latitude>52.23322413816994</latitude><altitude>11.56158533269555</altitude><heading>16.53304320518556</heading>
+                <tilt>54.92986330423517</tilt><roll>580.830409067384</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@Washington@flytoview=<LookAt><longitude>-77.01041214360441</longitude><latitude>38.89839961908329</latitude><altitude>6.67938747078472</altitude><heading>79.61290764171335</heading>
+                <tilt>51.59235835633847</tilt><roll>157.3226359314373</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@WrocĹaw@flytoview=<LookAt><longitude>17.04174131508848</longitude><latitude>51.11798843672617</latitude><altitude>24.73140571056698</altitude><heading>-49.7578892163007</heading>
+                <tilt>46.04627614780272</tilt><roll>195.206310921445</roll><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
