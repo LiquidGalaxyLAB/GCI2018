@@ -1,0 +1,6 @@
+I am almost done with the task. This has definitely been the longest task that I have attempted so far and I think that the reason for that is that there are so many more additionalities to add. My favorite part was transferring all the 132 posts from liquid galaxy labs to my blogspot using a script I wrote. This is the script
+attachment blogger.py (2.5 kB)
+
+Also, the link you have provided seems to redicrect To a go daddy domain. I think you meant this link instead http://www.liquidgalaxylab.com they look completely identical to me yet somehow one loads while one doesn't
+
+The site is hosted at http://lg-website1234.blogspot.com/#/page/1 I have attached the xml and if you visit the site you can see that everything is in working condition, there is also a youtube video at startup, links are valid and all posts have been imported. This was by far my favourite task because of all the additional features that could be implemented. It was also my first time with blogger and it took me a long time to understand JavaScript errors due to a xhtml processing and to understand the special characters which brought up many errors also due to xhtml processsing
