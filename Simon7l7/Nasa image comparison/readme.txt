@@ -1,0 +1,1 @@
+Replace "API KEY HERE" with a nasa / api.data.gov key and "API KEY HERE 2" with a locationiq api key

@@ -1,0 +1,1 @@
+Replace "API KEY HERE" with a google cloud platform api key that has access to the Knowledge Graph Search API
