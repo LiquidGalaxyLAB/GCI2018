@@ -1,0 +1,23 @@
+{
+  "users" : {
+    "KcWyzVOWwIQbdY2auIdjPKIYy703" : {
+      "-LQFGbOoy7PjuvX09B-V" : {
+        "country" : "Japan"
+      }
+    },
+    "cfeG9HDT1QZU8reyDmiI9OzvI7Y2" : {
+      "-LQFGMww6vPPuduIwgeU" : {
+        "country" : "United States"
+      },
+      "-LQFGON5aWepjhp66Eq0" : {
+        "country" : "Spain"
+      },
+      "-LQFGQ0owrsmLOdMm74f" : {
+        "country" : "France"
+      },
+      "-LQFGUkziQUnRnr4XYYZ" : {
+        "country" : "Mexico"
+      }
+    }
+  }
+}
