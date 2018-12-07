@@ -1,0 +1,15 @@
+This is a retinanet network based on a resnet 50 backbone. The implementation is based on the keras implementation of retinanet by u/fizyr.
+I have already trained the model after 450 epochs on google collaboratory. The resulting snapshot is stored in snapshots.
+To run this model
+1. run examples/ResNet50RetinaNet.ipynb with any image of your choice
+	considering that you are an organzation engaged in mapping area. I have also included object detection along with object recognition due to which you will have a bounding box surrounding the recognised object rather than just a probability score.
+To further train this model
+1. run keras_retinanet/bin/train.py
+	using the snapshot provided in the folder snapshot as a starting point
+	the script has a list of all the arguments that it can take
+2. to train the model you would need additional images with two csv files
+3. the first csv file would have annotations in the format, path/to/image.jpg,x1,y1,x2,y2,class_name
+4. the second csv file would have labels in the format class_name,id
+
+Note- due to a lack of available datasets, I had to create my own datatset and manually create bounding boxes due to which the model might have overfitted to the dataset provided
+for more detailed information on how to train and how to run refer to https://github.com/fizyr/keras-retinanet
