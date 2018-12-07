@@ -1,1 +1,0 @@
-I know that the task asked for a local database, however I thought that an online database would be more useful as otherwise each app would run secluded from the others therefore I have added firebase functionality. Each time you submit the survey the app adds the data to the database and then later retrieves it to form the pie chart.

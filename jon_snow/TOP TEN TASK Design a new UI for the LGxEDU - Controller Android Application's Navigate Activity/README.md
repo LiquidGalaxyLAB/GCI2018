@@ -1,5 +1,0 @@
-Hi, as specified I have changed the background to that of a picture of Earth so that the young kids who are using the app can let their imagination wander. Also, just a small suggestion but you might want to update the task on the topic of how to run this code and create a keystore file because by default the app tries to use a key as specified in DebugSignin. However, this key is not a part of the github repo and it takes time to find out how to create a key and then create a build using that key instead. The link i referred to for creating a key was 
-
-I think that you meant this link instead https://github.com/LiquidGalaxyLAB/Liquid-Galaxy-for-Education-Controller Since the link provided doesnt have an android application
-
-And this is the link of the navigate activity java file https://github.com/LiquidGalaxyLAB/Liquid-Galaxy-for-Education-Controller/blob/master/app/src/main/java/com/lglab/merino/lgxeducontroller/activities/NavigateActivity.java If this task could be updated with these links then I think that it would add to the convenience of those who engage with the task after me
