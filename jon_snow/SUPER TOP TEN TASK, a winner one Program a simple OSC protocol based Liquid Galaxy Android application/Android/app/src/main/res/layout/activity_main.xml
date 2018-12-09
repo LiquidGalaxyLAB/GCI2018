@@ -17,12 +17,7 @@
         android:layout_alignParentEnd="true"
         android:orientation="vertical"
         android:padding="16dp">
-        <EditText
-            android:id="@+id/ip"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="IP of master"
-            android:inputType="textUri" />
+
 
         <LinearLayout
             android:layout_width="match_parent"
