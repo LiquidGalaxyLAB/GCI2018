@@ -1,0 +1,1 @@
+The link to the Google Document with the information for every POI is this: https://docs.google.com/document/d/1M3Ns45rzz_HVVXUy4EwwUR6AyGZalBJsObUN_8-TnyY/edit?usp=sharing 

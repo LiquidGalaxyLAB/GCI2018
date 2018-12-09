@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:https="http://schemas.android.com/apk/res-auto">
+
+    <string name="app_name">Controlador de Liquid Galaxy</string>
+    <string name="tittle">Controlador de Liquid Galaxy</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_resetDB">Restablecer base de datos</string>
+    <string name="POIs_button">POIS</string>
+    <string name="TOURs_button">TOURs</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="admin">Herramientas de administración</string>
+    <string name="title_activity_admin">Herramientas de Liquid Galaxy</string>
+    <string name="hello_world">Hola Mundo!</string>
+    <string name="done">Hecho</string>
+    <string name="cancel">Cancelar</string>
+    <string name="incorrect_pass">Contraseña incorrecta</string>
+    <string name="new_poi">Nuevo POI</string>
+    <string name="new_category">Nueva Categoría</string>
+    <string name="new_tour">Nuevo TOUR</string>
+    <string name="create_poi">Crear POI</string>
+    <string name="create_category">Crear Categoría</string>
+    <string name="create_tour">Crear Tour</string>
+    <string name="update_category">Actualizar Categoría</string>
+    <string name="update_tour">Actualizar Tour</string>
+    <string name="update_poi">Actualizar POI</string>
+    <string name="add_pois">Añadir POIs</string>
+    <string name="categories_button">Categorías</string>
+    <string name="edit_poi">Editar</string>
+    <string name="delete_poi">Eliminar</string>
+    <string name="title_activity_create_item">Nuevo Objeto</string>
+    <string name="title_activity_update_item">Actualizar Objeto</string>
+    <string name="new_poi_here">Nuevo POI dentro de esta categoría</string>
+    <string name="new_tour_here">Nuevo TOUR dentro de esta categoría</string>
+    <string name="new_category_here">Nueva Categoría dentro de esta categoría</string>
+    <string name="see_all">Ver todos los elementos</string>
+    <string name="see_by_category">Ver elementos por categoría</string>
+    <string name="next_subcategory">Ver Subcategoría</string>
+    <string name="back">Atrás</string>
+    <string name="back_start">Volver al inicio</string>
+    <string name="global_interval_text">Duración de cada POI (25 por defecto)</string>
+    <string name="tour_pois">Tour POIs</string>
+    <string name="title_activity_help">Ayuda</string>
+    <string name="title_activity_lgpc">Controlador de POIs de Liquid Galaxy</string>
+    <string name="title_section1">Sección 1</string>
+    <string name="title_section2">Sección 2</string>
+    <string name="title_section3">Sección 3</string>
+    <string name="title_activity_lgpcadmin">Administración de Liquid Galaxy</string>
+    <string name="inst_send_POI_tittle"><u>Instrucciones para enviar un POI al sistema Liquid Galaxy:</u></string>
+    <string name="inst_send_POI_">1.	Comprueba que la configuración es correcta haciendo clic en el botón 'Ajustes' situado la esquina superior derecha de la página principal. Si son incorrectos, modificalos. Los ajustes a revisar son: nombre de usuario, contraseña, IP del host y puerto.\n2.	Después de realizar esta comprobación, ya serás capaz de ver un POI en las pantallas de LG.\n</string>
+    <string name="inst_send_TOUR_tittle"><u>Instrucciones para enviar un tour al sistema Liquid Galaxy:</u></string>
+    <string name="inst_send_TOUR">1.	Comprueba que la configuración es correcta haciendo clic en el botón 'Ajustes' situado la esquina superior derecha de la página principal. Si son incorrectos, modificalos. Los ajustes a revisar son: nombre de usuario, contraseña, IP del host y puerto.\n2.	Después de realizar esta comprobación, ya serás capaz de ver un tour en las pantallas de LG.\n3.	Para parar de ver el tour en las pantallas de LG, haz clic en el botón rojo llamado STOP situado en la esquina inferior derecha de la página principal.\n</string>
+    <string name="icons_tittle"><u>Leyenda de inconos</u></string>
+    <string name="add">Tiene doble funcionalidad: la primera y la más usada consiste en añadir un nuevo objeto (POI, tour, categoría) dentro de la base de datos, la segunda consiste en añadir u n POI a un tour cuando el usuario administrador lo está creando o actualizando..</string>
+    <string name="edit">Su función es modificar un objeto existente, ya sea un POI, tour o categoría.</string>
+    <string name="cancelButton">Cancela cualquier operación consistente en crear, actualizar, añadir...</string>
+    <string name="delete">Borra un objeto existente como un POI, tour o categoría.</string>
+    <string name="confirm">Confirma una acción como crear o actualizar un objeto.</string>
+    <string name="stop">Para la vista del tour en el sistema Liquid Galaxy.</string>
+    <string name="addBox">Se usa para añadir un objeto (POI, Tour o categoría) dentro de la categoría que el usuario está viendo, mejor dicho, se añade a la categoría que se está mostrando.</string>
+    <string name="searchText">Haciendo clic en él, el sitio introducido en el campo de la izquierda se busca en la base de datos de Liquid Galaxy.</string>
+    <string name="import_pois_tittle"><u>Instrucciones para importar POIs:</u></string>
+    <string name="import_introduction">Para poder importar POIs se deben tener en cuenta los siguientes pasos obligatorios, pero primero cabe destacar que el proceso de imortación depende del explorador de archivos. El que siempre funciona correctamente se llama Root Explorer: <a href="https://play.google.com/store/apps/details?id=com.speedsoftware.rootexplorer&amp;hl=es">Descarga Root Explorer</a></string>
+    <string name="import_instructions">1.	Crea una carpeta y marcadores en Google Earth de los sitios que quieres guardar.\n2.	Guarda ese lugar (carpeta con todos los POIs) y exportalo como .kmz.\n3.	Extrae el archivo <i>doc.kml</i> que se encuentra en el archivo que acabas de crear.\n4.	Descarga y ejecuta el scrip del siguiente link: <a href="https://github.com/asherat/LG_Benchmarking/blob/master/Tools/kml2query.sh">KML to query.txt</a> escribiendo en la consola: <i>sh kml2query.sh doc.kml</i>\n5.	Obtendrás un archivo <i>query.txt</i>. Este archivo contiene tus POIs. Finalmente solo tienes que cambiar el nombre de eso archivo al de la categoría donde quieres que los POIs se guarden.\n6.	Guarda el archivo <i>CATEGORY_NAME.txt</i> en tu dispositivo.\n7.	Después de estos pasos ve a tu aplicación de LGPC, y en Herramientas de Administración selecciona IMPORTAR POIs.\n8.	Seleciona tu explorador de archivos, preferiblemente Root Explorer, y seleciona el archivo X.txt que quieres importar.\n
+</string>
+    <string name="title_activity_info">Información de Actividad</string>
+    <string name="more_information">Toda la información para ayudarte con los POIs del Controlador de Liquid Galaxy se encuentra en: <a href="https://github.com/LiquidGalaxyLAB/Liquid-Galaxy-POIs-Controller/wiki">Wiki del Controlador de POIs de Liquid Galaxy</a>\n</string>
+
+    <!--Added by Ivan Josa on GSOC 2016-->
+    <!--import dialog-->
+    <string name="import_pois_dialog_title">Importar POIS</string>
+    <string name="import_pois_dialog_msg">Elige el método para importar POIS</string>
+    <string name="import_pois_dialog_fromFile">Importar desde archivo</string>
+    <string name="import_pois_dialog_fromPW">Importar desde Baliza Web Física</string>
+    <!--**********-->
+
+     <!--Beacons-->
+    <string name="discovery_service_prefs_key">org.physical_web.physicalweb.DISCOVERY_SERVICE_PREFS</string>
+    <plurals name="numFoundBeacons">
+        <item quantity="one">Baliza Cercana</item>
+        <item quantity="other">Balizas Cercanas</item>
+    </plurals>
+    <string name="summary_notification_pull_down">Arrastrar hacia abajo para ver más.</string>
+    <string name="nearby_beacon_favicon_content_description">favicon para la URL de esta entrada</string>
+    <string name="notification_view_more_beacons">Ver más Balizas</string>
+    <string name="empty_nearby_beacons_list_text">Buscar Balizas</string>
+    <string name="title_nearby_beacons">Baliza Web Física encontrada</string>
+
+
+
+    <string name="importingContents">Importar Contenidos</string>
+    <string name="parsingError">Parsing Document Error</string>
+    <string name="viewing_poi">Ver POI en LG</string>
+    <string name="parsingContents">Leyendo contenidos de Baliza Web Física</string>
+    <string name="something_wrong">Ups! Algo ha ido mal.</string>
+    <string name="connection_failure">Error al conectar con el sistema Liquid Galaxy. Prueba cambiando el usuario, contraseña, puerto o la IP del host.</string>
+    <string name="please_enter_search">Porfavor, escribre un lugar para buscarlo.</string>
+    <string name="searching">Buscando…</string>
+    <string name="sending_command">Enviando comando a LG</string>
+    <string name="getting_connection">Obteniendo conexión a LG</string>
+    <string name="desc_lg_icon">Liquid Galaxy</string>
+    <string name="context_menu_edit_task">Editar tarea</string>
+    <string name="context_menu_launch_task">Ejecutar un Script en Liquid Galaxy</string>
+    <string name="context_menu_delete_task">Borrar Tarea</string>
+    <string name="are_you_sure">Estás seguro?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="add_task_header">Añadir Nueva Tarea</string>
+    <string name="save_new_task">Guardar</string>
+    <string name="new_task_script">Script de Ejecución</string>
+    <string name="new_task_description">Descripción de tarea</string>
+    <string name="new_task_name">Título de tarea</string>
+    <string name="empty_name_error">Debes escribir un nombre</string>
+    <string name="add_new_task">Añadir nueva tarea</string>
+    <string name="task_added_ok">La tarea se ha creado correctamente</string>
+    <string name="edit_task">Editar Tarea</string>
+    <string name="task_updated_ok">La tarea se ha actualizado correctamente</string>
+
+    <string name="name">Nombre</string>
+
+    <string name="altitude_prompt">Tipo de elevación</string>
+    <string name="place_visit">Lugar para visitar</string>
+    <string name="longitude">Longitud</string>
+    <string name="latitude">Latitud</string>
+    <string name="altitude">Altitud</string>
+    <string name="heading">Grado</string>
+    <string name="tilt">Inclinación</string>
+    <string name="range">Rango</string>
+    <string name="global_interval_tour_text">Intervalo Global (en segundos) para cada POI</string>
+    <string name="error_galaxy">Error al conectar con Liquid Galaxy. Porfavor, prueba a cambiar los ajustes.</string>
+    <string name="error_reading_pois"><![CDATA[Error al leer los POIs. Recuerda que el nombre del POI debe estar entre dos \'@\' y otras características entre \'<featureName>\'.]]></string>
+    <string name="select_task_logo">Selecciona un logo para esta tarea.</string>
+    <string name="task_logo">Logo de tarea.</string>
+    <string name="update_task_logo">Cambiar el Logo de la tarea</string>
+    <string name="delete_task_logo">Eliminar logo de tarea</string>
+    <string name="logOut">Cerrar Sesión</string>
+    <string name="help">Ayuda</string>
+    <string name="administration_tools">Herramientas de administración</string>
+    <string name="category">CATEGORÍA</string>
+    <string name="poi">POI</string>
+    <string name="add_poi">Añadir Poi</string>
+    <string name="add_poi_tour">Añadir POI a un Tour</string>
+    <string name="please_enter_password">Porfavor, escribe la contraseña:</string>
+    <string name="search_some_place">Busca algún sitio en Liquid Galaxy…</string>
+    <string name="seconds">(s)</string>
+    <string name="import_pois">Importar POIs</string>
+    <string name="password">Contraseña</string>
+    <string name="categories">Categorías:</string>
+    <string name="slash">/</string>
+    <string name="relaunch_lg">Recomenzar LG</string>
+    <string name="reboot_lg">Reiniciar LG</string>
+    <string name="shutdown_lg">Apagar LG</string>
+    <string name="pois">POIs</string>
+    <string name="stop_tour">PARAR</string>
+    <string name="new_task_shutdown_script">Script de apagado</string>
+    <string name="new_task_ip">IP donde iniciar la tarea</string>
+    <string name="new_task_user">Usuario SSH</string>
+    <string name="new_task_password">Contraseña SSH</string>
+    <string name="new_task_browser_URL">Abrir URL</string>
+    <string name="context_menu_stop_task">Parar tarea.</string>
+
+    <string name="uploadExecutionFileScript">Subir Script de ejecución</string>
+    <string name="uploadShutdownScript">Subir Script de apagado</string>
+    <string name="visibility">Visibilidad</string>
+    <string name="poiNumericFields">Los atributos \'Longitud, Latitud, Altitud, Grado, Inclinación y Rango\' deben tener un valor numérico.</string>
+    <string name="categoryExists">Esta categoría ya existe. Modifica el atributo \'nombre\'</string>
+    <string name="TourNameExisting">El campo nombre no puede estar vacío. Porfavor, escribe un nombre para el tour.</string>
+    <string name="durationIntervalNumeric">La duración del POI debe estar en segundos (tipo numérico).</string>
+    <string name="typeInterval">Debes escriboir un intervalo de POI global en segundos.</string>
+    <string name="noRouteText">SIN RUTA</string>
+    <string name="taskListHelpTitle">Ayuda de administración de tareas.</string>
+    <string name="playTaskHelpText">Ejecutar el script guardado en la tarea con su configuración, si se ha especificado. Contrariamente, adopta la configuración global de la app.</string>
+    <string name="stopTaskHelpText">Si la tarea se ha ejecutado anteriormente, ejecuta el script de apagado guardado en la tarea.</string>
+    <string name="editTaskHelpText">Editar la configuración de la tarea</string>
+    <string name="deleteTaskHelpText">Elimina la tarea</string>
+    <string name="gotIt">Hecho!</string>
+    <string-array name="altitudeMode">
+        <item>absoluto</item>
+        <item>clampASuelo</item>
+        <item>clampANivelMar</item>
+        <item>relativoASuelo</item>
+        <item>relativoANivelMar</item>
+    </string-array>
+    <string name="taskDialogHelpText"><b>Título</b>: Título de la tarea\n\n
+        <b>Descripción</b>:Descripción de la tarea\n\n
+        <b>Script de Ejecución</b>:El Script que se ejecuta cuando se lanza la tarea\n\n
+        <b>Subir Script de Ejecución</b>:Subir un archivo que contenga el Script de Ejecución\n\n
+        <b>Script de Apagado</b>:El Script que se ejecuta cuando se para la tarea\n\n
+        <b>Subir Script de Apagado</b>:Subir un archivo que contenga el Script de Apagado\n\n
+        <b>IP donde ejecutar la tarea</b>:La IP del server donde la tarea se ejecutará. Si no se especifica se usará el valor predeterminado de los ajustes de la aplicación\n\n
+        <b>Usuario SSH</b>:Usuario para conectarse al servidor via ssh. Si no se especifica se usará el valor predeterminado de los ajustes de la aplicación\n\n
+        <b>Contraseña SSH</b>:Contraseña para conectarse al servidor via ssh. Si no se especifica se usará el valor predeterminado de los ajustes de la aplicación\n\n
+        <b>Abrir URL</b>:Si se especifica, cuando la tarea finalize el Script inicial, se abrirá la URL en un buscador web\n\n
+        <b>Seleccionar un Logo pata esta tarea</b>:Ofrece la posibilidad de subir un aimagen asociada con esta tarea que se mostrará al lado del título de la tarea en la lista\n\n
+        <b>Guardar</b>:Guardar la tarea\n\n
+        <b>Cancelar</b>:Cancelar y cerrar cuador de diálogo
+    </string>
+    <string name="changingPlanet">Cambiando de astro…</string>
+
+    <string name="speech_prompt">Di algo...&#8230;</string>
+    <string name="speech_not_supported">Lo sentimos! Tu dispositivo no soporta entrada por audio.</string>
+    <string name="tap_on_mic">Toca en el mirco para hablar.</string>
+    <string name="bluetoothNotAvailable">El dispositivo no soporta bluetooth.</string>
+
+    <!--TreeView-->
+    <string name="ic_folder">&#xe09d;</string>
+    <string name="ic_keyboard_arrow_down">&#xe0c5;</string>
+    <string name="ic_keyboard_arrow_right">&#xe0c7;</string>
+    <string name="ic_email">&#xe087;</string>
+    <string name="ic_add">&#xe006;</string>
+    <string name="ic_close">&#xe048;</string>
+    <string name="categoriesRoot">Categorías</string>
+    <string name="loadingTree">Cargando…</string>
+    <string name="action_exportDB">Exportar base de datos a almacenamiento local</string>
+    <string name="importAsTourStr">Importar como Tour</string>
+    <string name="tourValues">Crear nuevo Tour</string>
+    <string name="save">Guardar</string>
+    <string name="empty_duration_error">La duración no debe estar vacía</string>
+    <string name="importingContentsTour">Importando contenidos al Tour</string>
+    <string name="cancelImporting">Cancelar Importación</string>
+    <string name="are_you_sure_delete_database">esta acción borrará todos los datos dentro de la aplicación. Estás seguro?</string>
+    <string name="readingFile">Leyendo archivo…</string>
+    <string name="readingFileAndImportingPois">Leyendo POIs e importandolos</string>
+    <string name="deletingPoisInCategory">Eliminando POIs dentro de categoría</string>
+    <string name="viewing_category">Categoría actual: </string>
+    <string name="viewing">Visualizando</string>
+    <string name="inLG">en Liquid Galaxy</string>
+    <string name="visualizationCanceled">Visualización Cancelada</string>
+
+    <string name="show_all">Mostrar todo</string>
+    <string name="showByCategories">Mostrar por categorías</string>
+
+    <!--About dialog-->
+    <string name="about">Acerca De</string>
+    <string name="close">Cerrar</string>
+    <string name="aboutDocText1">Esta app ha sido desarrollada gracias al GSOC 2016 como una continuación del GSOC 2015.</string>
+    <string name="aboutDocText2">Desarrollado originalmente por Rafa Durán Sàez(rafaduransaez@gmail.com) y continuado por Ivan Josa Llovera (ivanjosallovera@gmail.com)</string>
+    <string name="aboutDocText3">https://github.com/LiquidGalaxyLAB/Liquid-Galaxy-POIs-Controller.git</string>
+    <string name="aboutDocText4">Desarrollado gracias a: TIC Laboratories of the Scientific Park of Lleida, Liquid Galaxy LAB &amp; LleidaDrone LAB,  Polytechnic School of Lleida, End Point Corp (NY), Wonderama LAB from Western University (Sydney), Gigabyte, Benq, HP, Corsair, y Hemav Academics.</string>
+    <string name="about_Controller_message">Sobre el Controlador de Liquid Galaxy</string>
+    <string name="hidden">Escondido</string>
+    <string name="visible">Visible</string>
+    <string name="tours">Tours</string>
+    <string name="NO_ROUTE">SIN ROUTE</string>
+
+
+    <string name="speedx2">x2</string>
+    <string name="speedx4">x4</string>
+
+    <string name="speeddiv2">x/2</string>
+    <string name="speeddiv4">x/4</string>
+    <string name="lessSpeed">Menos velocidad de rotación</string>
+    <string name="pref_header_general">Ajustes generales</string>
+    <string name="title_activity_settings">Ajustes</string>
+    <string name="creating_tour">Creando Tour…</string>
+    <string name="server_port">Variable del puerto del servidor para tareas avanzadas</string>
+    <string name="server_ip">Variable de IP del servidor para tareas avanzadas</string>
+    <string name="task_explanation">Las siguientes sustituciones de las variables están disponibles:\n
+        $lgIp: IP del Master LG\n
+        $serverIp: IP del server donde la tarea se ejecutará\n
+        $serverPort: Puerto en el que el buscador se abrirá
+    </string>
+    <string name="stopOtherTasks">Ya hay una tarea ejecutandose. Porfavor, parala antes de ejecutar otra.</string>
+    <string name="taskIpDefault">$serverIp</string>
+    <string name="taskBrowserUrlDefault">$serverIp:$serverPort</string>
+    <string name="clean_KML">Limpiar KMLS</string>
+
+</resources>
