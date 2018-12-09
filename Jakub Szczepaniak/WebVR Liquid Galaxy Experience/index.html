@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <script>
+    AFRAME.registerComponent('cursor-listener', {
+      init: function () {
+        var COLORS = {
+            "#ff0": "#BB0",
+            "#00f": "#009",
+            "#f00": "#B00",
+            "#0f0": "#0A0"
+        };
+        var color = this.el.attributes[3].value 
+        var scene = document.getElementsByTagName("a-scene")
+        console.log(color)
+        this.el.addEventListener('click', function (evt) {
+          scene[0].attributes[0].value = "color: " + COLORS[color];
+        });
+      }
+    });
+    </script>
+    <a-scene background="color: #AAA">
+        <a-plane cursor-listener position="0 0 -2" rotation="0 0 0" color="#ff0" width='0.5', height='1.1'></a-plane>
+        <a-plane cursor-listener position=".75 0 -1.9" rotation="0 -45 0" color="#00f" width='0.5' height='1.2'></a-plane>
+        <a-plane cursor-listener position="-.75 0 -1.9" rotation="0 45 0" color="#f00" width='0.5' height='1.2'></a-plane>
+        <a-plane cursor-listener position="1.5 0 -1.7" rotation="0 -45 0" color="#0f0" width='0.5' height='1.4'></a-plane>
+        <a-plane cursor-listener position="-1.5 0 -1.7" rotation="0 45 0" color="#00f" width='0.5' height='1.4'></a-plane>
+        <a-plane position="0 -1 0" rotation="270 0 90" color="#370" width="64" height='64'></a-plane>
+        <!-- <a-box position="-2 -1 -6" color="#A50" height="3"></a-box>
+        <a-box position="-1.75 1 -5" color="#0d0" height="1.5" width="1.5"></a-box> -->
+        <a-box position="3 -1 0" color="#A50" height="3"></a-box>
+        <a-box position="3 1 0" color="#0d0" height="1" width="2" depth="2"></a-box>
+        <a-box position="-4.5 -1 .5" color="#A50" height="3"></a-box>
+        <a-box position="-4.5 1 .5" color="#0d0" height="1" width="2" depth="2"></a-box>
+        <a-box position="-3.5 -1 0" color="#0d0"></a-box>
+        <a-box position="2.5 -1 1.5" color="#0d0"></a-box>
+        <a-text position=".30 1.1 -2.75" value="Galaxy" rotation="0 -45 0" width="13" height="10"></a-text>
+        <a-text position="-1.75 1.1 -1.5" value="Liquid" rotation="0 45 0" width="13" height="10"></a-text>
+        <a-text position="-1 .5 4" value="Liuqid Galaxy \n CodeIn 2018" rotation="0 180 0" width="13" height="10"></a-text>
+        <a-assets>
+          <a-asset-item id="earth-obj" src="earth.obj"></a-asset-item>
+          <a-asset-item id="earth-mtl" src="earth.mtl"></a-asset-item>
+        </a-assets>
+        <a-obj-model src="#earth-obj" mtl="#earth-mtl" position="1 0 4"></a-obj-model>
+        <a-entity camera look-controls>
+            <a-entity cursor="fuse: false; fuseTimeout: 500"
+                      position="0 0 -1"
+                      geometry="primitive: ring; radiusInner: 0.02; radiusOuter: 0.03"
+                      material="color: black; shader: flat">
+            </a-entity> 
+        </a-entity>
+    </a-scene>
+  </body>
+</html>

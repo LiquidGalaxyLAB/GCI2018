@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Liquid Galaxy</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" />
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper blue">
+                <a href="#" class="brand-logo">Liquid Galaxy</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#overview">OVERVIEW</a></li>
+                    <li><a href="#installations">INSTALLATIONS</a></li>
+                    <li><a href="#something">SOMETHING</a></li>
+                    <li><a href="#participate">WE PARTICIPATE</a></li>
+                    <li><a href="#code">CODE</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div>
+        <div class="carousel carousel-slider">
+            <a class="carousel-item" href="#one!"><img class="responsive-img" src="images/0.jpg"></a>
+            <a class="carousel-item" href="#two!"><img class="responsive-img" src="images/1.jpg"></a>
+            <a class="carousel-item" href="#three!"><img class="responsive-img" src="images/2.jpg"></a>
+            <a class="carousel-item" href="#four!"><img class="responsive-img" src="images/3.jpg"></a>
+            <a class="carousel-item" href="#five!"><img class="responsive-img" src="images/4.jpg"></a>
+            <a class="carousel-item" href="#six!"><img class="responsive-img" src="images/5.jpg"></a>
+            <a class="carousel-item" href="#seven!"><img class="responsive-img" src="images/6.jpg"></a>
+            <a class="carousel-item" href="#eight!"><img class="responsive-img" src="images/7.jpg"></a>
+            <a class="carousel-item" href="#nine!"><img class="responsive-img" src="images/8.jpg"></a>
+            <a class="carousel-item" href="#ten!"><img class="responsive-img" src="images/9.jpg"></a>
+        </div>
+    </div>
+
+    <div id="overview" class="section scrollspy blue">
+        <h1 class="white-text center">OVERVIEW</h1>
+        <div class="row">
+            <div class="col offset-s1 s10">
+                <p class="flow-text white-text">The Liquid Galaxy platform utilizes a cluster of computers,
+                    controllers, and multiple displays to provide an immersive panoramic experience. Starting as a
+                    Google 20% project, the Liquid Galaxy can now be found in over 50 permanent locations globally, as
+                    well as numerous conferences and events.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="installations" class="section scrollspy">
+        <h2 class="blue-text center">INSTALLATIONS</h2>
+        <br>
+        <div id="map"></div>
+    </div>
+
+    <div id="testimonials" class="section scrollspy">
+        <h2 class="blue-text center">TESTIMONIALS</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card horizontal">
+                        <div class="card-content">
+                            <p class="flow-text">“Our visitors love the exhibit. Definitely a hit!”</p>
+                            <p class="right blue-text">~Jeffery Bass, President & CEO, Hiller Aviation Museum</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <div class="card horizontal">
+                        <div class="card-content">
+                            <p class="flow-text">“Everyone thoroughly enjoys the Liquid Galaxy exhibit. Few exhibits at
+                                the Museum have become so popular so fast.”</p>
+                            <p class="right blue-text">~Mel Drumm, Director, Ann Arbor Hands-On Museum</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m7">
+                    <div class="card horizontal">
+                        <div class="card-content">
+                            <p class="flow-text">“We’ve had wonderful visitor feedback about the Liquid Galaxy
+                                display―it was a massive hit! Thank you!”</p>
+                            <p class="right blue-text">~Meg Macdonald, Project Director, Natural History Museum
+                                (England)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m5">
+                    <div class="card horizontal">
+                        <div class="card-content">
+                            <p class="flow-text">“Thank you to the End Point team and I look forward to working with
+                                you all for many years to come!”</p>
+                            <p class="right blue-text">~Matthew S. Cooper, Alex Cooper Real Estate Services</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m7">
+                    <div class="card horizontal">
+                        <div class="card-content">
+                            <p class="flow-text">“I sing the praises of End Point to anyone who listens. … I can’t tell
+                                you how grateful I am that I made the decision to go with End Point.”</p>
+                            <p class="right blue-text">~Jared Loftus, CEO & Founder, College District</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="participate" class="section scrollspy blue">
+        <h2 class="center white-text">WE PARTICIPATE</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l6">
+                    <div class="card indigo">
+                        <div class="card-content">
+                            <span class="card-title white-text text-darken-4">Google Summer Of Code</span>
+                            <p class="center"><img class="responsive-img" src="images/gsoc.png"></p>
+                        </div>
+                        <div class="card-action">
+                            <a class="waves-effect waves-teal btn-large light-blue accent-4" target="blank" href="http://www.liquidgalaxylab.com/2016/05/introduction-to-gsoc.html">Link</a>
+                            <a class="waves-effect waves-teal btn-large light-blue accent-4 modal-trigger" href="#modal-gsoc">Projects</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 l6">
+                    <div class="card indigo">
+                        <div class="card-content">
+                            <span class="card-title white-text text-darken-4">Google Code-In</span>
+                            <p class="center"><img class="responsive-img" src="images/code-in.png"></p>
+                        </div>
+                        <div class="card-action">
+                            <a class="waves-effect waves-teal btn-large light-blue accent-4" target="blank" href="http://www.liquidgalaxylab.com/2017/11/introduction.html">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="code" class="section scrollspy">
+        <h2 class="center blue-text">CODE</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l4">
+                    <div class="card horizontal">
+                        <div class="card-stacked">
+                            <div class="card-content blue">
+                                <p class="white-text">Get the Code</p>
+                            </div>
+                            <div class="card-action">
+                                <a class="blue-text" target="blank" href="https://github.com/liquidgalaxy/liquid-galaxy/">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m12 l4">
+                    <div class="card horizontal">
+                        <div class="card-stacked">
+                            <div class="card-content blue">
+                                <p class="white-text">Wiki</p>
+                            </div>
+                            <div class="card-action">
+                                <a class="blue-text" target="blank" href="https://github.com/liquidgalaxy/liquid-galaxy/wiki">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m12 l4">
+                    <div class="card horizontal">
+                        <div class="card-stacked">
+                            <div class="card-content blue">
+                                <p class="white-text">Submit an Issue</p>
+                            </div>
+                            <div class="card-action">
+                                <a class="blue-text" target="blank" href="https://github.com/liquidgalaxy/liquid-galaxy/issues">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="section scrollspy blue">
+        <h2 class="white-text center">CONTACT</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l6">
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-title">Email</span>
+                            <p>ask@endpoint.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 l6">
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-title">Phone</span>
+                            <p> +1 212-929-6923</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer footer-copyright blue darken-2">
+        <div class="container">
+            © END POINT CORPORATION
+            <a class="grey-text text-lighten-4 right">Created by Jakub Szczepaniak on Code-In 2018</a>
+        </div>
+    </footer>
+
+    <div id="modal-gsoc" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <h3>Google Summer of Code Projects</h3>
+
+            <h4>2017</h4>
+            <ul>
+                <li><a href="https://summerofcode.withgoogle.com/archive/2017/projects/6074492237381632/">Ivan Josa -
+                        Fly Over Your Big Data</a></li>
+                <li><a href="https://summerofcode.withgoogle.com/archive/2017/projects/6707810934980608/">Javier Calvo
+                        García- SAVT (Smart Agro Visualization Tool)</a></li>
+                <li><a href="https://summerofcode.withgoogle.com/archive/2017/projects/5863566930345984/">Guillem
+                        Barbosa - Wikimedia Data Liquid Galaxy</a></li>
+            </ul>
+            <h4>2016</h4>
+            <ul>
+                <li><a href="https://github.com/LiquidGalaxyLAB/Liquid-Galaxy-POIs-Controller">Ivan Josa - Liquid
+                        Galaxy POIs Controller</a></li>
+                <li><a href="https://github.com/LiquidGalaxyLAB/IBRI">Moises Lodeiro - Interactive Beacon Rescue
+                        Interface</a></li>
+                <li><a href="https://github.com/LiquidGalaxyLAB/PILT">Marc Gonzalez - Panoramic Interactive Live
+                        Tracker</a></li>
+                <li><a href="https://github.com/LiquidGalaxyLAB/asherat666-lg-potree">Ismael Arroyo - Point Cloud
+                        Visualization Tool for Liquid Galaxy</a></li>
+                <li><a href="https://github.com/LiquidGalaxyLAB/DLP">Drone Logistics Platform</a></li>
+                <li><a href="https://github.com/LiquidGalaxyLAB/PhysicalWebLGPoiReader">Ivan Josa Llovera - Physical
+                        Web LG POI Reader</a></li>
+                <li><a href="https://github.com/abhishekvp/cesium-lg">Abhishek Potnis - Enabling Cesium for Liquid
+                        Galaxy</a></li>
+            </ul>
+
+            <h4>2015</h4>
+            <ul>
+                <li><a href="https://github.com/LiquidGalaxyLAB/FAED">Julio Bondia - FAED Display</a></li>
+                <li>Nicholas Verstegen - Panorama Database</li>
+                <li>Ying Nie - Baidu Street View</li>
+                <li><a href="https://github.com/LiquidGalaxyLAB/ViewYourData">Marc Solé Farré - View Your Data</a></li>
+                <li>Rafael Duran - Android Point-of-Interest Controller</li>
+                <li>Revanth NR - Stellarium</li>
+            </ul>
+
+            <h4>2014</h4>
+            <ul>
+                <li>Zhuming Hao - Chinese Street View for the Peruse-a-Rue application</li>
+                <li>Carlos de Dios Felis - video conferencing with multi-parties on Liquid Galaxy</li>
+                <li>Marc Gonzalez Capdevila - dynamic activities with Interactive Spaces toolkit</li>
+                <li>Adnan Zahid - multi-screen web-browsing experience</li>
+                <li>Ismael Arroyo - benchmarking system performance</li>
+            </ul>
+
+            <h4>2013</h4>
+            <ul>
+                <li>Mihai and Randy - multi-screen video conferencing for Liquid Galaxy</li>
+                <li>Joan - accessing OpenDAI geospatial data</li>
+                <li>Ismael - benchmarking and performance metrics for Liquid Galaxy systems</li>
+            </ul>
+
+            <h4>2012</h4>
+            <ul>
+                <li>Babak - Microsoft Kinect navigation control on Google Earth</li>
+                <li>Paul - further development of ClusterGL for immersive OpenGL applications</li>
+                <li>Zhumin - Liquid Galaxy synchronization with JavaScript</li>
+            </ul>
+
+            <h4>2011</h4>
+            <ul>
+                <li><a href="https://github.com/reesebutler/Android-accelerometer-and-touch-screen-control">Reese -
+                        Android control of Google</a></li>
+                <li><a href="https://github.com/bieh/clustergl">Paul - ClusterGL for immersive OpenGL applications</a></li>
+                <li><a href="https://github.com/bwright/gsoc2011">Ben - view synchronization to the IrrLicht Engine</a></li>
+            </ul>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
+    <script src="js/installations.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
