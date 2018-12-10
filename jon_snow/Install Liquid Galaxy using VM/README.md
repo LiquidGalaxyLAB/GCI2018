@@ -1,1 +1,0 @@
-Hi, as you can see in the picture, the two instances have different IP addresses, this ip is also different from that of the actual pc and thus these instances can be reached to from any computer on the network. The uncompressed video is at https://drive.google.com/open?id=1zqRHut8lKR2z9mYQU6iyI0cNr98sfmZS

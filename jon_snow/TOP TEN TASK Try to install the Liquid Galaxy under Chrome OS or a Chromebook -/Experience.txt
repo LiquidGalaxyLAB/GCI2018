@@ -1,5 +1,0 @@
-My experience with the instalaltion was pretty great. ChromeOS was very responsive and beautiful as other operating systems based on linux. However, crouton was a bit lagging.
-For example i couldn't left click using my touchpad and had to use the keys instead. Also, the installation script stopped while installing drivers for a 64 bit pc and i had download the script and manually install those packages
-Couple of other problems that i faced was that nano had to be manually installed and that ifconfig was being over written by the ip command. So, i had to specify the location of where the ifconfig command is located
-
-Other than that, it was an easy installation and i had fun doing it
