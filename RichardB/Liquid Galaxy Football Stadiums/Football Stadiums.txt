@@ -1,0 +1,29 @@
+Earth@National Arena@flytoview=<LookAt><longitude>26.15281648081269</longitude><latitude>44.4369423372941</latitude><altitude>0</altitude><heading>0.0002087879298787003</heading><tilt>26.42321460215501</tilt><range>862.7589615057785</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Dan Păltinișanu Stadium@flytoview=<LookAt><longitude>21.24438919737158</longitude><latitude>45.7401972306277</latitude><altitude>0</altitude><heading>0.0001997387915724848</heading><tilt>22.97364005690204</tilt><range>632.0402208190209</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Iftimie Ilisei Stadium@flytoview=<LookAt><longitude>28.25788038571048</longitude><latitude>44.24790614910652</latitude><altitude>0</altitude><heading>9.277915453959538e-005</heading><tilt>19.64521368031684</tilt><range>340.320933041784</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Ion Oblemenco Stadium@flytoview=<LookAt><longitude>23.78430371678718</longitude><latitude>44.31413296393571</latitude><altitude>0</altitude><heading>-3.554906498942687e-005</heading><tilt>37.62216858875515</tilt><range>422.4835738422596</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Cluj Arena@flytoview=<LookAt><longitude>23.57241063643818</longitude><latitude>46.76819739290577</latitude><altitude>0</altitude><heading>-6.924204306035172e-005</heading><tilt>33.50476840225484</tilt><range>440.5404761413083</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Dr. Constantin Rădulescu Stadium@flytoview=<LookAt><longitude>23.57778085109279</longitude><latitude>46.7795793469164</latitude><altitude>0</altitude><heading>0.0003215813580328333</heading><tilt>40.0190507642883</tilt><range>307.1047612985523</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Danube Stadium@flytoview=<LookAt><longitude>28.02415559671051</longitude><latitude>45.42037478347762</latitude><altitude>0</altitude><heading>0.001209488391747872</heading><tilt>39.22498939339833</tilt><range>422.2035766917466</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Ceahlăul Stadium@flytoview=<LookAt><longitude>26.35462701676286</longitude><latitude>46.9383906728577</latitude><altitude>0</altitude><heading>-6.441322223646535e-006</heading><tilt>21.56758288392637</tilt><range>420.4499877762445</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Viitorul Stadium@flytoview=<LookAt><longitude>24.55175698529172</longitude><latitude>44.5924361293989</latitude><altitude>0</altitude><heading>0.001440784065906131</heading><tilt>22.48079368349771</tilt><range>472.9432975552217</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Municipal Stadium Bacău@flytoview=<LookAt><longitude>26.91457697748323</longitude><latitude>46.55700014989808</latitude><altitude>0</altitude><heading>-0.006358340276029942</heading><tilt>18.78709475638924</tilt><range>582.158589873326</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Michael Klein Stadium@flytoview=<LookAt><longitude>22.91389404436863</longitude><latitude>45.76134972773073</latitude><altitude>0</altitude><heading>-0.004923451409018168</heading><tilt>19.93575709524578</tilt><range>599.3404100760643</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Farul Stadium@flytoview=<LookAt><longitude>28.6396477250758</longitude><latitude>44.19720053129608</latitude><altitude>0</altitude><heading>0.01101434250300741</heading><tilt>39.78212684386244</tilt><range>547.0654119843214</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Jiul Stadium@flytoview=<LookAt><longitude>23.3681141025526</longitude><latitude>45.40795912285775</latitude><altitude>0</altitude><heading>-0.0355184055953073</heading><tilt>22.40075844972808</tilt><range>437.0843654689585</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Municipial Stadium Brăila@flytoview=<LookAt><longitude>27.94716361084848</longitude><latitude>45.25790225774708</latitude><altitude>0</altitude><heading>0.0008020303595561828</heading><tilt>21.61935574165685</tilt><range>425.7591612601127</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Municipial Stadium Drobeta-Turnu Severin@flytoview=<LookAt><longitude>22.66783663484292</longitude><latitude>44.63858401089588</latitude><altitude>0</altitude><heading>0.007777037023700127</heading><tilt>27.60080604722268</tilt><range>381.9658965500437</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>

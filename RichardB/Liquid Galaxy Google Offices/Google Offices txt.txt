@@ -1,0 +1,59 @@
+Earth@Mountain View-HQ@flytoview=<LookAt><longitude>-122.0829266485753</longitude><latitude>37.42213965100863</latitude><altitude>0</altitude><heading>-8.541705865181601</heading><tilt>38.4234069051214</tilt><range>655.2357369096792</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Ann Arbor@flytoview=<LookAt><longitude>-83.71288353364361</longitude><latitude>42.30620799257338</latitude><altitude>0</altitude><heading>0.0009917762379094992</heading><tilt>17.80831863679236</tilt><range>594.0542331708225</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Atlanta@flytoview=<LookAt><longitude>-84.38693188598906</longitude><latitude>33.78164926221624</latitude><altitude>59.08136085419472</altitude><heading>0.0001074733020949331</heading><tilt>30.54436757509625</tilt><range>458.3150178971755</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Austin@flytoview=<LookAt><longitude>-97.74901090937853</longitude><latitude>30.26596852669714</latitude><altitude>119.588230816212</altitude><heading>0.0002786979764244674</heading><tilt>27.7685066569063</tilt><range>444.5096062943039</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Birmingham@flytoview=<LookAt><longitude>-83.21630389973323</longitude><latitude>42.54760320632917</latitude><altitude>15.67474257433962</altitude><heading>6.264160127285778e-005</heading><tilt>40.5206046148959</tilt><range>303.2471636526833</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Bothell@flytoview=<LookAt><longitude>-122.1821699603729</longitude><latitude>47.77394079989249</latitude><altitude>9.742225254233814</altitude><heading>0.0001230496959440712</heading><tilt>22.11156055172648</tilt><range>527.4836629400244</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Boulder@flytoview=<LookAt><longitude>-105.2601882552296</longitude><latitude>40.02142658228549</latitude><altitude>7.426048137589048</altitude><heading>3.95236045759631e-005</heading><tilt>18.86924936453166</tilt><range>600.7976474021764</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Cambridge@flytoview=<LookAt><longitude>-71.08699632340375</longitude><latitude>42.36271294476204</latitude><altitude>16.12608596767107</altitude><heading>0.000183191696065504</heading><tilt>42.80238846953547</tilt><range>273.274526813691</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Chapel Hill@flytoview=<LookAt><longitude>-79.05835514254082</longitude><latitude>35.91242275787115</latitude><altitude>11.4774375989128</altitude><heading>5.024403965792406e-006</heading><tilt>41.39174125495461</tilt><range>204.2351685424903</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Chicago@flytoview=<LookAt><longitude>-87.65243512524917</longitude><latitude>41.88701602058647</latitude><altitude>38.44403485687496</altitude><heading>2.540272633828242e-005</heading><tilt>37.85735970861685</tilt><range>346.4018824640451</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Irvine@flytoview=<LookAt><longitude>-117.8594737221426</longitude><latitude>33.65870184764258</latitude><altitude>18.89774172022338</altitude><heading>6.184703304531035e-005</heading><tilt>29.50059307838167</tilt><range>464.493419026847</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Kirkland@flytoview=<LookAt><longitude>-122.1968682899324</longitude><latitude>47.66931167335945</latitude><altitude>8.086480427042865</altitude><heading>0.0001009461762351154</heading><tilt>28.24553740618075</tilt><range>343.6486127725011</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Los Angeles@flytoview=<LookAt><longitude>-118.4766986281968</longitude><latitude>33.99537555158725</latitude><altitude>11.48481075740072</altitude><heading>-1.330923004008496e-006</heading><tilt>24.25490859208892</tilt><range>271.0919295612009</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Miami@flytoview=<LookAt><longitude>-80.19277715566823</longitude><latitude>25.75877931615478</latitude><altitude>0</altitude><heading>0.0001092381636208982</heading><tilt>32.72990165942889</tilt><range>476.9582240815161</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@New York@flytoview=<LookAt><longitude>-74.00267157887184</longitude><latitude>40.74170809099165</latitude><altitude>21.78482527435221</altitude><heading>0.003247903993284773</heading><tilt>41.78610332865207</tilt><range>634.5184544838229</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Pittsburgh@flytoview=<LookAt><longitude>-79.91612919617205</longitude><latitude>40.45700416536569</latitude><altitude>22.67857427791042</altitude><heading>-4.222467588460351e-005</heading><tilt>30.88323725664518</tilt><range>438.1750327098884</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@San Bruno@flytoview=<LookAt><longitude>-122.4264549</longitude><latitude>37.62815760000001</latitude><altitude>0</altitude><heading>-3.180554681463517e-015</heading><tilt>0</tilt><range>1189.274436887082</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@San Diego@flytoview=<LookAt><longitude>-117.1801788104709</longitude><latitude>32.90961339516895</latitude><altitude>0</altitude><heading>0.0009456519401921464</heading><tilt>5.320546987294823</tilt><range>2043.667403578394</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@San Francisco@flytoview=<LookAt><longitude>-122.389913</longitude><latitude>37.7899545</latitude><altitude>0</altitude><heading>-1.908332808878109e-014</heading><tilt>0</tilt><range>1186.681293997835</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Seattle@flytoview=<LookAt><longitude>-122.3505347</longitude><latitude>47.64929730000001</latitude><altitude>0</altitude><heading>9.54166404439055e-015</heading><tilt>0</tilt><range>1011.600692654851</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Washington@flytoview=<LookAt><longitude>-77.01047490000001</longitude><latitude>38.898505</latitude><altitude>0</altitude><heading>-1.590277340731759e-014</heading><tilt>0</tilt><range>1168.657255211046</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Buenos Aires@flytoview=<LookAt><longitude>-58.36685479999998</longitude><latitude>-34.60250910000001</latitude><altitude>0</altitude><heading>-3.180554681463516e-015</heading><tilt>0</tilt><range>1236.011214041971</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Sydney@flytoview=<LookAt><longitude>151.1958561</longitude><latitude>-33.86648900000001</latitude><altitude>0</altitude><heading>1.431249606658582e-014</heading><tilt>0</tilt><range>1246.861760424448</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Vienna@flytoview=<LookAt><longitude>16.36856253494208</longitude><latitude>48.20945389840341</latitude><altitude>0</altitude><heading>-0.001971747636107136</heading><tilt>24.2803280444735</tilt><range>393.5501612972071</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Brussels@flytoview=<LookAt><longitude>4.38101422424025</longitude><latitude>50.83927906770989</latitude><altitude>0</altitude><heading>-8.145299918405052e-006</heading><tilt>24.50881921803894</tilt><range>208.2652207994825</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Belo Horizonte@flytoview=<LookAt><longitude>-43.94061348872061</longitude><latitude>-19.92934921062785</latitude><altitude>0</altitude><heading>-4.410702345200546e-005</heading><tilt>26.64502713000908</tilt><range>189.2853232341423</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@São Paulo@flytoview=<LookAt><longitude>-46.68680718965361</longitude><latitude>-23.5773693804379</latitude><altitude>0</altitude><heading>-2.189419165522006e-005</heading><tilt>24.53654099043176</tilt><range>195.2480964238497</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Montreal@flytoview=<LookAt><longitude>-73.57017350890155</longitude><latitude>45.50186580297373</latitude><altitude>0</altitude><heading>5.997060421504124e-006</heading><tilt>30.0002503297577</tilt><range>54.42129232930495</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Toronto@flytoview=<LookAt><longitude>-79.38395503470923</longitude><latitude>43.65025126812135</latitude><altitude>0</altitude><heading>99.83771586778101</heading><tilt>31.27141686871551</tilt><range>55.71957616990147</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Stockholm@flytoview=<LookAt><longitude>18.05448077765562</longitude><latitude>59.33345280701686</latitude><altitude>0</altitude><heading>1.641033585550814e-005</heading><tilt>30.00030973802796</tilt><range>68.91366469829967</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
