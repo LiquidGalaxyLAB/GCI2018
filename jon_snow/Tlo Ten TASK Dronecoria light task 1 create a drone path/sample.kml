@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <Style id="4">
+            <LineStyle id="5">
+                <color>ffcbc0ff</color>
+                <colorMode>normal</colorMode>
+                <width>5</width>
+            </LineStyle>
+        </Style>
+        <Style id="8">
+            <LabelStyle id="9">
+                <color>ff0000ff</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="12">
+            <LabelStyle id="13">
+                <color>ff0000ff</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="16">
+            <LabelStyle id="17">
+                <color>ff0000ff</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="20">
+            <LabelStyle id="21">
+                <color>ff0000ff</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="24">
+            <LabelStyle id="25">
+                <color>ff0000ff</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="28">
+            <LabelStyle id="29">
+                <color>ff0000ff</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="32">
+            <LabelStyle id="33">
+                <color>ff0000ff</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="36">
+            <LabelStyle id="37">
+                <color>ff0000ff</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+            </LabelStyle>
+        </Style>
+        <Placemark id="3">
+            <name>trajectory</name>
+            <description>trajectory</description>
+            <styleUrl>#4</styleUrl>
+            <LineString id="2">
+                <coordinates>43.1725,-77.6192,0.0 43.1725,-77.6192,0.0 43.1728,-77.6195,0.0 43.173,-77.6198,0.0 43.1725,-77.6208,0.0 43.1719,-77.6216,0.0 43.1719,-77.6216,0.0 43.1719,-77.6216,0.0</coordinates>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LineString>
+        </Placemark>
+        <Placemark id="7">
+            <name>1</name>
+            <description/>
+            <styleUrl>#8</styleUrl>
+            <Point id="6">
+                <coordinates>43.1725,-77.6192,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="11">
+            <name>2</name>
+            <description/>
+            <styleUrl>#12</styleUrl>
+            <Point id="10">
+                <coordinates>43.1725,-77.6192,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="15">
+            <name>3</name>
+            <description/>
+            <styleUrl>#16</styleUrl>
+            <Point id="14">
+                <coordinates>43.1728,-77.6195,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="19">
+            <name>4</name>
+            <description/>
+            <styleUrl>#20</styleUrl>
+            <Point id="18">
+                <coordinates>43.173,-77.6198,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="23">
+            <name>5</name>
+            <description/>
+            <styleUrl>#24</styleUrl>
+            <Point id="22">
+                <coordinates>43.1725,-77.6208,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="27">
+            <name>6</name>
+            <description/>
+            <styleUrl>#28</styleUrl>
+            <Point id="26">
+                <coordinates>43.1719,-77.6216,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="31">
+            <name>7</name>
+            <description/>
+            <styleUrl>#32</styleUrl>
+            <Point id="30">
+                <coordinates>43.1719,-77.6216,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="35">
+            <name>8</name>
+            <description/>
+            <styleUrl>#36</styleUrl>
+            <Point id="34">
+                <coordinates>43.1719,-77.6216,0.0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>

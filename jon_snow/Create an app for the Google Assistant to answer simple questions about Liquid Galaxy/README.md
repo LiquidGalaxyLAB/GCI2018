@@ -1,0 +1,1 @@
+Hi, The uncompressed video is at https://drive.google.com/open?id=186oq571-UT70asZ7zxxzDBw5i-0GVEcN. I have also enabled small talk thus making the chat bot a lot more reactive and diverse. Also, i have attached the exported intent settings as i didn't know what three screenshots were required
