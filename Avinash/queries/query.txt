@@ -1,0 +1,55 @@
+CREATE DATABASE LG;
+USE LG;
+CREATE TABLE Countries (
+idCountry integer Primary Key,
+Name varchar(25));
+
+CREATE TABLE TouristPlaces(
+idTouristicP integer Primary Key,
+idCountry integer,
+name varchar(25),
+FOREIGN KEY (idCountry) REFERENCES Countries(idCountry));
+
+
+CREATE TABLE PointsOfInterestData(
+idPOI integer Primary Key,
+idTouristicP integer,
+latitude decimal(10,4),
+longitude decimal(10,4),
+altitude decimal(10,4),
+rang decimal(10,4),
+heading decimal(10,4),
+tilt decimal(10,4),
+altitudeMode varchar(20),
+foreign key (idTouristicP) references  TouristPlaces(idTouristicP));
+
+
+INSERT INTO Countries VALUES (100, "INDIA");
+INSERT INTO Countries VALUES (101, "FRANCE");
+INSERT INTO Countries VALUES (102, "SINGAPORE");
+INSERT INTO Countries VALUES (103, "MALAYSIA");
+INSERT INTO Countries VALUES (104, "CHINA");
+
+INSERT INTO TouristPlaces Values(1011,101,"Eiffel Tower");
+INSERT INTO TouristPlaces Values(1001,100,"Coorg");
+INSERT INTO TouristPlaces Values(1021,102,"Marina Bay");
+INSERT INTO TouristPlaces Values(1031,103,"Kuala Lumpur");
+INSERT INTO TouristPlaces Values(1041,104,"Forbidden City");
+
+;
+INSERT INTO PointsOfInterestData VALUES (10111,1011,48.8580,2.2944,124.5992,447.3026,0,18.5049,"relativeToSeaFloor");
+INSERT INTO PointsOfInterestData VALUES (10011,1001,12.3375,75.8069,0,248.2596,0,32.2528,"relativeToSeaFloor");
+INSERT INTO PointsOfInterestData VALUES (10211,1021,1.2792,103.8625,0,4390.8539,0,0,"relativeToSeaFloor");
+INSERT INTO PointsOfInterestData VALUES (10311,1031,3.1390,101.6868,0,2796.6120,0,13.5113,"relativeToSeaFloor");
+INSERT INTO PointsOfInterestData VALUES (10411,1041,39.9169,116.3956,0,3831.0332,0,0,"relativeToSeaFloor");
+
+	
+Select latitude,longitude from PointsOfInterestData where rang>=1000;
+
+Select t.name "Tourist Spot",c.name "Country" from TouristPlaces T, countries c where c.idcountry=t.idcountry;	
+
+Select t.name,p.latitude,p.longitude,p.altitude,p.rang,p.heading,p.tilt,p.altitudemode from PointsOfInterestData P,touristplaces T where p.idtouristicp=t.idtouristicp and (t.name="Forbidden City" or t.name="Marina Bay");
+
+Select c.name,t.name from countries c,touristplaces t where c.idcountry=t.idcountry and (c.name like "%a");
+
+Select t.name, p.altitude from pointsofinterestdata p, touristplaces t where p.altitude=0 and p.idtouristicp=t.idtouristicp;

@@ -1,0 +1,180 @@
+Earth@Google India Haryana@flytoview=<LookAt>
+			<longitude>77.04838206371227</longitude>
+			<latitude>28.4601726104245</latitude>
+			<altitude>0</altitude>
+			<heading>1.192397901467376e-010</heading>
+			<tilt>0</tilt>
+			<range>259.673381156238</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+Earth@google india office bengaluru@flytoview=<LookAt>
+			<longitude>77.66012641846172</longitude>
+			<latitude>12.99336285661753</latitude>
+			<altitude>0</altitude>
+			<heading>1.670100960000951e-005</heading>
+			<tilt>0</tilt>
+			<range>250.0219690097252</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+Earth@Google Office Amsterdam@flytoview=<LookAt>
+			<longitude>4.872160824523801</longitude>
+			<latitude>52.33790813790305</latitude>
+			<altitude>56.16022074567395</altitude>
+			<heading>-160.5189534179431</heading>
+			<tilt>48.04273570278764</tilt>
+			<range>191.2104014964223</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+Earth@Google Office Argentina@flytoview=<LookAt>
+			<longitude>-58.36644917167393</longitude>
+			<latitude>-34.60263565590873</latitude>
+			<altitude>0</altitude>
+			<heading>-173.5279877466016</heading>
+			<tilt>46.57235366290788</tilt>
+			<range>133.1531703218121</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+Earth@Google Office Australia@flytoview=<LookAt>
+			<longitude>151.1961378455426</longitude>
+			<latitude>-33.86667104973518</latitude>
+			<altitude>12.99335148013659</altitude>
+			<heading>-23.2179111736785</heading>
+			<tilt>76.36316199931989</tilt>
+			<range>124.4997318493542</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+Earth@Google Office Beijing@flytoview=<LookAt>
+			<longitude>116.3264032468063</longitude>
+			<latitude>39.98364719503701</latitude>
+			<altitude>0</altitude>
+			<heading>-12.95101419308553</heading>
+			<tilt>14.57568732927469</tilt>
+			<range>257.9071977660927</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+Earth@Google Office Berlin@flytoview=<LookAt>
+			<longitude>13.38965199997779</longitude>
+			<latitude>52.51744248279486</latitude>
+			<altitude>29.92213582660687</altitude>
+			<heading>-1.966855015017038e-011</heading>
+			<tilt>59.88919366920091</tilt>
+			<range>134.9194404764604</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+Earth@Google Office Denmark@flytoview=<LookAt>
+			<longitude>10.1865638538983</longitude>
+			<latitude>56.17253944895681</latitude>
+			<altitude>4.876248931505298</altitude>
+			<heading>57.31764984117859</heading>
+			<tilt>52.79150072771826</tilt>
+			<range>138.9894728947475</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+Earth@Google Office Hyderabad@flytoview=<LookAt>
+			<longitude>78.37239634997316</longitude>
+			<latitude>17.45862692952845</latitude>
+			<altitude>22.57228640493566</altitude>
+			<heading>-41.71363334129382</heading>
+			<tilt>70.2108943499297</tilt>
+			<range>269.6673795018577</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+Earth@Google Office Indonesia@flytoview=<LookAt>
+			<longitude>106.8080438557332</longitude>
+			<latitude>-6.227890244686981</latitude>
+			<altitude>0</altitude>
+			<heading>1.031042600194799</heading>
+			<tilt>25.25908555169651</tilt>
+			<range>340.518258751387</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+Earth@Google Office Kuala Lumpur@flytoview=<LookAt>
+			<longitude>101.685017332541</longitude>
+			<latitude>3.133629870005708</latitude>
+			<altitude>0</altitude>
+			<heading>1.905710077946243e-005</heading>
+			<tilt>28.72336002931036</tilt>
+			<range>181.131853110833</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+Earth@Google Office London@flytoview=<LookAt>
+			<longitude>-0.1261294198207863</longitude>
+			<latitude>51.53294721044829</latitude>
+			<altitude>23.8939095850147</altitude>
+			<heading>-8.104151395683972e-005</heading>
+			<tilt>50.16803550278264</tilt>
+			<range>298.9011570371587</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	Earth@Google Office Shanghai@flytoview=<LookAt>
+			<longitude>121.508214024387</longitude>
+			<latitude>31.23436428129152</latitude>
+			<altitude>0</altitude>
+			<heading>1.919334713285081e-007</heading>
+			<tilt>29.90662244585004</tilt>
+			<range>107.798303177384</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+Earth@Google Office Singapore@flytoview=<LookAt>
+			<longitude>103.7994552601439</longitude>
+			<latitude>1.276492943839639</latitude>
+			<altitude>0</altitude>
+			<heading>1.891304707317386e-006</heading>
+			<tilt>51.2959897221291</tilt>
+			<range>114.9258382205698</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+Earth@Google Office Taiwan@flytoview=<LookAt>
+			<longitude>121.5639578139801</longitude>
+			<latitude>25.03591498894399</latitude>
+			<altitude>0</altitude>
+			<heading>-26.03994868045025</heading>
+			<tilt>35.91835982858354</tilt>
+			<range>900.7300736914028</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+Earth@Google office Thailand@flytoview=<LookAt>
+			<longitude>100.5482097885798</longitude>
+			<latitude>13.74250062122105</latitude>
+			<altitude>99.02807029825564</altitude>
+			<heading>5.908679803570992e-005</heading>
+			<tilt>29.3952177423196</tilt>
+			<range>163.0685504156748</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+Earth@Google Office Tokyo@flytoview=<LookAt>
+			<longitude>139.7291262187358</longitude>
+			<latitude>35.65998298278003</latitude>
+			<altitude>162.5007729112256</altitude>
+			<heading>-7.14579524529244e-005</heading>
+			<tilt>53.42224761922932</tilt>
+			<range>333.6980558270085</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+Earth@Google Office USA@flytoview=<LookAt>
+			<longitude>-74.00334930743186</longitude>
+			<latitude>40.7416535463897</latitude>
+			<altitude>44.48799280631255</altitude>
+			<heading>-82.92654371787135</heading>
+			<tilt>45.001046193533</tilt>
+			<range>171.3517830721088</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+Earth@Google Office USA 2@flytoview=<LookAt>
+			<longitude>-74.00745499010196</longitude>
+			<latitude>40.74347828074431</latitude>
+			<altitude>45.82304794265245</altitude>
+			<heading>-56.01217262153419</heading>
+			<tilt>54.55626327190358</tilt>
+			<range>173.8509365790538</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>		
+Earth@Google Office Turkey@flytoview=<LookAt>
+			<longitude>29.00907693691626</longitude>
+			<latitude>41.08166190509159</latitude>
+			<altitude>78.44787534292055</altitude>
+			<heading>2.526423350823327e-005</heading>
+			<tilt>29.94450572037638</tilt>
+			<range>167.583173699337</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>

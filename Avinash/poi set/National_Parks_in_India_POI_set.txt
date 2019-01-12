@@ -1,0 +1,297 @@
+		Earth@Bandhavgarh National park@flytoview=<LookAt>
+			<longitude>80.99988934743475</longitude>
+			<latitude>23.73015116337889</latitude>
+			<altitude>0</altitude>
+			<heading>-0.005837808626771739</heading>
+			<tilt>14.60153635960846</tilt>
+			<range>1023.114061299506</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+			Earth@Bandipur Natl. Park@flytoview=<LookAt>
+			<longitude>76.63260699954675</longitude>
+			<latitude>11.6676742015707</latitude>
+			<altitude>0</altitude>
+			<heading>-3.495172367568542e-009</heading>
+			<tilt>8.897542973979597</tilt>
+			<range>1740.252010843056</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		Earth@Gir National Park@flytoview=<LookAt>
+			<longitude>70.82415097361096</longitude>
+			<latitude>21.12431714294533</latitude>
+			<altitude>0</altitude>
+			<heading>9.16755400345488e-008</heading>
+			<tilt>12.85539842971251</tilt>
+			<range>2835.413140095798</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		Earth@Jim Corbett National Park@flytoview=<LookAt>
+			<longitude>78.77466117564229</longitude>
+			<latitude>29.53001629902481</latitude>
+			<altitude>0</altitude>
+			<heading>3.294887519799078e-007</heading>
+			<tilt>36.58949228704882</tilt>
+			<range>408.7071758867297</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		Earth@Kanha Tiger reserve@flytoview=<LookAt>
+			<longitude>80.61161864872317</longitude>
+			<latitude>22.33435735353767</latitude>
+			<altitude>0</altitude>
+			<heading>4.015140046132758e-005</heading>
+			<tilt>14.36232223836269</tilt>
+			<range>491.6626724653167</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		Earth@Manas National Park@flytoview=<LookAt>
+			<longitude>91.00113098636024</longitude>
+			<latitude>26.65942474894482</latitude>
+			<altitude>0</altitude>
+			<heading>-4.202384106803693e-009</heading>
+			<tilt>18.38457645235556</tilt>
+			<range>392.1760063055829</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		Earth@Nagarhole national park@flytoview=<LookAt>
+			<longitude>76.1206820999585</longitude>
+			<latitude>12.03142159987567</latitude>
+			<altitude>0</altitude>
+			<heading>-8.614929924079114e-012</heading>
+			<tilt>0</tilt>
+			<range>1152.736085573544</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		Earth@Pench National Park@flytoview=<LookAt>
+			<longitude>79.33911280720656</longitude>
+			<latitude>21.76295282642216</latitude>
+			<altitude>0</altitude>
+			<heading>-2.168851247698116e-008</heading>
+			<tilt>14.86307890557349</tilt>
+			<range>505.4868471251353</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+			Earth@Periyar National Park@flytoview=<LookAt>
+			<longitude>77.23630110311781</longitude>
+			<latitude>9.461805653586243</latitude>
+			<altitude>0</altitude>
+			<heading>-8.979874750790057e-005</heading>
+			<tilt>20.92227455951844</tilt>
+			<range>589.9743345749348</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+			Earth@Rathambore National Park@flytoview=<LookAt>
+			<longitude>76.50242156338129</longitude>
+			<latitude>26.01942789190635</latitude>
+			<altitude>0</altitude>
+			<heading>-23.01046496201954</heading>
+			<tilt>74.33586092714694</tilt>
+			<range>2991.066281440124</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+			Earth@Sagarmatha National Park@flytoview=<LookAt>
+			<longitude>86.66110829942589</longitude>
+			<latitude>27.97826039996453</latitude>
+			<altitude>0</altitude>
+			<heading>-2.693401047983806e-010</heading>
+			<tilt>0</tilt>
+			<range>1040.875338608534</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		Earth@Sunderbans National park@flytoview=<LookAt>
+			<longitude>89.18304967770915</longitude>
+			<latitude>21.94941092022447</latitude>
+			<altitude>0</altitude>
+			<heading>-0.0001026443088032414</heading>
+			<tilt>6.561908080637812</tilt>
+			<range>511.5694155144002</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		Earth@Anamudi Shola National Park@flytoview=<LookAt>
+			<longitude>77.19477826202238</longitude>
+			<latitude>10.18170092511162</latitude>
+			<altitude>0</altitude>
+			<heading>1.031655660807928e-005</heading>
+			<tilt>44.76278908220081</tilt>
+			<range>297.5528834973754</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		Earth@Anshi National Park@flytoview=<LookAt>
+			<longitude>74.35874729968265</longitude>
+			<latitude>14.99809217219556</latitude>
+			<altitude>0</altitude>
+			<heading>-2.112134801479588e-009</heading>
+			<tilt>37.08342942971852</tilt>
+			<range>431.913504901066</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		Earth@Balpakram National Park@flytoview=<LookAt>
+			<longitude>90.81167517847784</longitude>
+			<latitude>25.31611483676703</latitude>
+			<altitude>0</altitude>
+			<heading>0.08017982658642389</heading>
+			<tilt>13.72785194956364</tilt>
+			<range>6454.723660379597</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		Earth@Bannerghatta National Park@flytoview=<LookAt>
+			<longitude>77.57523848830667</longitude>
+			<latitude>12.80135173085172</latitude>
+			<altitude>0</altitude>
+			<heading>-0.0004007901665026322</heading>
+			<tilt>21.24814256864846</tilt>
+			<range>919.2202979458143</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		Earth@Betla National Park@flytoview=<LookAt>
+			<longitude>84.19239820001079</longitude>
+			<latitude>23.88564118334121</latitude>
+			<altitude>0</altitude>
+			<heading>-2.102414231234366e-010</heading>
+			<tilt>19.04867472430288</tilt>
+			<range>404.8836629162578</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		Earth@Blackbuck National Park@flytoview=<LookAt>
+			<longitude>72.02010997093952</longitude>
+			<latitude>22.0441430686654</latitude>
+			<altitude>0</altitude>
+			<heading>-0.000171705912750338</heading>
+			<tilt>26.2443536337382</tilt>
+			<range>356.8815377615358</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		Earth@Buxa Tiger Reserve@flytoview=<LookAt>
+			<longitude>89.54833485396239</longitude>
+			<latitude>26.64733742483811</latitude>
+			<altitude>0</altitude>
+			<heading>-9.895124254542946e-008</heading>
+			<tilt>15.57849014410854</tilt>
+			<range>489.7239118409875</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		Earth@Chandoli National Park@flytoview=<LookAt>
+			<longitude>73.86000284524387</longitude>
+			<latitude>17.12633738018971</latitude>
+			<altitude>0</altitude>
+			<heading>-0.00374854610226846</heading>
+			<tilt>16.10037690558176</tilt>
+			<range>3200.484212198545</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		Earth@Dachigam National Park@flytoview=<LookAt>
+			<longitude>75.03775010091476</longitude>
+			<latitude>34.13718350170375</latitude>
+			<altitude>0</altitude>
+			<heading>5.133606089163002e-010</heading>
+			<tilt>0</tilt>
+			<range>999.9999685773172</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		Earth@Desert National Park@flytoview=<LookAt>
+			<longitude>70.80856750375915</longitude>
+			<latitude>26.91012270542328</latitude>
+			<altitude>0</altitude>
+			<heading>1.056977834517363e-010</heading>
+			<tilt>0</tilt>
+			<range>1053.070312030311</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		Earth@Dudhwa National Park@flytoview=<LookAt>
+			<longitude>80.61626559019446</longitude>
+			<latitude>28.54017069832995</latitude>
+			<altitude>0</altitude>
+			<heading>-5.047063196280381e-011</heading>
+			<tilt>0</tilt>
+			<range>1038.208275989547</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		Earth@Eravikulam National Park@flytoview=<LookAt>
+			<longitude>77.03523831987468</longitude>
+			<latitude>10.1449941226763</latitude>
+			<altitude>0</altitude>
+			<heading>-0.0001178495985825433</heading>
+			<tilt>24.27154765116862</tilt>
+			<range>3402.015100237358</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		Earth@Galathea National Park@flytovieew=<LookAt>
+			<longitude>92.65734261014671</longitude>
+			<latitude>11.74104549863842</latitude>
+			<altitude>0</altitude>
+			<heading>-0.1234556222601657</heading>
+			<tilt>18.08630885937907</tilt>
+			<range>1412.098554580336</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+			Earth@Gangotri National Park@flytoview=<LookAt>
+			<longitude>79.15493033746706</longitude>
+			<latitude>30.94258544576381</latitude>
+			<altitude>0</altitude>
+			<heading>7.366001578411564e-006</heading>
+			<tilt>0</tilt>
+			<range>24331.39961348063</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		Earth@Gulf of Mannar Marine Natl. Park@flytoview=<LookAt>
+			<longitude>79.61121552550627</longitude>
+			<latitude>9.133295760428688</latitude>
+			<altitude>0</altitude>
+			<heading>0.02239557441274538</heading>
+			<tilt>0</tilt>
+			<range>90193.16249289176</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		Earth@Indravati National Park@flytoview=<LookAt>
+			<longitude>81.03129829982231</longitude>
+			<latitude>19.20589450345837</latitude>
+			<altitude>0</altitude>
+			<heading>-4.492855319944046e-008</heading>
+			<tilt>16.4748711486139</tilt>
+			<range>646.3580513022422</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		Earth@Kudremukh National Park@flytoview=<LookAt>
+			<longitude>75.25082288939638</longitude>
+			<latitude>13.22260549102267</latitude>
+			<altitude>0</altitude>
+			<heading>-2.42542142545042e-009</heading>
+			<tilt>0</tilt>
+			<range>4589.402141518349</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		Earth@Madhav National Park@flytoview=<LookAt>
+			<longitude>77.73910873507087</longitude>
+			<latitude>25.4317208215364</latitude>
+			<altitude>0</altitude>
+			<heading>6.695020134702082e-008</heading>
+			<tilt>11.67939813430788</tilt>
+			<range>589.5601893862749</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		Earth@Mount Harriet National Park@flytoview=<LookAt>
+			<longitude>92.73378909557401</longitude>
+			<latitude>11.71880513365692</latitude>
+			<altitude>0</altitude>
+			<heading>0.06083528539929155</heading>
+			<tilt>74.10149871326318</tilt>
+			<range>506.0415318251014</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		Earth@Mudumalai National Park@flytoview=<LookAt>
+			<longitude>76.53452209969726</longitude>
+			<latitude>11.56228574720915</latitude>
+			<altitude>0</altitude>
+			<heading>-1.148573833650161e-010</heading>
+			<tilt>21.29869326588408</tilt>
+			<range>302.4095586366734</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		Earth@Nameri National Park@flytoview=<LookAt>
+			<longitude>92.87721401098436</longitude>
+			<latitude>26.93239600084707</latitude>
+			<altitude>0</altitude>
+			<heading>-2.903532547161757e-007</heading>
+			<tilt>11.25975355068336</tilt>
+			<range>633.4932474985229</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
