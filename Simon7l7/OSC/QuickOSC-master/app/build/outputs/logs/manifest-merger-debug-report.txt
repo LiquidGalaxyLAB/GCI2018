@@ -1,0 +1,117 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:2:1-50:12
+	package
+		ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:8:5-76
+	android:name
+		ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:8:22-73
+application
+ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:10:5-48:19
+	android:label
+		ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:12:9-41
+	android:icon
+		ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:11:9-44
+	android:theme
+		ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:13:9-41
+activity#com.ahmetkizilay.controls.osc.QuickOSCActivity
+ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:14:9-23:20
+	android:screenOrientation
+		ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:17:13-49
+	android:label
+		ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:16:13-45
+	android:name
+		ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:15:13-45
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:21:27-74
+activity#com.ahmetkizilay.controls.osc.ButtonOSCSettingActivity
+ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:24:9-31:20
+	android:screenOrientation
+		ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:25:53-89
+	android:label
+		ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:26:13-47
+	android:name
+		ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:25:13-52
+intent-filter#action:name:com.ahmetkizilay.controls.osc.ButtonOSCSetter+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:27:12-30:29
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:28:17-76
+	android:name
+		ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:28:27-73
+action#com.ahmetkizilay.controls.osc.ButtonOSCSetter
+ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:29:17-88
+	android:name
+		ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:29:25-85
+activity#com.ahmetkizilay.controls.osc.ToggleOSCSettingActivity
+ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:32:17-39:20
+	android:screenOrientation
+		ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:33:53-89
+	android:label
+		ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:34:13-47
+	android:name
+		ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:33:13-52
+intent-filter#action:name:com.ahmetkizilay.controls.osc.ToggleOSCSetter+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:35:12-38:29
+action#com.ahmetkizilay.controls.osc.ToggleOSCSetter
+ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:37:17-88
+	android:name
+		ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:37:25-85
+activity#com.ahmetkizilay.controls.osc.SeekBarOSCSettingActivity
+ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:40:17-47:20
+	android:screenOrientation
+		ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:41:85-121
+	android:label
+		ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:42:13-48
+	android:name
+		ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:41:13-83
+intent-filter#action:name:com.ahmetkizilay.controls.osc.SeekBarOSCSetter+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:43:12-46:29
+action#com.ahmetkizilay.controls.osc.SeekBarOSCSetter
+ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:45:17-89
+	android:name
+		ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml:45:25-86
+uses-sdk
+INJECTED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Simon\AndroidStudioProjects\QuickOSC-master\app\src\main\AndroidManifest.xml

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Finding the NASA Earth API's imagery date limits for multiple locations</title>
+
+  <!-- update the version number as needed -->
+  <script defer src="/__/firebase/5.5.8/firebase-app.js"></script>
+  <!-- include only the Firebase features as you need -->
+  <script defer src="/__/firebase/5.5.8/firebase-auth.js"></script>
+  <script defer src="/__/firebase/5.5.8/firebase-database.js"></script>
+  <script defer src="/__/firebase/5.5.8/firebase-messaging.js"></script>
+  <script defer src="/__/firebase/5.5.8/firebase-storage.js"></script>
+  <!-- initialize the SDK after all desired features are loaded -->
+  <script defer src="/__/firebase/init.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="/slider.css">
+  <script src="/slider.js"></script>
+  <style media="screen">
+    body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
+      #message { background: white; max-width: 90%; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
+      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
+      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
+      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
+      
+      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
+      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
+      @media (max-width: 600px) {
+        body, #message { margin-top: 0; background: white; box-shadow: none; }
+        body { border-top: 16px solid #ffa100; }
+      }
+    </style>
+</head>
+
+<body>
+  <div class="row center-align" id="message">
+    <div class="col s12 l4 ">
+      <p id="textdata1">Please press load</p>
+      <div class="img-comp-container">
+        <div class="img-comp-img">
+          <img id="imgmaxdata1" src="white.png" width="256" height="256">
+        </div>
+        <div class="img-comp-img img-comp-overlay">
+          <img id="imgmindata1" src="white.png" width="256" height="256">
+        </div>
+      </div>
+      <div class="input-field" style="margin-left: 10%;margin-right: 10%">
+        <input value="Dubai" id="data1" type="text" class="validate">
+        <label for="data1">Place Name</label>
+      </div>
+      <div class="card-content">
+        <p>Dubai seems to have increased both the amount of buildings as well as the amount of vegetation especially in
+          the eastern areas.</p>
+      </div>
+      <div class="row center">
+        <a id="button1" class="btn-large waves-effect waves-light orange">Load</a>
+      </div>
+    </div>
+    <div class="col s12 l4">
+      <p id="textdata2">Please press load</p>
+      <div class="img-comp-container">
+        <div class="img-comp-img">
+          <img id="imgmaxdata2" src="white.png" width="256" height="256">
+        </div>
+        <div class="img-comp-img img-comp-overlay">
+          <img id="imgmindata2" src="white.png" width="256" height="256">
+        </div>
+      </div>
+      <div class="input-field" style="margin-left: 10%;margin-right: 10%">
+        <input value="Tokyo" id="data2" type="text" class="validate">
+        <label for="data2">Place Name</label>
+      </div>
+      <div class="card-content">
+        <p>Tokyo has not grown very much over the past few years the only major differences are caused by clouds.</p>
+      </div>
+      <div class="row center">
+        <a id="button2" class="btn-large waves-effect waves-light orange">Load</a>
+      </div>
+    </div>
+    <div class="col s12 l4">
+      <p id="textdata3">Please press load</p>
+      <div class="img-comp-container">
+        <div class="img-comp-img">
+          <img id="imgmaxdata3" src="white.png" width="256" height="256">
+        </div>
+        <div class="img-comp-img img-comp-overlay">
+          <img id="imgmindata3" src="white.png" width="256" height="256">
+        </div>
+      </div>
+      <div class="input-field" style="margin-left: 10%;margin-right: 10%">
+        <input value="New York City" id="data3" type="text" class="validate">
+        <label for="data3">Place Name</label>
+      </div>
+      <div class="card-content">
+        <p>New York city has also not grown very much, and most of the growth is visible in New Jersey across the
+          river.</p>
+      </div>
+      <div class="row center">
+        <a id="button3" class="btn-large waves-effect waves-light orange">Load</a>
+      </div>
+    </div>
+    <div class="col s12 l4">
+      <p id="textdata4">Please press load</p>
+      <div class="img-comp-container">
+        <div class="img-comp-img">
+          <img id="imgmaxdata4" src="white.png" width="256" height="256">
+        </div>
+        <div class="img-comp-img img-comp-overlay">
+          <img id="imgmindata4" src="white.png" width="256" height="256">
+        </div>
+      </div>
+      <div class="input-field" style="margin-left: 10%;margin-right: 10%">
+        <input value="Los Angeles" id="data4" type="text" class="validate">
+        <label for="data4">Place Name</label>
+      </div>
+      <div class="card-content">
+        <p>Los Angeles has grown much more significantly than New York and Tokyo. Most of its growth is in the west of
+          the image</p>
+      </div>
+      <div class="row center">
+        <a id="button4" class="btn-large waves-effect waves-light orange">Load</a>
+      </div>
+    </div>
+    <div class="col s12 l4">
+      <p id="textdata5">Please press load</p>
+      <div class="img-comp-container">
+        <div class="img-comp-img">
+          <img id="imgmaxdata5" src="white.png" width="256" height="256">
+        </div>
+        <div class="img-comp-img img-comp-overlay">
+          <img id="imgmindata5" src="white.png" width="256" height="256">
+        </div>
+      </div>
+      <div class="input-field" style="margin-left: 10%;margin-right: 10%">
+        <input value="San Francisco" id="data5" type="text" class="validate">
+        <label for="data5">Place Name</label>
+      </div>
+      <div class="card-content">
+        <p>San Francisco has also grown quite a lot with most of its changes being in the eastern part of the city.</p>
+      </div>
+      <div class="row center">
+        <a id="button5" class="btn-large waves-effect waves-light orange">Load</a>
+      </div>
+    </div>
+    <div class="col s12 l4">
+      <p id="textdata6">Please enter a location</p>
+      <div class="img-comp-container">
+        <div class="img-comp-img">
+          <img id="imgmaxdata6" src="white.png" width="256" height="256">
+        </div>
+        <div class="img-comp-img img-comp-overlay">
+          <img id="imgmindata6" src="white.png" width="256" height="256">
+        </div>
+      </div>
+      <div class="input-field" style="margin-left: 10%;margin-right: 10%">
+        <input id="data6" type="text" class="validate">
+        <label for="data6">Place Name</label>
+      </div>
+      <div class="row center">
+        <a id="button6" class="btn-large waves-effect waves-light orange">Load</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    initComparisons();
+  </script>
+  <p id="load">Firebase SDK Loading&hellip;</p>
+  <script src="main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+      // // The Firebase SDK is initialized and available here!
+      //
+      // firebase.auth().onAuthStateChanged(user => { });
+      // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+      // firebase.messaging().requestPermission().then(() => { });
+      // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+      //
+      // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+      try {
+        let app = firebase.app();
+        let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
+        document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
+      } catch (e) {
+        console.error(e);
+        document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
+      }
+    });
+  </script>
+</body>
+
+</html>
