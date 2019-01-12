@@ -1,0 +1,22 @@
+Earth@LiquidGalaxyLAB@flytoview=<LookAt>
+<longitude>77.59981549998769</longitude>
+<latitude>12.9787936999458</latitude>
+<altitude>0</altitude>
+<heading>-2.767877711543625e-012</heading>
+<tilt>0</tilt>
+<range>1082.791382307199</range>
+<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@LiquidGalaxyLAB@flytoview=<LookAt><longitude>88.34514006670172</longitude><latitude>22.56479811903706</latitude><altitude>0</altitude><heading>0.002229764424514423</heading><tilt>0</tilt><range>1019.720216917258</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@LiquidGalaxyLAB@flytoview=<LookAt><longitude>77.24291369905194</longitude><latitude>28.63641309953042</latitude><altitude>0</altitude><heading>-4.543581390204707e-010</heading><tilt>0</tilt> <range>1000.000102598313</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@LiquidGalaxyLAB@flytoview=<LookAt><longitude>74.87300878475853</longitude><latitude>31.63883154546733</latitude><altitude>0</altitude><heading>2.052851488605385e-008</heading><tilt>0</tilt> <range>1038.060058880332</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@LiquidGalaxyLAB@flytoview=<LookAt><longitude>75.89732630047186</longitude><latitude>26.88698130088641</latitude><altitude>0</altitude><heading>2.134040871848169e-010</heading><tilt>0</tilt> <range>1000.000071800522</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@LiquidGalaxyLAB@flytoview=<LookAt><longitude>76.32589475871306</longitude><latitude>32.19760438548416</latitude><altitude>0</altitude><heading>-2.36309344709352e-008</heading><tilt>0</tilt> <range>1106.171619258605</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@LiquidGalaxyLAB@flytoview=<LookAt><longitude>75.87965680032261</longitude><latitude>22.72425430010751</latitude><altitude>0</altitude><heading>1.24614927558411e-010</heading><tilt>0</tilt> <range>1024.923821608743</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@LiquidGalaxyLAB@flytoview=<LookAt><longitude>76.27720701582175</longitude><latitude>31.46543609913364</latitude><altitude>0</altitude><heading>-0.2537481738487777</heading><tilt>11.87465560956787</tilt> <range>3701.000608015611</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@LiquidGalaxyLAB@flytoview=<LookAt><longitude>83.29495480029866</longitude><latitude>17.70439669960522</latitude><altitude>0</altitude><heading>9.081954622118517e-011</heading><tilt>0</tilt> <range>1058.550175443562</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@LiquidGalaxyLAB@flytoview=<LookAt><longitude>70.78916998340242</longitude><latitude>22.30202674343211</latitude><altitude>0</altitude><heading>3.725261819542823e-007</heading> <tilt>0</tilt> <range>1327.017114680134</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@LiquidGalaxyLAB@flytoview=<LookAt><longitude>76.30067562646993</longitude><latitude>9.997183798405215</latitude><altitude>0</altitude><heading>-1.363349535041358e-009</heading><tilt>0</tilt> <range>1104.603011934997</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@LiquidGalaxyLAB@flytoview=<LookAt><longitude>76.73753100044715</longitude><latitude>30.69088900030643</latitude><altitude>0</altitude><heading>2.282302428324591e-010</heading><tilt>0</tilt> <range>1000.000095560066</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@LiquidGalaxyLAB@flytoview=<LookAt><longitude>72.68999863646222</longitude><latitude>21.01435965705852</latitude><altitude>0</altitude><heading>2.397778163998836e-006</heading><tilt>0</tilt> <range>681662.6941750601</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@LiquidGalaxyLAB@flytoview=<LookAt><longitude>74.83476609478433</longitude><latitude>34.07197530724659</latitude><altitude>0</altitude><heading>-2.922015342794051e-009</heading><tilt>0</tilt> <range>1001.305910557208</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+Earth@LiquidGalaxyLAB@flytoview=<LookAt><longitude>72.82577459860551</longitude><latitude>18.9389413999083</latitude><altitude>0</altitude><heading>-4.525913408949176e-010</heading><tilt>0</tilt> <range>1051.024648432132</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
