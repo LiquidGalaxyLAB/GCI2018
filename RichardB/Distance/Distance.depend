@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1542034246 source:f:\distance\main.cpp
+	<iostream>
+	<cmath>
+	<math.h>
+	<iomanip>
+

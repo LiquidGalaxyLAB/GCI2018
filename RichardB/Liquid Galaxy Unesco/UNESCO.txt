@@ -1,0 +1,20 @@
+Earth@Danube Delta@flytoview=<LookAt><longitude>29.224582258544</longitude><latitude>45.15951008549788</latitude><altitude>0</altitude><heading>-2.775707283002984e-007</heading><tilt>0</tilt><range>88869.02470474549</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Dacian Fortresses of the Orastie Mountains@flytoview=<LookAt><longitude>23.16140618087727</longitude><latitude>45.67999878848773</latitude><altitude>0</altitude><heading>-0.02277116485140472</heading><tilt>16.0181148391478</tilt><range>5820.566075464404</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@The painted church of Arbore@flytoview=<LookAt><longitude>25.93073147112506</longitude><latitude>47.73288140518114</latitude><altitude>0</altitude><heading>0.001414481727053877</heading><tilt>22.33412002144286</tilt><range>1200.217488789157</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Humor Monastery@flytoview=<LookAt><longitude>25.85455821772755</longitude><latitude>47.59374047227775</latitude><altitude>0</altitude><heading>0.0002138806177375322</heading><tilt>20.97193727220824</tilt><range>279.1598628890876</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Ruins of the ancient Dacian fortress of Blidaru@flytoview=<LookAt><longitude>23.16297723556481</longitude><latitude>45.66783021220294</latitude><altitude>0</altitude><heading>0.0001059858656048055</heading><tilt>37.10215199069163</tilt><range>444.3923716765407</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Historic Centre of Sighișoara@flytoview=<LookAt><longitude>24.79160967253822</longitude><latitude>46.21986401811633</latitude><altitude>10.0913185125842</altitude><heading>0.1424457547328597</heading><tilt>43.47530219539474</tilt><range>494.7477756919988</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Cozia National Park@flytoview=<LookAt><longitude>24.25070562451919</longitude><latitude>45.30024544197216</latitude><altitude>0</altitude><heading>4.819294133876734e-009</heading><tilt>0</tilt><range>1061.053889858685</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@The Fortified Church of Biertan@flytoview=<LookAt><longitude>24.52130783938947</longitude><latitude>46.13518528129647</latitude><altitude>0</altitude><heading>-5.359482721531178e-009</heading><tilt>0</tilt><range>1079.632691405628</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Fortified Church Prejmer@flytoview=<LookAt><longitude>25.773740272995</longitude><latitude>45.72201187505915</latitude><altitude>21.20411338212544</altitude><heading>4.71357885737425e-009</heading><tilt>0</tilt><range>1039.653905905343</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Câlnic Citadel@flytoview=<LookAt><longitude>23.66031941434077</longitude><latitude>45.88912047360225</latitude><altitude>0</altitude><heading>-0.002201006751571564</heading><tilt>15.62681144396315</tilt><range>456.9623998216961</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+

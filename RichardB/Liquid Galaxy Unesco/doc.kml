@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>UNESCO.kmz</name>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>UNESCO</name>
+		<open>1</open>
+		<Placemark>
+			<name>Danube Delta</name>
+			<LookAt>
+				<longitude>29.224582258544</longitude>
+				<latitude>45.15951008549788</latitude>
+				<altitude>0</altitude>
+				<heading>-2.775707283002984e-007</heading>
+				<tilt>0</tilt>
+				<range>88869.02470474549</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>29.22177671040894,45.12629043398015,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Dacian Fortresses of the Orastie Mountains</name>
+			<LookAt>
+				<longitude>23.16140618087727</longitude>
+				<latitude>45.67999878848773</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02277116485140472</heading>
+				<tilt>16.0181148391478</tilt>
+				<range>5820.566075464404</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.15414812176728,45.68005343736053,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The painted church of Arbore</name>
+			<LookAt>
+				<longitude>25.93073147112506</longitude>
+				<latitude>47.73288140518114</latitude>
+				<altitude>0</altitude>
+				<heading>0.001414481727053877</heading>
+				<tilt>22.33412002144286</tilt>
+				<range>1200.217488789157</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>25.9289885303453,47.73308253438849,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Humor Monastery</name>
+			<LookAt>
+				<longitude>25.85455821772755</longitude>
+				<latitude>47.59374047227775</latitude>
+				<altitude>0</altitude>
+				<heading>0.0002138806177375322</heading>
+				<tilt>20.97193727220824</tilt>
+				<range>279.1598628890876</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>25.85413620736999,47.59371106362874,2431.832460082197</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ruins of the ancient Dacian fortress of Blidaru</name>
+			<LookAt>
+				<longitude>23.16297723556481</longitude>
+				<latitude>45.66783021220294</latitude>
+				<altitude>0</altitude>
+				<heading>0.0001059858656048055</heading>
+				<tilt>37.10215199069163</tilt>
+				<range>444.3923716765407</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.16286820669955,45.66784733195475,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Historic Centre of Sighișoara</name>
+			<LookAt>
+				<longitude>24.79160967253822</longitude>
+				<latitude>46.21986401811633</latitude>
+				<altitude>10.0913185125842</altitude>
+				<heading>0.1424457547328597</heading>
+				<tilt>43.47530219539474</tilt>
+				<range>494.7477756919988</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>24.79225047641078,46.21982593239974,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cozia National Park</name>
+			<LookAt>
+				<longitude>24.25070562451919</longitude>
+				<latitude>45.30024544197216</latitude>
+				<altitude>0</altitude>
+				<heading>4.819294133876734e-009</heading>
+				<tilt>0</tilt>
+				<range>1061.053889858685</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>24.25070562451919,45.30024544197217,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Fortified Church of Biertan</name>
+			<LookAt>
+				<longitude>24.52130783938947</longitude>
+				<latitude>46.13518528129647</latitude>
+				<altitude>0</altitude>
+				<heading>-5.359482721531178e-009</heading>
+				<tilt>0</tilt>
+				<range>1079.632691405628</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>24.52130783938947,46.13518528129647,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Fortified Church Prejmer</name>
+			<LookAt>
+				<longitude>25.773740272995</longitude>
+				<latitude>45.72201187505915</latitude>
+				<altitude>21.20411338212544</altitude>
+				<heading>4.71357885737425e-009</heading>
+				<tilt>0</tilt>
+				<range>1039.653905905343</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>25.773740272995,45.72201187505915,2434.447117556932</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Câlnic Citadel</name>
+			<LookAt>
+				<longitude>23.66031941434077</longitude>
+				<latitude>45.88912047360225</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002201006751571564</heading>
+				<tilt>15.62681144396315</tilt>
+				<range>456.9623998216961</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.66031941434076,45.88912047360224,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

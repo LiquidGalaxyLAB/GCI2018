@@ -1,0 +1,59 @@
+Earth@The Council Square@flytoview=<LookAt><longitude>25.58929134191838</longitude><latitude>45.6427572212673</latitude><altitude>13.69215103517747</altitude><heading>-1.651516631223807</heading><tilt>60.00352114905336</tilt><range>452.6431386154329</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@The Black Church@flytoview=<LookAt><longitude>25.58893308969572</longitude><latitude>45.64222722227385</latitude><altitude>10.30027746360046</altitude><heading>-1.651772794095327</heading><tilt>60.00495227519986</tilt><range>636.6178794795293</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Valea Cetatii Cave@flytoview=<LookAt><longitude>25.49718755343242</longitude><latitude>45.58615598630151</latitude><altitude>0</altitude><heading>-11.04344765634147</heading><tilt>32.72013420886312</tilt><range>1347.057197992036</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Rasnov Citadel@flytoview=<LookAt><longitude>25.46975301060705</longitude><latitude>45.59109949922063</latitude><altitude>0</altitude><heading>-11.09954598180183</heading><tilt>49.90167706457651</tilt><range>610.7615806264178</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Libearty Bear Sanctuary Zarnesti@flytoview=<LookAt><longitude>25.39164546226823</longitude><latitude>45.593901601872</latitude><altitude>0</altitude><heading>-11.12998932288759</heading><tilt>35.91420445220508</tilt><range>1016.752997509283</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Bran Castle@flytoview=<LookAt><longitude>25.36746054454781</longitude><latitude>45.51496500301219</latitude><altitude>5.174077373795391</altitude><heading>-0.01877397491332756</heading><tilt>44.80595973416113</tilt><range>235.6932799865706</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Curtea de Argeș Monastery@flytoview=<LookAt><longitude>24.67539082887229</longitude><latitude>45.15681033916966</latitude><altitude>0</altitude><heading>2.538358326287676e-006</heading><tilt>16.74558885275647</tilt><range>264.3997841830594</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Lake Vidraru@flytoview=<LookAt><longitude>24.62831279730587</longitude><latitude>45.39805707145879</latitude><altitude>0</altitude><heading>0.003651057079550224</heading><tilt>15.17720073293175</tilt><range>6955.316607261802</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Transfăgărășan Highway@flytoview=<LookAt><longitude>24.61811371040078</longitude><latitude>45.61036853704357</latitude><altitude>0</altitude><heading>-0.00267076030979763</heading><tilt>28.20328967045758</tilt><range>1686.956509405428</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Densuș Church@flytoview=<LookAt><longitude>22.8055295156852</longitude><latitude>45.58254142756272</latitude><altitude>0</altitude><heading>5.823104957589992e-005</heading><tilt>27.33882743862151</tilt><range>159.7015061316935</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Corvin Castle@flytoview=<LookAt><longitude>22.8884565363357</longitude><latitude>45.74908455925005</latitude><altitude>0</altitude><heading>0.0004664901639742334</heading><tilt>20.45817940722781</tilt><range>406.8886171279352</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Red Lake@flytoview=<LookAt><longitude>25.78661718527392</longitude><latitude>46.78922869906885</latitude><altitude>0</altitude><heading>0.01075999337588779</heading><tilt>27.4732764863443</tilt><range>1716.705426989807</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Merry Cemetery@flytoview=<LookAt><longitude>23.69487073965631</longitude><latitude>47.97129174530849</latitude><altitude>0</altitude><heading>-0.0001410949977529107</heading><tilt>19.09569969940838</tilt><range>389.0351958877189</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Sibiu Historic Center@flytoview=<LookAt><longitude>24.15247388219807</longitude><latitude>45.79662724729059</latitude><altitude>0</altitude><heading>0.01913321850637329</heading><tilt>14.72739943859878</tilt><range>2429.086569058633</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Peleș Castle@flytoview=<LookAt><longitude>25.54293544921254</longitude><latitude>45.35999695888089</latitude><altitude>24.91073781992771</altitude><heading>9.347694801792334e-005</heading><tilt>42.76870084637172</tilt><range>426.2085781069384</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@The Endless Column@flytoview=<LookAt><longitude>23.28595215788293</longitude><latitude>45.03760120567153</latitude><altitude>0</altitude><heading>-0.08936583469328847</heading><tilt>26.34203170424197</tilt><range>448.7835633783705</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Sarmizegetusa Regia@flytoview=<LookAt><longitude>23.31156960941945</longitude><latitude>45.6222304733675</latitude><altitude>0</altitude><heading>0.0008024849930644914</heading><tilt>0</tilt><range>872.8627296314228</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Voroneț Monastery@flytoview=<LookAt><longitude>25.86500709783976</longitude><latitude>47.51773758394732</latitude><altitude>0</altitude><heading>0.002368665234203619</heading><tilt>48.04590363265078</tilt><range>610.0996327945762</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Nation’s Heroes Mausoleum-Mărășești@flytoview=<LookAt><longitude>27.20957821416461</longitude><latitude>45.87277936394153</latitude><altitude>0</altitude><heading>-0.008694952251476023</heading><tilt>18.05302234715198</tilt><range>744.886622544238</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Danube Delta@flytoview=<LookAt><longitude>29.22204844719825</longitude><latitude>44.98813094947762</latitude><altitude>0</altitude><heading>0.03106048755344433</heading><tilt>0.4775829499478245</tilt><range>107642.5583855118</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Cazino Constanța@flytoview=<LookAt><longitude>28.66375799699298</longitude><latitude>44.17054902778119</latitude><altitude>11.61686116643559</altitude><heading>3.332412478396053e-006</heading><tilt>39.38655841337621</tilt><range>344.6352197126503</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Palace of the Deposits and Consignments@flytoview=<LookAt><longitude>26.09685392751508</longitude><latitude>44.43220091050279</latitude><altitude>0</altitude><heading>0.0001805205680411911</heading><tilt>33.5068458652111</tilt><range>501.7576335229784</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Palace of Parliament@flytoview=<LookAt><longitude>26.08889857724154</longitude><latitude>44.42789952260589</latitude><altitude>0</altitude><heading>-0.005388706633082749</heading><tilt>33.50920091480179</tilt><range>976.7063595611963</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Cotroceni National Museum@flytoview=<LookAt><longitude>26.06228450331612</longitude><latitude>44.43432823179648</latitude><altitude>11.88807572863466</altitude><heading>-0.02412700744188253</heading><tilt>36.19906931747226</tilt><range>597.2320951408193</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Antipa Museum@flytoview=<LookAt><longitude>26.08523611176603</longitude><latitude>44.45309711762874</latitude><altitude>0</altitude><heading>-0.01427058389489334</heading><tilt>55.24520919353899</tilt><range>657.5106273934616</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Victoria Palace@flytoview=<LookAt><longitude>26.086705139682</longitude><latitude>44.45339273616078</latitude><altitude>0</altitude><heading>-0.01324178549012354</heading><tilt>55.24520919220993</tilt><range>657.5104558124712</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@The Arch Of Triumph@flytoview=<LookAt><longitude>26.07893489696234</longitude><latitude>44.46782787908211</latitude><altitude>0</altitude><heading>-0.01905968022374583</heading><tilt>56.7701488987832</tilt><range>687.5026699824072</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@King Michael I Park@flytoview=<LookAt><longitude>26.08175621422494</longitude><latitude>44.46961633134963</latitude><altitude>13.16128608447333</altitude><heading>-0.01708329753156002</heading><tilt>56.77170802123646</tilt><range>895.0113445571903</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@Atheneum@flytoview=<LookAt><longitude>26.09674303197836</longitude><latitude>44.44115414498383</latitude><altitude>0</altitude><heading>-0.005956065194812958</heading><tilt>55.32652998892431</tilt><range>513.0343736964633</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+
+Earth@National Bank of Romania@flytoview=<LookAt><longitude>26.09989696391372</longitude><latitude>44.43360394289408</latitude><altitude>8.925417592269461</altitude><heading>-0.003663893167445909</heading><tilt>54.51203272280749</tilt><range>524.5545614271928</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>

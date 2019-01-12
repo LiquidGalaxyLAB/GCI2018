@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Liquid Galaxy</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/leaflet.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <span id="top"></span>
+  <header class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#top">Liquid Galaxy</a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#overview">Visión general</a></li>
+          <li><a href="#get-the-code">Obtener el codigo</a></li>
+          <li><a href="#documentation">Documentación</a></li>
+          <li><a href="#issues">Problemas</a></li>
+          <li><a href="#showcase">Escaparate</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <div class="jumbotron header-bg">
+    <div class="container">
+      <h1>Liquid Galaxy</h1>
+      <p class="subtitle">Un grupo de computadoras que ejecutan Google Earth, Street View y otras aplicaciones panorámicas para crear una experiencia inmersiva.</p>
+      <p><a class="btn btn-primary btn-lg" href="#overview" role="button">Learn more »</a></p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="section" id="overview">
+      <h1 class="page-header">Visión general</h1>
+      <p>La plataforma Liquid Galaxy utiliza un grupo de computadoras, controladores y pantallas múltiples para brindar una experiencia panorámica envolvente. Comenzando como un proyecto del 20% de Google, Liquid Galaxy ahora se puede encontrar en más de 50 ubicaciones permanentes en todo el mundo, así como en numerosas conferencias y eventos.</p>
+
+      <p>Las partes principales de Liquid Galaxy son de código abierto: scripts para sincronizar la vista en instancias de aplicaciones, así como scripts para ajustar el ángulo de visión de un entorno renderizado en 3D (como <a href="http://www.google.com/earth/">Google Earth).</a>).</p>
+
+      <p>Este sitio web contiene enlaces a repositorios de códigos donde puede encontrar características específicas, guías de instalación e incluso planos para construir su propio marco de pantalla:</p>
+      <ul>
+        <li><a href="https://github.com/liquidgalaxy/liquid-galaxy/wiki/QuickStart">Guía de inicio rápido</a> para usar la sincronización de vista</li>
+        <li>Liquid Galaxy <a href="https://github.com/liquidgalaxy/liquid-galaxy/wiki/LiquidGalaxyHOWTO">CÓMO(HOWTO)</a></li>
+        <li><a href="https://github.com/liquidgalaxy/liquid-galaxy/wiki/LinuxSpaceNavigator">Uso de 3Dconnexion SpaceNavigator con Google Earth en Linux</a></li>
+        <li><a href="https://github.com/liquidgalaxy/liquid-galaxy/wiki/MechanicalDesign">Diseño mecánico</a> para nuestro marco a medida.</li>
+      </ul>
+
+      <p>A continuación, también encontrará una lista de problemas conocidos en GitHub y una galería de instalaciones de todo el mundo.</p>
+    </div>
+    <div class="section" id="get-the-code">
+      <h1 class="page-header">Obtener el codigo</h1>
+      <div class="code-columns"><!--hidden on small screens, shown on large-->
+        <div class="row">
+          <div class="col-sm-6"><p>El Liquid Galaxy combina varias aplicaciones para ver contenido, así como bibliotecas, para admitir esas aplicaciones en un sistema correctamente mantenido. El Liquid Galaxy puede ejecutarse en sistemas Linux, Mac y Windows. La evidencia anecdótica muestra que Linux es el más estable.</p></div>
+          <div class="col-sm-6"><p>End Point Corporation ha desarrollado una nueva y extensa base de código de nodos ROS (Robot Operating System) para proporcionar la funcionalidad de Liquid Galaxy. Este sistema se encuentra en desarrollo activo y proporciona un marco organizado para ampliar el sistema.</p></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6"><p><a class="btn btn-default btn-lg" href="https://github.com/liquidgalaxy/liquid-galaxy/" role="button">Liquid Galaxy GitHub</a></p></div>
+          <div class="col-sm-6"><p><a class="btn btn-default btn-lg" href="https://github.com/EndPointCorp/lg_ros_nodes" role="button">End Point LG ROS Nodes</a></p></div>
+        </div>
+      </div>
+      <div class="code-text"><!--hidden on large screens, shown on small-->
+        <p>El Liquid Galaxy combina varias aplicaciones para ver contenido, así como bibliotecas, para admitir esas aplicaciones en un sistema correctamente mantenido. El Liquid Galaxy puede ejecutarse en sistemas Linux, Apple y Windows (nota: la evidencia anecdótica muestra que Linux es el más estable).</p>
+        <p><a class="btn btn-default btn-lg" href="https://github.com/liquidgalaxy/liquid-galaxy/" role="button">Liquid Galaxy GitHub</a></p>
+        <p>End Point Corporation ha desarrollado una nueva y extensa base de código de ROS Nodes para proporcionar la funcionalidad de Liquid Galaxy. Este sistema se encuentra en desarrollo activo y proporciona un marco organizado para ampliar el sistema.</p>
+        <p><a class="btn btn-default btn-lg" href="https://github.com/EndPointCorp/lg_ros_nodes" role="button">End Point LG ROS Nodes</a></p>
+      </div>
+      <h3>Google Summer of Code Projects</h3>
+      <!--<div class="row">
+        <div class="col-sm-6">-->
+          <h4>2017</h4>
+          <ul>
+            <li><a href="https://summerofcode.withgoogle.com/archive/2017/projects/6074492237381632/">Ivan Josa - Fly Over Your Big Data</a></li>
+            <li><a href="https://summerofcode.withgoogle.com/archive/2017/projects/6707810934980608/">Javier Calvo García- SAVT (Smart Agro Visualization Tool)</a></li>
+            <li><a href="https://summerofcode.withgoogle.com/archive/2017/projects/5863566930345984/">Guillem Barbosa - Wikimedia Data Liquid Galaxy</a></li>
+          </ul>
+          <h4>2016</h4>
+          <ul>
+            <li><a href="https://github.com/LiquidGalaxyLAB/Liquid-Galaxy-POIs-Controller">Ivan Josa - Liquid Galaxy POIs Controller</a></li>
+            <li><a href="https://github.com/LiquidGalaxyLAB/IBRI">Moises Lodeiro - Interactive Beacon Rescue Interface</a></li>
+            <li><a href="https://github.com/LiquidGalaxyLAB/PILT">Marc Gonzalez - Panoramic Interactive Live Tracker</a></li>
+            <li><a href="https://github.com/LiquidGalaxyLAB/asherat666-lg-potree">Ismael Arroyo - Point Cloud Visualization Tool for Liquid Galaxy</a></li>
+            <li><a href="https://github.com/LiquidGalaxyLAB/DLP">Drone Logistics Platform</a></li>
+            <li><a href="https://github.com/LiquidGalaxyLAB/PhysicalWebLGPoiReader">Ivan Josa Llovera - Physical Web LG POI Reader</a></li>
+            <li><a href="https://github.com/abhishekvp/cesium-lg">Abhishek Potnis - Enabling Cesium for Liquid Galaxy</a></li>
+          </ul>
+
+          <h4>2015</h4>
+          <ul>
+            <li><a href="https://github.com/LiquidGalaxyLAB/FAED">Julio Bondia - FAED Display</a></li>
+            <li>Nicholas Verstegen - Panorama Database</li>
+            <li>Ying Nie - Baidu Street View</li>
+            <li><a href="https://github.com/LiquidGalaxyLAB/ViewYourData">Marc Solé Farré - View Your Data</a></li>
+            <li>Rafael Duran - Android Point-of-Interest Controller</li>
+            <li>Revanth NR - Stellarium</li>
+          </ul>
+        <!--</div>
+        <div class="col-sm-6">-->
+          <h4>2014</h4>
+          <ul>
+            <li>Zhuming Hao - Chinese Street View for the Peruse-a-Rue application</li>
+            <li>Carlos de Dios Felis - video conferencing with multi-parties on Liquid Galaxy</li>
+            <li>Marc Gonzalez Capdevila - dynamic activities with Interactive Spaces toolkit</li>
+            <li>Adnan Zahid - multi-screen web-browsing experience</li>
+            <li>Ismael Arroyo - benchmarking system performance</li>
+          </ul>
+
+          <h4>2013</h4>
+          <ul>
+            <li>Mihai and Randy - multi-screen video conferencing for Liquid Galaxy</li>
+            <li>Joan - accessing OpenDAI geospatial data</li>
+            <li>Ismael - benchmarking and performance metrics for Liquid Galaxy systems</li>
+          </ul>
+
+          <h4>2012</h4>
+          <ul>
+            <li>Babak - Microsoft Kinect navigation control on Google Earth</li>
+            <li>Paul - further development of ClusterGL for immersive OpenGL applications</li>
+            <li>Zhumin - Liquid Galaxy synchronization with JavaScript</li>
+          </ul>
+
+          <h4>2011</h4>
+          <ul>
+            <li><a href="https://github.com/reesebutler/Android-accelerometer-and-touch-screen-control">Reese - Android control of Google</a></li>
+            <li><a href="https://github.com/bieh/clustergl">Paul - ClusterGL for immersive OpenGL applications</a></li>
+            <li><a href="https://github.com/bwright/gsoc2011">Ben - view synchronization to the IrrLicht Engine</a></li>
+          </ul>
+        <!--</div>
+      </div>-->
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="section" id="documentation">
+          <h1 class="page-header">Documentación</h1>
+          <p>El desarrollo en la Liquid Galaxy es un proceso continuo y actual, con colaboradores en diferentes regiones del mundo. Los archivos de configuración, las guías de implementación, las guías de uso y los planos para la construcción física están disponibles en nuestro wiki.</p>
+          <a class="btn btn-default btn-lg" href="https://github.com/liquidgalaxy/liquid-galaxy/wiki" role="button">Liquid Galaxy wiki</a>
+        </div><!--/Documentation-->
+      </div>
+
+      <div class="col-sm-6">
+        <div class="section" id="issues">
+          <h1 class="page-header">Problemas</h1>
+          <p>Cuéntanos acerca de un problema que tengas, o navega por los problemas resueltos.</p>
+          <a class="btn btn-default btn-lg" href="https://github.com/liquidgalaxy/liquid-galaxy/issues" role="button">Enviar un problema</a>
+        </div><!--/Issues-->
+      </div>
+    </div><!--/row-->
+
+    <div class="section" id="showcase">
+      <h1 class="page-header">Escaparate</h1>
+      <p>Encuentre un Liquid Galaxy cerca de usted, o navegue por las fotos de las instalaciones de Liquid Galaxy a continuación.</p>
+      <div id="map">
+        <div id="container"></div>
+      </div>
+      <!--carousel-->
+      <div id="showcase-carousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#showcase-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#showcase-carousel" data-slide-to="1"></li>
+          <li data-target="#showcase-carousel" data-slide-to="2"></li>
+          <li data-target="#showcase-carousel" data-slide-to="3"></li>
+          <li data-target="#showcase-carousel" data-slide-to="4"></li>
+          <li data-target="#showcase-carousel" data-slide-to="5"></li>
+          <li data-target="#showcase-carousel" data-slide-to="6"></li>
+          <li data-target="#showcase-carousel" data-slide-to="7"></li>
+          <li data-target="#showcase-carousel" data-slide-to="8"></li>
+          <li data-target="#showcase-carousel" data-slide-to="9"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="img/carousel/0.jpg" alt="Liquid Galaxy at Georgia State University">
+            <div class="carousel-caption">
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/carousel/1.jpg" alt="...">
+            <div class="carousel-caption">
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/carousel/2.jpg" alt="...">
+            <div class="carousel-caption">
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/carousel/3.jpg" alt="...">
+            <div class="carousel-caption">
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/carousel/4.jpg" alt="...">
+            <div class="carousel-caption">
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/carousel/5.jpg" alt="...">
+            <div class="carousel-caption">
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/carousel/6.jpg" alt="...">
+            <div class="carousel-caption">
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/carousel/7.jpg" alt="...">
+            <div class="carousel-caption">
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/carousel/8.jpg" alt="...">
+            <div class="carousel-caption">
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/carousel/9.jpg" alt="...">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#showcase-carousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#showcase-carousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <div class="footer">
+      <p>© 2018 <a href="https://www.endpoint.com/">End Point Corporation</a></p>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="js/underscore-min.js"></script>
+  <script src="js/leaflet.js"></script>
+  <script src="js/installations.js"></script>
+  <script>
+    $(function() {
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if( $(this).attr("href")=="#showcase-carousel") return;
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top - 70
+            }, 500);
+            return false;
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>
