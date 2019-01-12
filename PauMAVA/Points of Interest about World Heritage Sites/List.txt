@@ -1,0 +1,5 @@
+The places chosen are from Spain (5), France (2), Italy (2), United Kingdom (1): 
+	- Spain: Aqueduct of Segovia, Casa Batlló, Burgos Cathedral, Casa Milà, Sagrada Família. 
+	- France: Mont Saint Michel Abbey, Palace of Versailles. 
+	- Italy: Piazza dei Miracoli, Castel del Monte. 
+	- United Kingdom: Stonehenge.

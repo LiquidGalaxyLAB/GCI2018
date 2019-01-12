@@ -1,0 +1,43 @@
+======= DIALOG 1 =======
+- Ok, Google
++ ...
+- Execute Liquid Galaxy master and slaves.
++ Connection is now completed. Enjoy your Liquid Galaxy installation.
+- Ok, Google
++ ...
+- Go to *monument*.
++ *Monument* is now displayed at your screens.
+- Ok, Google
++ ...
+- Are there any restaurants near *monument*?
++ There are *number* restaurants near *monument*. You are being shown the most liked one by other users at your screens.
+________________________________________________________________________________________________________________________
+
+======= DIALOG 2 =======
+- Ok, Google
++ ...
+- Execute Liquid Galaxy master and slaves.
++ Connection is now completed. Enjoy your Liquid Galaxy installation.
+- Ok, Google
++ ...
+- Go to *city*.
++ I am showing *city* at your LG installation.
+- Ok, Google
++ ...
+- Which is the weather forecast for *city*?
++ Today It's *weather* in *city*. The max temperature will be *value* and the minimum *value*.
+________________________________________________________________________________________________________________________
+
+======= DIALOG 3 =======
+- Ok, Google
++ ...
+- Execute Liquid Galaxy master and slaves.
++ Connection is now completed. Enjoy your Liquid Galaxy installation.
+- Ok, Google
++ ...
+- How can I go from *street 1* to *street 2*
++ Here you have the suggested routes by car, by public transfort and on foot.
+- Ok, Google
++ ...
+- Is there traffic in my route by car?
++ The estimated time of this route by car is of *number* hours and *number* minutes.
