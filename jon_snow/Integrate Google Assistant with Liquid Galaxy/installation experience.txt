@@ -1,0 +1,11 @@
+While most of the installation was rather smooth, I faced the following errors.
+I think that since the time since the tutorial was written, the desgin of the firebase site has probablly chnaged becuase of which
+1. There was no discover firebase option to start the database
+2. The database initialised with rules which didn't allow read or write. So, I had to chnage the rules in order to make the code work
+The second problem that I faced was that when I started the firebase site, there was no exisitng project with the name of my dialog flow agent
+Therefore, I had to debug the code through the console in order to find out where I went wrong and finally corrected it by choosing the right project which appeared later on
+The final problem that I had was that I was running this code on a windows system and while I was able to install npm and curl, the final bash script required a linux based operating system. So, i sideloaded ubuntu on my system
+Also, to install firebase the instructions asks you to run npm install -g firebase-tools
+However, firebase requires root permission in order to run because of which i instead ran the command "sudo npm install -g firebase-tools"
+
+Overall, the experience was great. Especially when curiosity struck me and I read the documentation about Dialog Flow and how it's capability of natural language processing, Helps it to segregate countries and learn from examples.

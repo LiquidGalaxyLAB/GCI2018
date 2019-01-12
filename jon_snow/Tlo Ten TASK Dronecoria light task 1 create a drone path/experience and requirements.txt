@@ -1,0 +1,7 @@
+Requirements
+python libraries required: simplekml, pandas and math
+Also install google earth before running this code
+
+My experience with this installation was great, however at first I was trying to load an interactive map and was rather confused about what to do
+Which is why I finally decided to implement whichever feature I could, the code is simple and it creates a google earth object which writes a kml and then runs it
+The latitude and longitude have to be hardcoded into the code, though a feature to read them from any other file like a csv could also be implemented, since I didn't know which file format would be most would be most convenient I haven't added that functionality.

@@ -1,0 +1,4 @@
+Hi,
+I have wrote the code using python and the dronekit python package which allows to control our drone. My experience with this installation was great. 
+In fact, it was the first time that i controlled a drone albeit a simulation. Moreover, I had always wondered if radio signals was the only way that drones were controlled but this task opened my eyes to a lot of other mediums that could be used too.
+I think that a drone can be a very powerfull tool especially because of its versatile sensors and ability to navigate difficult terrains. Thank you for uploading this task and giving me a chance to learn :) I look forward to doing a lot more
